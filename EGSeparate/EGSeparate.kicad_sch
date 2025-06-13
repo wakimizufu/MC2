@@ -5162,7 +5162,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "35d96363-2565-484f-8606-e68af27b705c")
-		(property "Reference" "IC3"
+		(property "Reference" "SW1"
 			(at 139.7 142.2399 0)
 			(effects
 				(font
@@ -5297,7 +5297,7 @@
 		(instances
 			(project ""
 				(path "/b7fa371b-9510-43de-8615-2bc962502cbb"
-					(reference "IC3")
+					(reference "SW1")
 					(unit 1)
 				)
 			)
