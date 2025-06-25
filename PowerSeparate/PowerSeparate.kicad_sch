@@ -1,0 +1,127 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "d01ab4b9-32cc-4ad1-a75c-7828c0b9e0d3")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 99.06 29.21)
+		(size 19.05 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "021aa7d9-0914-4033-a72d-5ac55ee9225c")
+		(property "Sheetname" "analog_MCW03-05D12"
+			(at 99.06 28.4984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "analog_MCW03-05D12.kicad_sch"
+			(at 99.06 42.4946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PowerSeparate"
+				(path "/d01ab4b9-32cc-4ad1-a75c-7828c0b9e0d3"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 26.67 29.21)
+		(size 26.67 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3298bddd-cd05-4c40-9461-e62d4213b271")
+		(property "Sheetname" "DCInput"
+			(at 26.67 28.4984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "DCInput.kicad_sch"
+			(at 26.67 42.4946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PowerSeparate"
+				(path "/d01ab4b9-32cc-4ad1-a75c-7828c0b9e0d3"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 64.77 30.48)
+		(size 20.32 11.43)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d9702399-7eb6-4c21-acec-901ec311ed4e")
+		(property "Sheetname" "Digital"
+			(at 64.77 29.7684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Digital.kicad_sch"
+			(at 64.77 42.4946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PowerSeparate"
+				(path "/d01ab4b9-32cc-4ad1-a75c-7828c0b9e0d3"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

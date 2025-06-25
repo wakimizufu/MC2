@@ -4492,16 +4492,6 @@
 		)
 		(uuid "3c1ac712-545c-4682-936b-060b6660ebb3")
 	)
-	(text "PWM TRIM"
-		(exclude_from_sim no)
-		(at 229.108 101.092 0)
-		(effects
-			(font
-				(size 1.905 1.905)
-			)
-		)
-		(uuid "40db10db-a2a7-4b0e-a57e-e379e45131f6")
-	)
 	(text "2'"
 		(exclude_from_sim no)
 		(at 49.784 74.168 0)

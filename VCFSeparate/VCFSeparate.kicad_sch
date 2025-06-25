@@ -6,6 +6,44 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
+		(at 142.24 27.94)
+		(size 19.05 10.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1e1114cb-da7f-4c06-9d13-3f3194fd7877")
+		(property "Sheetname" "CVMixer"
+			(at 142.24 27.2284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CVMixer.kicad_sch"
+			(at 142.24 38.6846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "VCFSeparate"
+				(path "/02fc5d1f-a2a3-4ec9-a454-0bdd0b1ddad0"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 97.79 27.94)
 		(size 20.32 10.16)
 		(fields_autoplaced yes)
