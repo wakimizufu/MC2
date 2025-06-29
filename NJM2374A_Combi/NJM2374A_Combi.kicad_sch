@@ -1,0 +1,89 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "03772aa5-08c1-4cd6-8005-ce0263fc3dab")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 74.93 35.56)
+		(size 15.24 11.43)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "04bbfaa9-56e4-41fe-93df-fd5d33705031")
+		(property "Sheetname" "Invert"
+			(at 74.93 34.8484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Invert.kicad_sch"
+			(at 74.93 47.5746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "NJM2374A_Combi"
+				(path "/03772aa5-08c1-4cd6-8005-ce0263fc3dab"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 44.45 35.56)
+		(size 16.51 11.43)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f6f34758-63c9-477c-a3b4-5b62f3fe941d")
+		(property "Sheetname" "Boost"
+			(at 44.45 34.8484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Boost.kicad_sch"
+			(at 44.45 47.5746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "NJM2374A_Combi"
+				(path "/03772aa5-08c1-4cd6-8005-ce0263fc3dab"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
