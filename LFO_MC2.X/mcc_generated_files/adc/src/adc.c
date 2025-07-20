@@ -52,8 +52,8 @@
 
 void ADC_Initialize(void)
 {
-    //ADPREF VDD; ADCS FOSC/2; ADFM left; 
-    ADCON1 = 0x0;
+    //ADPREF VDD; ADCS FOSC/32; ADFM right; 
+    ADCON1 = 0xA0;
 
     //ADRESL 0x0; 
     ADRESL = 0x0;

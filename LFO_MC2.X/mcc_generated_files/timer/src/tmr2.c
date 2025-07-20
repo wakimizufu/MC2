@@ -52,7 +52,7 @@ void TMR2_Initialize(void)
     T2CLKCON = (1 << _T2CLKCON_T2CS_POSN);  // T2CS FOSC/4
 
     T2HLT = (0 << _T2HLT_T2MODE_POSN)   // T2MODE Software control
-        | (0 << _T2HLT_T2CKSYNC_POSN)   // T2CKSYNC Not Synchronized
+        | (1 << _T2HLT_T2CKSYNC_POSN)   // T2CKSYNC Synchronized
         | (0 << _T2HLT_T2CKPOL_POSN)   // T2CKPOL Rising Edge
         | (0 << _T2HLT_T2PSYNC_POSN);  // T2PSYNC Not Synchronized
 

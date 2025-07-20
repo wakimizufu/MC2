@@ -1,0 +1,1001 @@
+498 1752910768634 XXXX 1752910768634, Thread 498: XXXX 1752910768634, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910768734 XXXX 1752910768734, Thread 498: XXXX 1752910768734, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910768735 XXXX 1752910768735, Thread 498: XXXX 1752910768735, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910768836 XXXX 1752910768836, Thread 498: XXXX 1752910768836, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910768838 XXXX 1752910768838, Thread 498: XXXX 1752910768838, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910768936 XXXX 1752910768936, Thread 498: XXXX 1752910768936, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910768938 XXXX 1752910768938, Thread 498: XXXX 1752910768938, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910769036 XXXX 1752910769036, Thread 498: XXXX 1752910769036, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910769038 XXXX 1752910769038, Thread 498: XXXX 1752910769038, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910769136 XXXX 1752910769136, Thread 498: XXXX 1752910769136, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910769137 XXXX 1752910769137, Thread 498: XXXX 1752910769137, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910769237 XXXX 1752910769237, Thread 498: XXXX 1752910769237, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910769239 XXXX 1752910769239, Thread 498: XXXX 1752910769239, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910769337 XXXX 1752910769337, Thread 498: XXXX 1752910769337, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910769339 XXXX 1752910769339, Thread 498: XXXX 1752910769339, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910769437 XXXX 1752910769437, Thread 498: XXXX 1752910769437, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910769439 XXXX 1752910769439, Thread 498: XXXX 1752910769439, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910769537 XXXX 1752910769537, Thread 498: XXXX 1752910769537, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910769539 XXXX 1752910769539, Thread 498: XXXX 1752910769539, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910769638 XXXX 1752910769638, Thread 498: XXXX 1752910769638, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910769640 XXXX 1752910769640, Thread 498: XXXX 1752910769640, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910769739 XXXX 1752910769739, Thread 498: XXXX 1752910769739, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910769740 XXXX 1752910769740, Thread 498: XXXX 1752910769740, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910769839 XXXX 1752910769839, Thread 498: XXXX 1752910769839, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910769840 XXXX 1752910769840, Thread 498: XXXX 1752910769840, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910769939 XXXX 1752910769939, Thread 498: XXXX 1752910769939, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910769941 XXXX 1752910769941, Thread 498: XXXX 1752910769941, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910770039 XXXX 1752910770039, Thread 498: XXXX 1752910770039, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910770041 XXXX 1752910770041, Thread 498: XXXX 1752910770041, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910770139 XXXX 1752910770139, Thread 498: XXXX 1752910770139, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910770140 XXXX 1752910770140, Thread 498: XXXX 1752910770140, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910770239 XXXX 1752910770239, Thread 498: XXXX 1752910770239, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910770240 XXXX 1752910770240, Thread 498: XXXX 1752910770240, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910770340 XXXX 1752910770340, Thread 498: XXXX 1752910770340, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910770341 XXXX 1752910770341, Thread 498: XXXX 1752910770341, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910770441 XXXX 1752910770441, Thread 498: XXXX 1752910770441, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910770442 XXXX 1752910770442, Thread 498: XXXX 1752910770442, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910770542 XXXX 1752910770542, Thread 498: XXXX 1752910770542, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910770542 XXXX 1752910770542, Thread 498: XXXX 1752910770542, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910770642 XXXX 1752910770642, Thread 498: XXXX 1752910770642, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910770642 XXXX 1752910770642, Thread 498: XXXX 1752910770642, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910770743 XXXX 1752910770743, Thread 498: XXXX 1752910770743, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910770744 XXXX 1752910770744, Thread 498: XXXX 1752910770744, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910770844 XXXX 1752910770844, Thread 498: XXXX 1752910770844, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910770845 XXXX 1752910770845, Thread 498: XXXX 1752910770845, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910770945 XXXX 1752910770945, Thread 498: XXXX 1752910770945, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910770947 XXXX 1752910770947, Thread 498: XXXX 1752910770947, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910771045 XXXX 1752910771045, Thread 498: XXXX 1752910771045, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910771046 XXXX 1752910771046, Thread 498: XXXX 1752910771046, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910771146 XXXX 1752910771146, Thread 498: XXXX 1752910771146, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910771147 XXXX 1752910771147, Thread 498: XXXX 1752910771147, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910771247 XXXX 1752910771247, Thread 498: XXXX 1752910771247, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910771249 XXXX 1752910771249, Thread 498: XXXX 1752910771249, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910771348 XXXX 1752910771348, Thread 498: XXXX 1752910771348, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910771351 XXXX 1752910771351, Thread 498: XXXX 1752910771351, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910771449 XXXX 1752910771449, Thread 498: XXXX 1752910771449, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910771451 XXXX 1752910771451, Thread 498: XXXX 1752910771450, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910771550 XXXX 1752910771550, Thread 498: XXXX 1752910771550, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910771552 XXXX 1752910771552, Thread 498: XXXX 1752910771552, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910771651 XXXX 1752910771651, Thread 498: XXXX 1752910771651, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910771653 XXXX 1752910771653, Thread 498: XXXX 1752910771653, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910771753 XXXX 1752910771753, Thread 498: XXXX 1752910771753, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910771754 XXXX 1752910771754, Thread 498: XXXX 1752910771754, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910771853 XXXX 1752910771853, Thread 498: XXXX 1752910771853, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910771854 XXXX 1752910771854, Thread 498: XXXX 1752910771854, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910771953 XXXX 1752910771953, Thread 498: XXXX 1752910771953, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910771954 XXXX 1752910771954, Thread 498: XXXX 1752910771954, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910772053 XXXX 1752910772053, Thread 498: XXXX 1752910772053, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910772054 XXXX 1752910772054, Thread 498: XXXX 1752910772054, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910772154 XXXX 1752910772154, Thread 498: XXXX 1752910772154, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910772155 XXXX 1752910772155, Thread 498: XXXX 1752910772155, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910772255 XXXX 1752910772255, Thread 498: XXXX 1752910772255, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910772256 XXXX 1752910772256, Thread 498: XXXX 1752910772256, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910772355 XXXX 1752910772355, Thread 498: XXXX 1752910772355, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910772357 XXXX 1752910772357, Thread 498: XXXX 1752910772357, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910772455 XXXX 1752910772455, Thread 498: XXXX 1752910772455, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910772457 XXXX 1752910772457, Thread 498: XXXX 1752910772457, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910772555 XXXX 1752910772555, Thread 498: XXXX 1752910772555, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910772556 XXXX 1752910772556, Thread 498: XXXX 1752910772556, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910772656 XXXX 1752910772656, Thread 498: XXXX 1752910772656, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910772657 XXXX 1752910772657, Thread 498: XXXX 1752910772657, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910772757 XXXX 1752910772757, Thread 498: XXXX 1752910772757, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910772758 XXXX 1752910772758, Thread 498: XXXX 1752910772758, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910772858 XXXX 1752910772858, Thread 498: XXXX 1752910772858, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910772859 XXXX 1752910772859, Thread 498: XXXX 1752910772859, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910772958 XXXX 1752910772958, Thread 498: XXXX 1752910772958, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910772959 XXXX 1752910772959, Thread 498: XXXX 1752910772959, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910773060 XXXX 1752910773060, Thread 498: XXXX 1752910773060, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910773062 XXXX 1752910773062, Thread 498: XXXX 1752910773062, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910773160 XXXX 1752910773160, Thread 498: XXXX 1752910773160, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910773162 XXXX 1752910773162, Thread 498: XXXX 1752910773162, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910773260 XXXX 1752910773260, Thread 498: XXXX 1752910773260, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910773262 XXXX 1752910773262, Thread 498: XXXX 1752910773262, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910773361 XXXX 1752910773361, Thread 498: XXXX 1752910773361, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910773362 XXXX 1752910773362, Thread 498: XXXX 1752910773362, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910773461 XXXX 1752910773461, Thread 498: XXXX 1752910773461, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910773463 XXXX 1752910773463, Thread 498: XXXX 1752910773463, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910773561 XXXX 1752910773561, Thread 498: XXXX 1752910773561, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910773562 XXXX 1752910773562, Thread 498: XXXX 1752910773562, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910773661 XXXX 1752910773661, Thread 498: XXXX 1752910773661, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910773663 XXXX 1752910773663, Thread 498: XXXX 1752910773663, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910773761 XXXX 1752910773761, Thread 498: XXXX 1752910773761, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910773762 XXXX 1752910773762, Thread 498: XXXX 1752910773762, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910773862 XXXX 1752910773862, Thread 498: XXXX 1752910773862, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910773864 XXXX 1752910773864, Thread 498: XXXX 1752910773864, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910773963 XXXX 1752910773963, Thread 498: XXXX 1752910773963, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910773964 XXXX 1752910773964, Thread 498: XXXX 1752910773964, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910774063 XXXX 1752910774063, Thread 498: XXXX 1752910774063, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910774064 XXXX 1752910774064, Thread 498: XXXX 1752910774064, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910774164 XXXX 1752910774164, Thread 498: XXXX 1752910774164, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910774166 XXXX 1752910774166, Thread 498: XXXX 1752910774166, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910774265 XXXX 1752910774265, Thread 498: XXXX 1752910774265, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910774267 XXXX 1752910774267, Thread 498: XXXX 1752910774267, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910774366 XXXX 1752910774366, Thread 498: XXXX 1752910774366, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910774369 XXXX 1752910774369, Thread 498: XXXX 1752910774369, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910774467 XXXX 1752910774467, Thread 498: XXXX 1752910774467, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910774469 XXXX 1752910774469, Thread 498: XXXX 1752910774469, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910774568 XXXX 1752910774568, Thread 498: XXXX 1752910774568, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910774570 XXXX 1752910774570, Thread 498: XXXX 1752910774570, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910774668 XXXX 1752910774668, Thread 498: XXXX 1752910774668, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910774670 XXXX 1752910774670, Thread 498: XXXX 1752910774670, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910774768 XXXX 1752910774768, Thread 498: XXXX 1752910774768, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910774769 XXXX 1752910774769, Thread 498: XXXX 1752910774769, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910774868 XXXX 1752910774868, Thread 498: XXXX 1752910774868, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910774871 XXXX 1752910774871, Thread 498: XXXX 1752910774871, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910774969 XXXX 1752910774969, Thread 498: XXXX 1752910774969, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910774970 XXXX 1752910774970, Thread 498: XXXX 1752910774970, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910775069 XXXX 1752910775069, Thread 498: XXXX 1752910775069, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910775071 XXXX 1752910775071, Thread 498: XXXX 1752910775071, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910775169 XXXX 1752910775169, Thread 498: XXXX 1752910775169, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910775171 XXXX 1752910775171, Thread 498: XXXX 1752910775171, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910775269 XXXX 1752910775269, Thread 498: XXXX 1752910775269, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910775270 XXXX 1752910775270, Thread 498: XXXX 1752910775270, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910775369 XXXX 1752910775369, Thread 498: XXXX 1752910775369, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910775372 XXXX 1752910775372, Thread 498: XXXX 1752910775372, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910775470 XXXX 1752910775470, Thread 498: XXXX 1752910775470, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910775472 XXXX 1752910775472, Thread 498: XXXX 1752910775472, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910775571 XXXX 1752910775571, Thread 498: XXXX 1752910775571, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910775573 XXXX 1752910775573, Thread 498: XXXX 1752910775573, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910775673 XXXX 1752910775673, Thread 498: XXXX 1752910775673, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910775674 XXXX 1752910775674, Thread 498: XXXX 1752910775674, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910775773 XXXX 1752910775773, Thread 498: XXXX 1752910775773, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910775773 XXXX 1752910775773, Thread 498: XXXX 1752910775773, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910775874 XXXX 1752910775874, Thread 498: XXXX 1752910775874, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910775874 XXXX 1752910775874, Thread 498: XXXX 1752910775874, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910775974 XXXX 1752910775974, Thread 498: XXXX 1752910775974, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910775974 XXXX 1752910775974, Thread 498: XXXX 1752910775974, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910776075 XXXX 1752910776075, Thread 498: XXXX 1752910776075, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910776076 XXXX 1752910776076, Thread 498: XXXX 1752910776076, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910776175 XXXX 1752910776175, Thread 498: XXXX 1752910776175, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910776176 XXXX 1752910776176, Thread 498: XXXX 1752910776176, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910776276 XXXX 1752910776276, Thread 498: XXXX 1752910776276, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910776277 XXXX 1752910776277, Thread 498: XXXX 1752910776277, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910776376 XXXX 1752910776376, Thread 498: XXXX 1752910776376, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910776377 XXXX 1752910776377, Thread 498: XXXX 1752910776377, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910776476 XXXX 1752910776476, Thread 498: XXXX 1752910776476, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910776479 XXXX 1752910776479, Thread 498: XXXX 1752910776479, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910776577 XXXX 1752910776577, Thread 498: XXXX 1752910776577, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910776579 XXXX 1752910776579, Thread 498: XXXX 1752910776579, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910776678 XXXX 1752910776678, Thread 498: XXXX 1752910776678, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910776679 XXXX 1752910776679, Thread 498: XXXX 1752910776679, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910776778 XXXX 1752910776778, Thread 498: XXXX 1752910776778, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910776779 XXXX 1752910776779, Thread 498: XXXX 1752910776779, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910776878 XXXX 1752910776878, Thread 498: XXXX 1752910776878, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910776880 XXXX 1752910776880, Thread 498: XXXX 1752910776880, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910776978 XXXX 1752910776978, Thread 498: XXXX 1752910776978, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910776979 XXXX 1752910776979, Thread 498: XXXX 1752910776979, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910777078 XXXX 1752910777078, Thread 498: XXXX 1752910777078, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910777080 XXXX 1752910777080, Thread 498: XXXX 1752910777080, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910777178 XXXX 1752910777178, Thread 498: XXXX 1752910777178, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910777180 XXXX 1752910777180, Thread 498: XXXX 1752910777180, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910777278 XXXX 1752910777278, Thread 498: XXXX 1752910777278, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910777279 XXXX 1752910777279, Thread 498: XXXX 1752910777279, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910777379 XXXX 1752910777379, Thread 498: XXXX 1752910777379, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910777381 XXXX 1752910777381, Thread 498: XXXX 1752910777381, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910777479 XXXX 1752910777479, Thread 498: XXXX 1752910777479, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910777480 XXXX 1752910777480, Thread 498: XXXX 1752910777480, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910777579 XXXX 1752910777579, Thread 498: XXXX 1752910777579, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910777581 XXXX 1752910777581, Thread 498: XXXX 1752910777581, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910777679 XXXX 1752910777679, Thread 498: XXXX 1752910777679, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910777680 XXXX 1752910777680, Thread 498: XXXX 1752910777680, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910777779 XXXX 1752910777779, Thread 498: XXXX 1752910777779, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910777780 XXXX 1752910777780, Thread 498: XXXX 1752910777780, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910777880 XXXX 1752910777880, Thread 498: XXXX 1752910777880, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910777882 XXXX 1752910777882, Thread 498: XXXX 1752910777882, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910777980 XXXX 1752910777980, Thread 498: XXXX 1752910777980, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910777981 XXXX 1752910777981, Thread 498: XXXX 1752910777981, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910778080 XXXX 1752910778080, Thread 498: XXXX 1752910778080, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910778082 XXXX 1752910778082, Thread 498: XXXX 1752910778082, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910778180 XXXX 1752910778180, Thread 498: XXXX 1752910778180, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910778182 XXXX 1752910778182, Thread 498: XXXX 1752910778182, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910778281 XXXX 1752910778281, Thread 498: XXXX 1752910778281, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910778283 XXXX 1752910778283, Thread 498: XXXX 1752910778283, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910778382 XXXX 1752910778382, Thread 498: XXXX 1752910778382, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910778384 XXXX 1752910778384, Thread 498: XXXX 1752910778384, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910778483 XXXX 1752910778483, Thread 498: XXXX 1752910778483, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910778485 XXXX 1752910778485, Thread 498: XXXX 1752910778485, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910778583 XXXX 1752910778583, Thread 498: XXXX 1752910778583, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910778585 XXXX 1752910778585, Thread 498: XXXX 1752910778585, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910778684 XXXX 1752910778684, Thread 498: XXXX 1752910778684, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910778685 XXXX 1752910778685, Thread 498: XXXX 1752910778685, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910778785 XXXX 1752910778785, Thread 498: XXXX 1752910778785, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910778786 XXXX 1752910778786, Thread 498: XXXX 1752910778786, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910778885 XXXX 1752910778885, Thread 498: XXXX 1752910778885, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910778887 XXXX 1752910778887, Thread 498: XXXX 1752910778887, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910778987 XXXX 1752910778987, Thread 498: XXXX 1752910778987, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910778988 XXXX 1752910778988, Thread 498: XXXX 1752910778988, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910779087 XXXX 1752910779087, Thread 498: XXXX 1752910779087, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910779089 XXXX 1752910779089, Thread 498: XXXX 1752910779089, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910779187 XXXX 1752910779187, Thread 498: XXXX 1752910779187, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910779189 XXXX 1752910779189, Thread 498: XXXX 1752910779189, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910779287 XXXX 1752910779287, Thread 498: XXXX 1752910779287, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910779288 XXXX 1752910779288, Thread 498: XXXX 1752910779288, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910779387 XXXX 1752910779387, Thread 498: XXXX 1752910779387, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910779388 XXXX 1752910779388, Thread 498: XXXX 1752910779388, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910779487 XXXX 1752910779487, Thread 498: XXXX 1752910779487, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910779488 XXXX 1752910779488, Thread 498: XXXX 1752910779488, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910779587 XXXX 1752910779587, Thread 498: XXXX 1752910779587, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910779588 XXXX 1752910779588, Thread 498: XXXX 1752910779588, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910779688 XXXX 1752910779688, Thread 498: XXXX 1752910779688, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910779689 XXXX 1752910779689, Thread 498: XXXX 1752910779689, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910779789 XXXX 1752910779789, Thread 498: XXXX 1752910779789, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910779790 XXXX 1752910779790, Thread 498: XXXX 1752910779790, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910779889 XXXX 1752910779889, Thread 498: XXXX 1752910779889, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910779890 XXXX 1752910779890, Thread 498: XXXX 1752910779890, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910779989 XXXX 1752910779989, Thread 498: XXXX 1752910779989, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910779990 XXXX 1752910779990, Thread 498: XXXX 1752910779990, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910780090 XXXX 1752910780090, Thread 498: XXXX 1752910780090, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910780091 XXXX 1752910780091, Thread 498: XXXX 1752910780091, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910780190 XXXX 1752910780190, Thread 498: XXXX 1752910780190, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910780191 XXXX 1752910780191, Thread 498: XXXX 1752910780191, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910780290 XXXX 1752910780290, Thread 498: XXXX 1752910780290, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910780291 XXXX 1752910780291, Thread 498: XXXX 1752910780291, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910780390 XXXX 1752910780390, Thread 498: XXXX 1752910780390, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910780393 XXXX 1752910780393, Thread 498: XXXX 1752910780393, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910780491 XXXX 1752910780491, Thread 498: XXXX 1752910780491, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910780492 XXXX 1752910780492, Thread 498: XXXX 1752910780492, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910780592 XXXX 1752910780592, Thread 498: XXXX 1752910780592, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910780592 XXXX 1752910780592, Thread 498: XXXX 1752910780592, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910780692 XXXX 1752910780692, Thread 498: XXXX 1752910780692, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910780694 XXXX 1752910780694, Thread 498: XXXX 1752910780694, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910780792 XXXX 1752910780792, Thread 498: XXXX 1752910780792, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910780794 XXXX 1752910780794, Thread 498: XXXX 1752910780794, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910780892 XXXX 1752910780892, Thread 498: XXXX 1752910780892, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910780893 XXXX 1752910780893, Thread 498: XXXX 1752910780893, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910780993 XXXX 1752910780993, Thread 498: XXXX 1752910780993, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910780995 XXXX 1752910780995, Thread 498: XXXX 1752910780995, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910781094 XXXX 1752910781094, Thread 498: XXXX 1752910781094, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910781096 XXXX 1752910781096, Thread 498: XXXX 1752910781096, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910781194 XXXX 1752910781194, Thread 498: XXXX 1752910781194, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910781195 XXXX 1752910781195, Thread 498: XXXX 1752910781195, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910781295 XXXX 1752910781295, Thread 498: XXXX 1752910781295, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910781297 XXXX 1752910781297, Thread 498: XXXX 1752910781297, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910781395 XXXX 1752910781395, Thread 498: XXXX 1752910781395, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910781396 XXXX 1752910781396, Thread 498: XXXX 1752910781396, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910781495 XXXX 1752910781495, Thread 498: XXXX 1752910781495, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910781497 XXXX 1752910781497, Thread 498: XXXX 1752910781497, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910781596 XXXX 1752910781596, Thread 498: XXXX 1752910781596, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910781598 XXXX 1752910781598, Thread 498: XXXX 1752910781598, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910781696 XXXX 1752910781696, Thread 498: XXXX 1752910781696, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910781698 XXXX 1752910781698, Thread 498: XXXX 1752910781698, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910781796 XXXX 1752910781796, Thread 498: XXXX 1752910781796, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910781796 XXXX 1752910781796, Thread 498: XXXX 1752910781796, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910781897 XXXX 1752910781897, Thread 498: XXXX 1752910781897, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910781897 XXXX 1752910781897, Thread 498: XXXX 1752910781897, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910781998 XXXX 1752910781998, Thread 498: XXXX 1752910781998, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910781999 XXXX 1752910781999, Thread 498: XXXX 1752910781999, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910782098 XXXX 1752910782098, Thread 498: XXXX 1752910782098, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910782100 XXXX 1752910782100, Thread 498: XXXX 1752910782100, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910782198 XXXX 1752910782198, Thread 498: XXXX 1752910782198, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910782199 XXXX 1752910782199, Thread 498: XXXX 1752910782199, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910782298 XXXX 1752910782298, Thread 498: XXXX 1752910782298, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910782299 XXXX 1752910782299, Thread 498: XXXX 1752910782299, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910782398 XXXX 1752910782398, Thread 498: XXXX 1752910782398, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910782400 XXXX 1752910782400, Thread 498: XXXX 1752910782400, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910782498 XXXX 1752910782498, Thread 498: XXXX 1752910782498, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910782500 XXXX 1752910782500, Thread 498: XXXX 1752910782500, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910782598 XXXX 1752910782598, Thread 498: XXXX 1752910782598, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910782600 XXXX 1752910782600, Thread 498: XXXX 1752910782600, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910782700 XXXX 1752910782700, Thread 498: XXXX 1752910782700, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910782702 XXXX 1752910782702, Thread 498: XXXX 1752910782702, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910782802 XXXX 1752910782802, Thread 498: XXXX 1752910782802, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910782803 XXXX 1752910782803, Thread 498: XXXX 1752910782803, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910782902 XXXX 1752910782902, Thread 498: XXXX 1752910782902, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910782903 XXXX 1752910782903, Thread 498: XXXX 1752910782903, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910783002 XXXX 1752910783002, Thread 498: XXXX 1752910783002, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910783003 XXXX 1752910783003, Thread 498: XXXX 1752910783003, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910783103 XXXX 1752910783103, Thread 498: XXXX 1752910783103, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910783104 XXXX 1752910783104, Thread 498: XXXX 1752910783104, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910783203 XXXX 1752910783203, Thread 498: XXXX 1752910783203, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910783204 XXXX 1752910783204, Thread 498: XXXX 1752910783204, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910783304 XXXX 1752910783304, Thread 498: XXXX 1752910783304, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910783306 XXXX 1752910783306, Thread 498: XXXX 1752910783306, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910783404 XXXX 1752910783404, Thread 498: XXXX 1752910783404, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910783407 XXXX 1752910783407, Thread 498: XXXX 1752910783407, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910783505 XXXX 1752910783505, Thread 498: XXXX 1752910783505, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910783506 XXXX 1752910783506, Thread 498: XXXX 1752910783506, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910783606 XXXX 1752910783606, Thread 498: XXXX 1752910783606, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910783607 XXXX 1752910783607, Thread 498: XXXX 1752910783607, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910783706 XXXX 1752910783706, Thread 498: XXXX 1752910783706, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910783708 XXXX 1752910783708, Thread 498: XXXX 1752910783708, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910783806 XXXX 1752910783806, Thread 498: XXXX 1752910783806, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910783806 XXXX 1752910783806, Thread 498: XXXX 1752910783806, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910783906 XXXX 1752910783906, Thread 498: XXXX 1752910783906, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910783907 XXXX 1752910783907, Thread 498: XXXX 1752910783907, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910784008 XXXX 1752910784008, Thread 498: XXXX 1752910784008, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910784010 XXXX 1752910784010, Thread 498: XXXX 1752910784010, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910784108 XXXX 1752910784108, Thread 498: XXXX 1752910784108, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910784110 XXXX 1752910784110, Thread 498: XXXX 1752910784110, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910784208 XXXX 1752910784208, Thread 498: XXXX 1752910784208, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910784209 XXXX 1752910784209, Thread 498: XXXX 1752910784209, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910784308 XXXX 1752910784308, Thread 498: XXXX 1752910784308, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910784310 XXXX 1752910784310, Thread 498: XXXX 1752910784310, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910784410 XXXX 1752910784410, Thread 498: XXXX 1752910784410, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910784412 XXXX 1752910784412, Thread 498: XXXX 1752910784412, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910784511 XXXX 1752910784511, Thread 498: XXXX 1752910784511, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910784513 XXXX 1752910784513, Thread 498: XXXX 1752910784513, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910784613 XXXX 1752910784613, Thread 498: XXXX 1752910784613, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910784614 XXXX 1752910784614, Thread 498: XXXX 1752910784614, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910784713 XXXX 1752910784713, Thread 498: XXXX 1752910784713, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910784715 XXXX 1752910784715, Thread 498: XXXX 1752910784715, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910784815 XXXX 1752910784815, Thread 498: XXXX 1752910784815, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910784817 XXXX 1752910784817, Thread 498: XXXX 1752910784817, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910784915 XXXX 1752910784915, Thread 498: XXXX 1752910784915, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910784916 XXXX 1752910784916, Thread 498: XXXX 1752910784916, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910785015 XXXX 1752910785015, Thread 498: XXXX 1752910785015, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910785017 XXXX 1752910785017, Thread 498: XXXX 1752910785017, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910785115 XXXX 1752910785115, Thread 498: XXXX 1752910785115, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910785116 XXXX 1752910785116, Thread 498: XXXX 1752910785116, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910785215 XXXX 1752910785215, Thread 498: XXXX 1752910785215, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910785217 XXXX 1752910785217, Thread 498: XXXX 1752910785217, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910785315 XXXX 1752910785315, Thread 498: XXXX 1752910785315, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910785317 XXXX 1752910785317, Thread 498: XXXX 1752910785317, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910785415 XXXX 1752910785415, Thread 498: XXXX 1752910785415, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910785416 XXXX 1752910785416, Thread 498: XXXX 1752910785416, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910785515 XXXX 1752910785515, Thread 498: XXXX 1752910785515, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910785516 XXXX 1752910785516, Thread 498: XXXX 1752910785516, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910785616 XXXX 1752910785616, Thread 498: XXXX 1752910785616, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910785618 XXXX 1752910785618, Thread 498: XXXX 1752910785618, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910785716 XXXX 1752910785716, Thread 498: XXXX 1752910785716, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910785717 XXXX 1752910785717, Thread 498: XXXX 1752910785717, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910785817 XXXX 1752910785817, Thread 498: XXXX 1752910785817, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910785818 XXXX 1752910785818, Thread 498: XXXX 1752910785818, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910785918 XXXX 1752910785918, Thread 498: XXXX 1752910785918, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910785919 XXXX 1752910785919, Thread 498: XXXX 1752910785919, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910786018 XXXX 1752910786018, Thread 498: XXXX 1752910786018, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910786020 XXXX 1752910786020, Thread 498: XXXX 1752910786020, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910786118 XXXX 1752910786118, Thread 498: XXXX 1752910786118, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910786121 XXXX 1752910786121, Thread 498: XXXX 1752910786121, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910786219 XXXX 1752910786219, Thread 498: XXXX 1752910786219, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910786221 XXXX 1752910786221, Thread 498: XXXX 1752910786221, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910786320 XXXX 1752910786320, Thread 498: XXXX 1752910786320, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910786322 XXXX 1752910786322, Thread 498: XXXX 1752910786322, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910786420 XXXX 1752910786420, Thread 498: XXXX 1752910786420, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910786421 XXXX 1752910786421, Thread 498: XXXX 1752910786421, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910786521 XXXX 1752910786521, Thread 498: XXXX 1752910786521, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910786523 XXXX 1752910786523, Thread 498: XXXX 1752910786523, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910786622 XXXX 1752910786622, Thread 498: XXXX 1752910786622, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910786623 XXXX 1752910786623, Thread 498: XXXX 1752910786623, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910786722 XXXX 1752910786722, Thread 498: XXXX 1752910786722, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910786724 XXXX 1752910786724, Thread 498: XXXX 1752910786724, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910786823 XXXX 1752910786823, Thread 498: XXXX 1752910786823, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910786824 XXXX 1752910786824, Thread 498: XXXX 1752910786824, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910786924 XXXX 1752910786924, Thread 498: XXXX 1752910786924, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910786925 XXXX 1752910786925, Thread 498: XXXX 1752910786925, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910787025 XXXX 1752910787025, Thread 498: XXXX 1752910787025, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910787027 XXXX 1752910787027, Thread 498: XXXX 1752910787027, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910787126 XXXX 1752910787126, Thread 498: XXXX 1752910787126, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910787128 XXXX 1752910787128, Thread 498: XXXX 1752910787128, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910787227 XXXX 1752910787227, Thread 498: XXXX 1752910787227, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910787228 XXXX 1752910787228, Thread 498: XXXX 1752910787228, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910787327 XXXX 1752910787327, Thread 498: XXXX 1752910787327, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910787329 XXXX 1752910787329, Thread 498: XXXX 1752910787329, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910787428 XXXX 1752910787428, Thread 498: XXXX 1752910787428, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910787429 XXXX 1752910787429, Thread 498: XXXX 1752910787429, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910787529 XXXX 1752910787529, Thread 498: XXXX 1752910787529, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910787531 XXXX 1752910787531, Thread 498: XXXX 1752910787531, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910787629 XXXX 1752910787629, Thread 498: XXXX 1752910787629, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910787630 XXXX 1752910787630, Thread 498: XXXX 1752910787630, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910787729 XXXX 1752910787729, Thread 498: XXXX 1752910787729, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910787730 XXXX 1752910787730, Thread 498: XXXX 1752910787730, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910787829 XXXX 1752910787829, Thread 498: XXXX 1752910787829, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910787830 XXXX 1752910787830, Thread 498: XXXX 1752910787830, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910787930 XXXX 1752910787930, Thread 498: XXXX 1752910787930, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910787932 XXXX 1752910787932, Thread 498: XXXX 1752910787932, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910788031 XXXX 1752910788031, Thread 498: XXXX 1752910788031, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910788032 XXXX 1752910788032, Thread 498: XXXX 1752910788032, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910788132 XXXX 1752910788132, Thread 498: XXXX 1752910788132, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910788134 XXXX 1752910788134, Thread 498: XXXX 1752910788134, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910788233 XXXX 1752910788233, Thread 498: XXXX 1752910788233, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910788235 XXXX 1752910788235, Thread 498: XXXX 1752910788235, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910788333 XXXX 1752910788333, Thread 498: XXXX 1752910788333, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910788334 XXXX 1752910788334, Thread 498: XXXX 1752910788334, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910788433 XXXX 1752910788433, Thread 498: XXXX 1752910788433, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910788434 XXXX 1752910788434, Thread 498: XXXX 1752910788434, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910788533 XXXX 1752910788533, Thread 498: XXXX 1752910788533, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910788534 XXXX 1752910788534, Thread 498: XXXX 1752910788534, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910788633 XXXX 1752910788633, Thread 498: XXXX 1752910788633, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910788634 XXXX 1752910788634, Thread 498: XXXX 1752910788634, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910788734 XXXX 1752910788734, Thread 498: XXXX 1752910788734, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910788735 XXXX 1752910788735, Thread 498: XXXX 1752910788735, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910788834 XXXX 1752910788834, Thread 498: XXXX 1752910788834, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910788835 XXXX 1752910788835, Thread 498: XXXX 1752910788835, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910788935 XXXX 1752910788935, Thread 498: XXXX 1752910788935, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910788936 XXXX 1752910788936, Thread 498: XXXX 1752910788936, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910789036 XXXX 1752910789036, Thread 498: XXXX 1752910789036, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910789038 XXXX 1752910789038, Thread 498: XXXX 1752910789038, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910789137 XXXX 1752910789137, Thread 498: XXXX 1752910789137, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910789139 XXXX 1752910789139, Thread 498: XXXX 1752910789139, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910789238 XXXX 1752910789238, Thread 498: XXXX 1752910789238, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910789239 XXXX 1752910789239, Thread 498: XXXX 1752910789239, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910789338 XXXX 1752910789338, Thread 498: XXXX 1752910789338, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910789339 XXXX 1752910789339, Thread 498: XXXX 1752910789339, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910789438 XXXX 1752910789438, Thread 498: XXXX 1752910789438, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910789439 XXXX 1752910789439, Thread 498: XXXX 1752910789439, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910789539 XXXX 1752910789539, Thread 498: XXXX 1752910789539, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910789540 XXXX 1752910789540, Thread 498: XXXX 1752910789540, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910789639 XXXX 1752910789639, Thread 498: XXXX 1752910789639, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910789640 XXXX 1752910789640, Thread 498: XXXX 1752910789640, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910789740 XXXX 1752910789740, Thread 498: XXXX 1752910789740, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910789742 XXXX 1752910789742, Thread 498: XXXX 1752910789742, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910789841 XXXX 1752910789841, Thread 498: XXXX 1752910789841, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910789842 XXXX 1752910789842, Thread 498: XXXX 1752910789842, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910789941 XXXX 1752910789941, Thread 498: XXXX 1752910789941, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910789942 XXXX 1752910789942, Thread 498: XXXX 1752910789942, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910790041 XXXX 1752910790041, Thread 498: XXXX 1752910790041, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910790043 XXXX 1752910790043, Thread 498: XXXX 1752910790043, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910790141 XXXX 1752910790141, Thread 498: XXXX 1752910790141, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910790143 XXXX 1752910790143, Thread 498: XXXX 1752910790143, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910790241 XXXX 1752910790241, Thread 498: XXXX 1752910790241, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910790242 XXXX 1752910790242, Thread 498: XXXX 1752910790242, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910790341 XXXX 1752910790341, Thread 498: XXXX 1752910790341, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910790342 XXXX 1752910790342, Thread 498: XXXX 1752910790342, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910790442 XXXX 1752910790442, Thread 498: XXXX 1752910790442, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910790444 XXXX 1752910790444, Thread 498: XXXX 1752910790444, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910790543 XXXX 1752910790543, Thread 498: XXXX 1752910790543, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910790544 XXXX 1752910790544, Thread 498: XXXX 1752910790544, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910790643 XXXX 1752910790643, Thread 498: XXXX 1752910790643, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910790644 XXXX 1752910790644, Thread 498: XXXX 1752910790644, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910790744 XXXX 1752910790744, Thread 498: XXXX 1752910790744, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910790745 XXXX 1752910790745, Thread 498: XXXX 1752910790745, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910790845 XXXX 1752910790845, Thread 498: XXXX 1752910790845, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910790845 XXXX 1752910790845, Thread 498: XXXX 1752910790845, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910790946 XXXX 1752910790946, Thread 498: XXXX 1752910790946, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910790947 XXXX 1752910790947, Thread 498: XXXX 1752910790947, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910791047 XXXX 1752910791047, Thread 498: XXXX 1752910791047, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910791048 XXXX 1752910791048, Thread 498: XXXX 1752910791048, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910791149 XXXX 1752910791149, Thread 498: XXXX 1752910791149, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910791150 XXXX 1752910791150, Thread 498: XXXX 1752910791150, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910791249 XXXX 1752910791249, Thread 498: XXXX 1752910791249, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910791250 XXXX 1752910791250, Thread 498: XXXX 1752910791250, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910791349 XXXX 1752910791349, Thread 498: XXXX 1752910791349, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910791351 XXXX 1752910791351, Thread 498: XXXX 1752910791351, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910791449 XXXX 1752910791449, Thread 498: XXXX 1752910791449, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910791450 XXXX 1752910791450, Thread 498: XXXX 1752910791450, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910791549 XXXX 1752910791549, Thread 498: XXXX 1752910791549, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910791550 XXXX 1752910791550, Thread 498: XXXX 1752910791550, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910791650 XXXX 1752910791650, Thread 498: XXXX 1752910791650, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910791651 XXXX 1752910791651, Thread 498: XXXX 1752910791651, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910791750 XXXX 1752910791750, Thread 498: XXXX 1752910791750, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910791752 XXXX 1752910791752, Thread 498: XXXX 1752910791752, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910791850 XXXX 1752910791850, Thread 498: XXXX 1752910791850, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910791850 XXXX 1752910791850, Thread 498: XXXX 1752910791850, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910791950 XXXX 1752910791950, Thread 498: XXXX 1752910791950, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910791951 XXXX 1752910791951, Thread 498: XXXX 1752910791951, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910792050 XXXX 1752910792050, Thread 498: XXXX 1752910792050, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910792052 XXXX 1752910792052, Thread 498: XXXX 1752910792052, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910792150 XXXX 1752910792150, Thread 498: XXXX 1752910792150, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910792151 XXXX 1752910792151, Thread 498: XXXX 1752910792151, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910792250 XXXX 1752910792250, Thread 498: XXXX 1752910792250, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910792251 XXXX 1752910792251, Thread 498: XXXX 1752910792251, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910792351 XXXX 1752910792351, Thread 498: XXXX 1752910792351, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910792352 XXXX 1752910792352, Thread 498: XXXX 1752910792352, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910792451 XXXX 1752910792451, Thread 498: XXXX 1752910792451, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910792454 XXXX 1752910792454, Thread 498: XXXX 1752910792454, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910792552 XXXX 1752910792552, Thread 498: XXXX 1752910792552, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910792553 XXXX 1752910792553, Thread 498: XXXX 1752910792553, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910792652 XXXX 1752910792652, Thread 498: XXXX 1752910792652, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910792654 XXXX 1752910792654, Thread 498: XXXX 1752910792654, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910792753 XXXX 1752910792753, Thread 498: XXXX 1752910792753, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910792754 XXXX 1752910792754, Thread 498: XXXX 1752910792754, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910792853 XXXX 1752910792853, Thread 498: XXXX 1752910792853, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910792855 XXXX 1752910792855, Thread 498: XXXX 1752910792855, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910792953 XXXX 1752910792953, Thread 498: XXXX 1752910792953, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910792954 XXXX 1752910792954, Thread 498: XXXX 1752910792954, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910793054 XXXX 1752910793054, Thread 498: XXXX 1752910793054, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910793056 XXXX 1752910793056, Thread 498: XXXX 1752910793056, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910793154 XXXX 1752910793154, Thread 498: XXXX 1752910793154, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910793156 XXXX 1752910793156, Thread 498: XXXX 1752910793156, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910793255 XXXX 1752910793255, Thread 498: XXXX 1752910793255, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910793256 XXXX 1752910793256, Thread 498: XXXX 1752910793256, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910793356 XXXX 1752910793356, Thread 498: XXXX 1752910793356, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910793358 XXXX 1752910793358, Thread 498: XXXX 1752910793358, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910793457 XXXX 1752910793457, Thread 498: XXXX 1752910793457, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910793458 XXXX 1752910793458, Thread 498: XXXX 1752910793458, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910793557 XXXX 1752910793557, Thread 498: XXXX 1752910793557, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910793558 XXXX 1752910793558, Thread 498: XXXX 1752910793558, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910793658 XXXX 1752910793658, Thread 498: XXXX 1752910793658, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910793660 XXXX 1752910793660, Thread 498: XXXX 1752910793660, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910793759 XXXX 1752910793759, Thread 498: XXXX 1752910793759, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910793761 XXXX 1752910793761, Thread 498: XXXX 1752910793761, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910793861 XXXX 1752910793861, Thread 498: XXXX 1752910793861, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910793862 XXXX 1752910793862, Thread 498: XXXX 1752910793862, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910793961 XXXX 1752910793961, Thread 498: XXXX 1752910793961, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910793962 XXXX 1752910793962, Thread 498: XXXX 1752910793962, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910794063 XXXX 1752910794063, Thread 498: XXXX 1752910794063, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910794064 XXXX 1752910794064, Thread 498: XXXX 1752910794064, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910794163 XXXX 1752910794163, Thread 498: XXXX 1752910794163, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910794164 XXXX 1752910794164, Thread 498: XXXX 1752910794164, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910794263 XXXX 1752910794263, Thread 498: XXXX 1752910794263, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910794265 XXXX 1752910794265, Thread 498: XXXX 1752910794265, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910794363 XXXX 1752910794363, Thread 498: XXXX 1752910794363, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910794364 XXXX 1752910794364, Thread 498: XXXX 1752910794364, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910794463 XXXX 1752910794463, Thread 498: XXXX 1752910794463, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910794464 XXXX 1752910794464, Thread 498: XXXX 1752910794464, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910794564 XXXX 1752910794564, Thread 498: XXXX 1752910794564, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910794565 XXXX 1752910794565, Thread 498: XXXX 1752910794565, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910794664 XXXX 1752910794664, Thread 498: XXXX 1752910794664, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910794666 XXXX 1752910794666, Thread 498: XXXX 1752910794666, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910794764 XXXX 1752910794764, Thread 498: XXXX 1752910794764, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910794765 XXXX 1752910794765, Thread 498: XXXX 1752910794765, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910794866 XXXX 1752910794866, Thread 498: XXXX 1752910794866, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910794868 XXXX 1752910794868, Thread 498: XXXX 1752910794868, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910794967 XXXX 1752910794967, Thread 498: XXXX 1752910794967, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910794968 XXXX 1752910794968, Thread 498: XXXX 1752910794968, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910795068 XXXX 1752910795068, Thread 498: XXXX 1752910795068, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910795069 XXXX 1752910795069, Thread 498: XXXX 1752910795069, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910795170 XXXX 1752910795170, Thread 498: XXXX 1752910795170, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910795171 XXXX 1752910795171, Thread 498: XXXX 1752910795171, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910795270 XXXX 1752910795270, Thread 498: XXXX 1752910795270, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910795271 XXXX 1752910795271, Thread 498: XXXX 1752910795271, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910795371 XXXX 1752910795371, Thread 498: XXXX 1752910795371, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910795374 XXXX 1752910795374, Thread 498: XXXX 1752910795374, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910795472 XXXX 1752910795472, Thread 498: XXXX 1752910795472, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910795473 XXXX 1752910795473, Thread 498: XXXX 1752910795473, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910795572 XXXX 1752910795572, Thread 498: XXXX 1752910795572, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910795574 XXXX 1752910795574, Thread 498: XXXX 1752910795574, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910795672 XXXX 1752910795672, Thread 498: XXXX 1752910795672, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910795673 XXXX 1752910795673, Thread 498: XXXX 1752910795673, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910795772 XXXX 1752910795772, Thread 498: XXXX 1752910795772, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910795773 XXXX 1752910795773, Thread 498: XXXX 1752910795773, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910795872 XXXX 1752910795872, Thread 498: XXXX 1752910795872, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910795873 XXXX 1752910795873, Thread 498: XXXX 1752910795873, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910795972 XXXX 1752910795972, Thread 498: XXXX 1752910795972, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910795973 XXXX 1752910795973, Thread 498: XXXX 1752910795973, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910796072 XXXX 1752910796072, Thread 498: XXXX 1752910796072, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910796073 XXXX 1752910796073, Thread 498: XXXX 1752910796073, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910796173 XXXX 1752910796173, Thread 498: XXXX 1752910796173, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910796175 XXXX 1752910796175, Thread 498: XXXX 1752910796175, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910796274 XXXX 1752910796274, Thread 498: XXXX 1752910796274, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910796275 XXXX 1752910796275, Thread 498: XXXX 1752910796275, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910796374 XXXX 1752910796374, Thread 498: XXXX 1752910796374, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910796377 XXXX 1752910796377, Thread 498: XXXX 1752910796377, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910796474 XXXX 1752910796474, Thread 498: XXXX 1752910796474, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910796475 XXXX 1752910796475, Thread 498: XXXX 1752910796475, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910796574 XXXX 1752910796574, Thread 498: XXXX 1752910796574, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910796576 XXXX 1752910796576, Thread 498: XXXX 1752910796576, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910796675 XXXX 1752910796675, Thread 498: XXXX 1752910796675, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910796677 XXXX 1752910796677, Thread 498: XXXX 1752910796677, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910796775 XXXX 1752910796775, Thread 498: XXXX 1752910796775, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910796775 XXXX 1752910796775, Thread 498: XXXX 1752910796775, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910796875 XXXX 1752910796875, Thread 498: XXXX 1752910796875, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910796876 XXXX 1752910796876, Thread 498: XXXX 1752910796876, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910796976 XXXX 1752910796976, Thread 498: XXXX 1752910796976, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910796976 XXXX 1752910796976, Thread 498: XXXX 1752910796976, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910797076 XXXX 1752910797076, Thread 498: XXXX 1752910797076, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910797077 XXXX 1752910797077, Thread 498: XXXX 1752910797077, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910797178 XXXX 1752910797178, Thread 498: XXXX 1752910797178, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910797178 XXXX 1752910797178, Thread 498: XXXX 1752910797178, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910797279 XXXX 1752910797279, Thread 498: XXXX 1752910797279, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910797279 XXXX 1752910797279, Thread 498: XXXX 1752910797279, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910797380 XXXX 1752910797380, Thread 498: XXXX 1752910797380, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910797382 XXXX 1752910797382, Thread 498: XXXX 1752910797382, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910797481 XXXX 1752910797481, Thread 498: XXXX 1752910797481, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910797482 XXXX 1752910797482, Thread 498: XXXX 1752910797482, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910797581 XXXX 1752910797581, Thread 498: XXXX 1752910797581, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910797581 XXXX 1752910797581, Thread 498: XXXX 1752910797581, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910797682 XXXX 1752910797682, Thread 498: XXXX 1752910797682, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910797682 XXXX 1752910797682, Thread 498: XXXX 1752910797682, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910797784 XXXX 1752910797784, Thread 498: XXXX 1752910797784, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910797784 XXXX 1752910797784, Thread 498: XXXX 1752910797784, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910797885 XXXX 1752910797885, Thread 498: XXXX 1752910797885, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910797885 XXXX 1752910797885, Thread 498: XXXX 1752910797885, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910797986 XXXX 1752910797986, Thread 498: XXXX 1752910797986, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910797988 XXXX 1752910797988, Thread 498: XXXX 1752910797988, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910798086 XXXX 1752910798086, Thread 498: XXXX 1752910798086, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910798087 XXXX 1752910798087, Thread 498: XXXX 1752910798087, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910798186 XXXX 1752910798186, Thread 498: XXXX 1752910798186, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910798188 XXXX 1752910798188, Thread 498: XXXX 1752910798188, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910798286 XXXX 1752910798286, Thread 498: XXXX 1752910798286, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910798287 XXXX 1752910798287, Thread 498: XXXX 1752910798287, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910798386 XXXX 1752910798386, Thread 498: XXXX 1752910798386, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910798388 XXXX 1752910798388, Thread 498: XXXX 1752910798388, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910798486 XXXX 1752910798486, Thread 498: XXXX 1752910798486, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910798488 XXXX 1752910798488, Thread 498: XXXX 1752910798488, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910798587 XXXX 1752910798587, Thread 498: XXXX 1752910798587, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910798588 XXXX 1752910798588, Thread 498: XXXX 1752910798588, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910798687 XXXX 1752910798687, Thread 498: XXXX 1752910798687, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910798689 XXXX 1752910798689, Thread 498: XXXX 1752910798689, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910798787 XXXX 1752910798787, Thread 498: XXXX 1752910798787, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910798788 XXXX 1752910798788, Thread 498: XXXX 1752910798788, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910798887 XXXX 1752910798887, Thread 498: XXXX 1752910798887, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910798889 XXXX 1752910798889, Thread 498: XXXX 1752910798889, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910798988 XXXX 1752910798988, Thread 498: XXXX 1752910798988, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910798990 XXXX 1752910798990, Thread 498: XXXX 1752910798990, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910799088 XXXX 1752910799088, Thread 498: XXXX 1752910799088, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910799090 XXXX 1752910799090, Thread 498: XXXX 1752910799090, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910799189 XXXX 1752910799189, Thread 498: XXXX 1752910799189, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910799191 XXXX 1752910799191, Thread 498: XXXX 1752910799191, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910799290 XXXX 1752910799290, Thread 498: XXXX 1752910799290, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910799292 XXXX 1752910799292, Thread 498: XXXX 1752910799292, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910799392 XXXX 1752910799392, Thread 498: XXXX 1752910799392, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910799394 XXXX 1752910799394, Thread 498: XXXX 1752910799394, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910799493 XXXX 1752910799493, Thread 498: XXXX 1752910799493, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910799495 XXXX 1752910799495, Thread 498: XXXX 1752910799495, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910799594 XXXX 1752910799594, Thread 498: XXXX 1752910799594, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910799595 XXXX 1752910799595, Thread 498: XXXX 1752910799595, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910799694 XXXX 1752910799694, Thread 498: XXXX 1752910799694, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910799696 XXXX 1752910799696, Thread 498: XXXX 1752910799696, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910799795 XXXX 1752910799795, Thread 498: XXXX 1752910799795, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910799797 XXXX 1752910799797, Thread 498: XXXX 1752910799797, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910799895 XXXX 1752910799895, Thread 498: XXXX 1752910799895, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910799897 XXXX 1752910799897, Thread 498: XXXX 1752910799897, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910799995 XXXX 1752910799995, Thread 498: XXXX 1752910799995, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910799997 XXXX 1752910799997, Thread 498: XXXX 1752910799997, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910800095 XXXX 1752910800095, Thread 498: XXXX 1752910800095, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910800096 XXXX 1752910800096, Thread 498: XXXX 1752910800096, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910800196 XXXX 1752910800196, Thread 498: XXXX 1752910800196, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910800198 XXXX 1752910800198, Thread 498: XXXX 1752910800198, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910800297 XXXX 1752910800297, Thread 498: XXXX 1752910800297, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910800299 XXXX 1752910800299, Thread 498: XXXX 1752910800299, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910800398 XXXX 1752910800398, Thread 498: XXXX 1752910800398, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910800400 XXXX 1752910800400, Thread 498: XXXX 1752910800400, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910800499 XXXX 1752910800499, Thread 498: XXXX 1752910800499, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910800500 XXXX 1752910800500, Thread 498: XXXX 1752910800500, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910800601 XXXX 1752910800601, Thread 498: XXXX 1752910800601, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910800601 XXXX 1752910800601, Thread 498: XXXX 1752910800601, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910800702 XXXX 1752910800702, Thread 498: XXXX 1752910800702, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910800702 XXXX 1752910800702, Thread 498: XXXX 1752910800702, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910800802 XXXX 1752910800802, Thread 498: XXXX 1752910800802, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910800803 XXXX 1752910800803, Thread 498: XXXX 1752910800803, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910800902 XXXX 1752910800902, Thread 498: XXXX 1752910800902, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910800903 XXXX 1752910800903, Thread 498: XXXX 1752910800903, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910801003 XXXX 1752910801003, Thread 498: XXXX 1752910801003, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910801005 XXXX 1752910801005, Thread 498: XXXX 1752910801005, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910801104 XXXX 1752910801104, Thread 498: XXXX 1752910801104, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910801106 XXXX 1752910801106, Thread 498: XXXX 1752910801106, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910801206 XXXX 1752910801206, Thread 498: XXXX 1752910801206, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910801208 XXXX 1752910801208, Thread 498: XXXX 1752910801208, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910801307 XXXX 1752910801307, Thread 498: XXXX 1752910801307, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910801309 XXXX 1752910801309, Thread 498: XXXX 1752910801309, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910801407 XXXX 1752910801407, Thread 498: XXXX 1752910801407, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910801409 XXXX 1752910801409, Thread 498: XXXX 1752910801409, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910801507 XXXX 1752910801507, Thread 498: XXXX 1752910801507, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910801508 XXXX 1752910801508, Thread 498: XXXX 1752910801508, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910801608 XXXX 1752910801608, Thread 498: XXXX 1752910801608, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910801610 XXXX 1752910801610, Thread 498: XXXX 1752910801610, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910801709 XXXX 1752910801709, Thread 498: XXXX 1752910801709, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910801711 XXXX 1752910801711, Thread 498: XXXX 1752910801711, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910801810 XXXX 1752910801810, Thread 498: XXXX 1752910801810, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910801810 XXXX 1752910801810, Thread 498: XXXX 1752910801810, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910801910 XXXX 1752910801910, Thread 498: XXXX 1752910801910, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910801911 XXXX 1752910801911, Thread 498: XXXX 1752910801911, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910802011 XXXX 1752910802011, Thread 498: XXXX 1752910802011, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910802012 XXXX 1752910802012, Thread 498: XXXX 1752910802012, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910802112 XXXX 1752910802112, Thread 498: XXXX 1752910802112, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910802113 XXXX 1752910802113, Thread 498: XXXX 1752910802113, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910802213 XXXX 1752910802213, Thread 498: XXXX 1752910802213, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910802213 XXXX 1752910802213, Thread 498: XXXX 1752910802213, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910802313 XXXX 1752910802313, Thread 498: XXXX 1752910802313, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910802313 XXXX 1752910802313, Thread 498: XXXX 1752910802313, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910802415 XXXX 1752910802415, Thread 498: XXXX 1752910802415, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910802416 XXXX 1752910802416, Thread 498: XXXX 1752910802416, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910802515 XXXX 1752910802515, Thread 498: XXXX 1752910802515, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910802516 XXXX 1752910802516, Thread 498: XXXX 1752910802516, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910802616 XXXX 1752910802616, Thread 498: XXXX 1752910802616, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910802617 XXXX 1752910802617, Thread 498: XXXX 1752910802617, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910802716 XXXX 1752910802716, Thread 498: XXXX 1752910802716, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910802717 XXXX 1752910802717, Thread 498: XXXX 1752910802717, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910802817 XXXX 1752910802817, Thread 498: XXXX 1752910802817, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910802818 XXXX 1752910802818, Thread 498: XXXX 1752910802818, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910802917 XXXX 1752910802917, Thread 498: XXXX 1752910802917, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910802919 XXXX 1752910802919, Thread 498: XXXX 1752910802919, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910803018 XXXX 1752910803018, Thread 498: XXXX 1752910803018, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910803020 XXXX 1752910803020, Thread 498: XXXX 1752910803020, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910803119 XXXX 1752910803119, Thread 498: XXXX 1752910803119, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910803121 XXXX 1752910803121, Thread 498: XXXX 1752910803121, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910803219 XXXX 1752910803219, Thread 498: XXXX 1752910803219, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910803221 XXXX 1752910803221, Thread 498: XXXX 1752910803221, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910803320 XXXX 1752910803320, Thread 498: XXXX 1752910803320, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910803321 XXXX 1752910803321, Thread 498: XXXX 1752910803321, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910803420 XXXX 1752910803420, Thread 498: XXXX 1752910803420, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910803422 XXXX 1752910803422, Thread 498: XXXX 1752910803422, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910803522 XXXX 1752910803522, Thread 498: XXXX 1752910803522, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910803524 XXXX 1752910803524, Thread 498: XXXX 1752910803524, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910803623 XXXX 1752910803623, Thread 498: XXXX 1752910803623, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910803624 XXXX 1752910803624, Thread 498: XXXX 1752910803624, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910803724 XXXX 1752910803724, Thread 498: XXXX 1752910803724, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910803726 XXXX 1752910803726, Thread 498: XXXX 1752910803726, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910803824 XXXX 1752910803824, Thread 498: XXXX 1752910803824, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910803826 XXXX 1752910803826, Thread 498: XXXX 1752910803826, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910803925 XXXX 1752910803925, Thread 498: XXXX 1752910803925, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910803926 XXXX 1752910803926, Thread 498: XXXX 1752910803926, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910804025 XXXX 1752910804025, Thread 498: XXXX 1752910804025, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910804027 XXXX 1752910804027, Thread 498: XXXX 1752910804027, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910804126 XXXX 1752910804126, Thread 498: XXXX 1752910804126, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910804128 XXXX 1752910804128, Thread 498: XXXX 1752910804128, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910804226 XXXX 1752910804226, Thread 498: XXXX 1752910804226, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910804228 XXXX 1752910804228, Thread 498: XXXX 1752910804228, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910804326 XXXX 1752910804326, Thread 498: XXXX 1752910804326, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910804327 XXXX 1752910804327, Thread 498: XXXX 1752910804327, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910804427 XXXX 1752910804427, Thread 498: XXXX 1752910804427, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910804428 XXXX 1752910804428, Thread 498: XXXX 1752910804428, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910804527 XXXX 1752910804527, Thread 498: XXXX 1752910804527, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910804528 XXXX 1752910804528, Thread 498: XXXX 1752910804528, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910804627 XXXX 1752910804627, Thread 498: XXXX 1752910804627, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910804628 XXXX 1752910804628, Thread 498: XXXX 1752910804628, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910804729 XXXX 1752910804729, Thread 498: XXXX 1752910804729, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910804731 XXXX 1752910804731, Thread 498: XXXX 1752910804731, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910804830 XXXX 1752910804830, Thread 498: XXXX 1752910804830, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910804832 XXXX 1752910804832, Thread 498: XXXX 1752910804832, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910804930 XXXX 1752910804930, Thread 498: XXXX 1752910804930, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910804931 XXXX 1752910804931, Thread 498: XXXX 1752910804931, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910805031 XXXX 1752910805031, Thread 498: XXXX 1752910805031, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910805032 XXXX 1752910805032, Thread 498: XXXX 1752910805032, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910805131 XXXX 1752910805131, Thread 498: XXXX 1752910805131, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910805133 XXXX 1752910805133, Thread 498: XXXX 1752910805133, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910805231 XXXX 1752910805231, Thread 498: XXXX 1752910805231, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910805233 XXXX 1752910805233, Thread 498: XXXX 1752910805233, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910805332 XXXX 1752910805332, Thread 498: XXXX 1752910805332, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910805334 XXXX 1752910805334, Thread 498: XXXX 1752910805334, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910805432 XXXX 1752910805432, Thread 498: XXXX 1752910805432, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910805434 XXXX 1752910805434, Thread 498: XXXX 1752910805434, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910805532 XXXX 1752910805532, Thread 498: XXXX 1752910805532, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910805533 XXXX 1752910805533, Thread 498: XXXX 1752910805533, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910805632 XXXX 1752910805632, Thread 498: XXXX 1752910805632, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910805633 XXXX 1752910805633, Thread 498: XXXX 1752910805633, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910805733 XXXX 1752910805733, Thread 498: XXXX 1752910805733, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910805735 XXXX 1752910805735, Thread 498: XXXX 1752910805735, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910805834 XXXX 1752910805834, Thread 498: XXXX 1752910805834, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910805835 XXXX 1752910805835, Thread 498: XXXX 1752910805835, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910805935 XXXX 1752910805935, Thread 498: XXXX 1752910805935, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910805937 XXXX 1752910805937, Thread 498: XXXX 1752910805937, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910806036 XXXX 1752910806036, Thread 498: XXXX 1752910806036, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910806037 XXXX 1752910806037, Thread 498: XXXX 1752910806037, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910806136 XXXX 1752910806136, Thread 498: XXXX 1752910806136, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910806138 XXXX 1752910806138, Thread 498: XXXX 1752910806138, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910806237 XXXX 1752910806237, Thread 498: XXXX 1752910806237, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910806238 XXXX 1752910806238, Thread 498: XXXX 1752910806238, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910806338 XXXX 1752910806338, Thread 498: XXXX 1752910806338, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910806340 XXXX 1752910806340, Thread 498: XXXX 1752910806340, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910806439 XXXX 1752910806439, Thread 498: XXXX 1752910806439, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910806441 XXXX 1752910806441, Thread 498: XXXX 1752910806441, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910806540 XXXX 1752910806540, Thread 498: XXXX 1752910806540, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910806542 XXXX 1752910806542, Thread 498: XXXX 1752910806542, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910806641 XXXX 1752910806641, Thread 498: XXXX 1752910806641, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910806642 XXXX 1752910806642, Thread 498: XXXX 1752910806642, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910806741 XXXX 1752910806741, Thread 498: XXXX 1752910806741, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910806742 XXXX 1752910806742, Thread 498: XXXX 1752910806742, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910806841 XXXX 1752910806841, Thread 498: XXXX 1752910806841, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910806843 XXXX 1752910806843, Thread 498: XXXX 1752910806843, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910806941 XXXX 1752910806941, Thread 498: XXXX 1752910806941, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910806942 XXXX 1752910806942, Thread 498: XXXX 1752910806942, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910807041 XXXX 1752910807041, Thread 498: XXXX 1752910807041, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910807042 XXXX 1752910807042, Thread 498: XXXX 1752910807042, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910807141 XXXX 1752910807141, Thread 498: XXXX 1752910807141, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910807141 XXXX 1752910807141, Thread 498: XXXX 1752910807141, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910807242 XXXX 1752910807242, Thread 498: XXXX 1752910807242, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910807244 XXXX 1752910807244, Thread 498: XXXX 1752910807244, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910807343 XXXX 1752910807343, Thread 498: XXXX 1752910807343, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910807345 XXXX 1752910807345, Thread 498: XXXX 1752910807345, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910807443 XXXX 1752910807443, Thread 498: XXXX 1752910807443, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910807445 XXXX 1752910807445, Thread 498: XXXX 1752910807445, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910807544 XXXX 1752910807544, Thread 498: XXXX 1752910807544, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910807546 XXXX 1752910807546, Thread 498: XXXX 1752910807546, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910807644 XXXX 1752910807644, Thread 498: XXXX 1752910807644, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910807647 XXXX 1752910807647, Thread 498: XXXX 1752910807647, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910807745 XXXX 1752910807745, Thread 498: XXXX 1752910807745, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910807746 XXXX 1752910807746, Thread 498: XXXX 1752910807746, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910807845 XXXX 1752910807845, Thread 498: XXXX 1752910807845, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910807846 XXXX 1752910807846, Thread 498: XXXX 1752910807846, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910807946 XXXX 1752910807946, Thread 498: XXXX 1752910807946, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910807947 XXXX 1752910807947, Thread 498: XXXX 1752910807947, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910808046 XXXX 1752910808046, Thread 498: XXXX 1752910808046, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910808046 XXXX 1752910808046, Thread 498: XXXX 1752910808046, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910808148 XXXX 1752910808148, Thread 498: XXXX 1752910808148, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910808150 XXXX 1752910808150, Thread 498: XXXX 1752910808150, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910808248 XXXX 1752910808248, Thread 498: XXXX 1752910808248, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910808249 XXXX 1752910808249, Thread 498: XXXX 1752910808249, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910808349 XXXX 1752910808349, Thread 498: XXXX 1752910808349, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910808351 XXXX 1752910808351, Thread 498: XXXX 1752910808351, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910808450 XXXX 1752910808450, Thread 498: XXXX 1752910808450, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910808452 XXXX 1752910808452, Thread 498: XXXX 1752910808452, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910808551 XXXX 1752910808551, Thread 498: XXXX 1752910808551, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910808553 XXXX 1752910808553, Thread 498: XXXX 1752910808553, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910808652 XXXX 1752910808652, Thread 498: XXXX 1752910808652, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910808654 XXXX 1752910808654, Thread 498: XXXX 1752910808654, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910808754 XXXX 1752910808754, Thread 498: XXXX 1752910808754, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910808755 XXXX 1752910808755, Thread 498: XXXX 1752910808755, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910808854 XXXX 1752910808854, Thread 498: XXXX 1752910808854, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910808856 XXXX 1752910808856, Thread 498: XXXX 1752910808856, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910808955 XXXX 1752910808955, Thread 498: XXXX 1752910808955, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910808956 XXXX 1752910808956, Thread 498: XXXX 1752910808956, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910809055 XXXX 1752910809055, Thread 498: XXXX 1752910809055, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910809056 XXXX 1752910809056, Thread 498: XXXX 1752910809056, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910809155 XXXX 1752910809155, Thread 498: XXXX 1752910809155, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910809157 XXXX 1752910809157, Thread 498: XXXX 1752910809157, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910809256 XXXX 1752910809256, Thread 498: XXXX 1752910809256, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910809257 XXXX 1752910809257, Thread 498: XXXX 1752910809257, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910809356 XXXX 1752910809356, Thread 498: XXXX 1752910809356, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910809358 XXXX 1752910809358, Thread 498: XXXX 1752910809358, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910809456 XXXX 1752910809456, Thread 498: XXXX 1752910809456, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910809458 XXXX 1752910809458, Thread 498: XXXX 1752910809458, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910809556 XXXX 1752910809556, Thread 498: XXXX 1752910809556, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910809557 XXXX 1752910809557, Thread 498: XXXX 1752910809557, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910809656 XXXX 1752910809656, Thread 498: XXXX 1752910809656, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910809658 XXXX 1752910809658, Thread 498: XXXX 1752910809658, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910809757 XXXX 1752910809757, Thread 498: XXXX 1752910809757, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910809759 XXXX 1752910809759, Thread 498: XXXX 1752910809759, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910809857 XXXX 1752910809857, Thread 498: XXXX 1752910809857, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910809858 XXXX 1752910809858, Thread 498: XXXX 1752910809858, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910809958 XXXX 1752910809958, Thread 498: XXXX 1752910809958, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910809959 XXXX 1752910809959, Thread 498: XXXX 1752910809959, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910810058 XXXX 1752910810058, Thread 498: XXXX 1752910810058, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910810059 XXXX 1752910810059, Thread 498: XXXX 1752910810059, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910810158 XXXX 1752910810158, Thread 498: XXXX 1752910810158, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910810159 XXXX 1752910810159, Thread 498: XXXX 1752910810159, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910810259 XXXX 1752910810259, Thread 498: XXXX 1752910810259, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910810261 XXXX 1752910810261, Thread 498: XXXX 1752910810261, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910810359 XXXX 1752910810359, Thread 498: XXXX 1752910810359, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910810361 XXXX 1752910810361, Thread 498: XXXX 1752910810361, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910810460 XXXX 1752910810460, Thread 498: XXXX 1752910810460, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910810461 XXXX 1752910810461, Thread 498: XXXX 1752910810461, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910810561 XXXX 1752910810561, Thread 498: XXXX 1752910810561, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910810562 XXXX 1752910810562, Thread 498: XXXX 1752910810562, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910810662 XXXX 1752910810662, Thread 498: XXXX 1752910810662, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910810663 XXXX 1752910810663, Thread 498: XXXX 1752910810663, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910810763 XXXX 1752910810763, Thread 498: XXXX 1752910810763, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910810764 XXXX 1752910810764, Thread 498: XXXX 1752910810764, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910810864 XXXX 1752910810864, Thread 498: XXXX 1752910810864, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910810865 XXXX 1752910810865, Thread 498: XXXX 1752910810865, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910810965 XXXX 1752910810965, Thread 498: XXXX 1752910810965, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910810966 XXXX 1752910810966, Thread 498: XXXX 1752910810966, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910811065 XXXX 1752910811065, Thread 498: XXXX 1752910811065, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910811066 XXXX 1752910811066, Thread 498: XXXX 1752910811066, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910811166 XXXX 1752910811166, Thread 498: XXXX 1752910811166, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910811168 XXXX 1752910811168, Thread 498: XXXX 1752910811168, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910811267 XXXX 1752910811267, Thread 498: XXXX 1752910811267, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910811269 XXXX 1752910811269, Thread 498: XXXX 1752910811269, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910811368 XXXX 1752910811368, Thread 498: XXXX 1752910811368, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910811370 XXXX 1752910811370, Thread 498: XXXX 1752910811370, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910811468 XXXX 1752910811468, Thread 498: XXXX 1752910811468, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910811470 XXXX 1752910811470, Thread 498: XXXX 1752910811470, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910811569 XXXX 1752910811569, Thread 498: XXXX 1752910811569, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910811570 XXXX 1752910811570, Thread 498: XXXX 1752910811570, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910811670 XXXX 1752910811670, Thread 498: XXXX 1752910811670, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910811672 XXXX 1752910811672, Thread 498: XXXX 1752910811672, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910811770 XXXX 1752910811770, Thread 498: XXXX 1752910811770, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910811771 XXXX 1752910811771, Thread 498: XXXX 1752910811771, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910811872 XXXX 1752910811872, Thread 498: XXXX 1752910811872, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910811873 XXXX 1752910811873, Thread 498: XXXX 1752910811873, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910811972 XXXX 1752910811972, Thread 498: XXXX 1752910811972, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910811973 XXXX 1752910811973, Thread 498: XXXX 1752910811973, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910812072 XXXX 1752910812072, Thread 498: XXXX 1752910812072, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910812074 XXXX 1752910812074, Thread 498: XXXX 1752910812074, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910812172 XXXX 1752910812172, Thread 498: XXXX 1752910812172, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910812172 XXXX 1752910812172, Thread 498: XXXX 1752910812172, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910812272 XXXX 1752910812272, Thread 498: XXXX 1752910812272, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910812273 XXXX 1752910812273, Thread 498: XXXX 1752910812273, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910812372 XXXX 1752910812372, Thread 498: XXXX 1752910812372, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910812373 XXXX 1752910812373, Thread 498: XXXX 1752910812373, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910812473 XXXX 1752910812473, Thread 498: XXXX 1752910812473, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910812474 XXXX 1752910812474, Thread 498: XXXX 1752910812474, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910812575 XXXX 1752910812575, Thread 498: XXXX 1752910812575, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910812577 XXXX 1752910812577, Thread 498: XXXX 1752910812577, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910812675 XXXX 1752910812675, Thread 498: XXXX 1752910812675, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910812677 XXXX 1752910812677, Thread 498: XXXX 1752910812677, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910812775 XXXX 1752910812775, Thread 498: XXXX 1752910812775, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910812775 XXXX 1752910812775, Thread 498: XXXX 1752910812775, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910812876 XXXX 1752910812876, Thread 498: XXXX 1752910812876, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910812878 XXXX 1752910812878, Thread 498: XXXX 1752910812878, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910812976 XXXX 1752910812976, Thread 498: XXXX 1752910812976, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910812977 XXXX 1752910812977, Thread 498: XXXX 1752910812977, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910813076 XXXX 1752910813076, Thread 498: XXXX 1752910813076, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910813078 XXXX 1752910813078, Thread 498: XXXX 1752910813078, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910813178 XXXX 1752910813178, Thread 498: XXXX 1752910813178, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910813180 XXXX 1752910813180, Thread 498: XXXX 1752910813180, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910813279 XXXX 1752910813279, Thread 498: XXXX 1752910813279, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910813281 XXXX 1752910813281, Thread 498: XXXX 1752910813281, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910813381 XXXX 1752910813381, Thread 498: XXXX 1752910813381, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910813383 XXXX 1752910813383, Thread 498: XXXX 1752910813383, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910813482 XXXX 1752910813482, Thread 498: XXXX 1752910813482, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910813484 XXXX 1752910813484, Thread 498: XXXX 1752910813484, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910813584 XXXX 1752910813584, Thread 498: XXXX 1752910813584, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910813585 XXXX 1752910813585, Thread 498: XXXX 1752910813585, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910813684 XXXX 1752910813684, Thread 498: XXXX 1752910813684, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910813686 XXXX 1752910813686, Thread 498: XXXX 1752910813686, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910813785 XXXX 1752910813785, Thread 498: XXXX 1752910813785, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910813786 XXXX 1752910813786, Thread 498: XXXX 1752910813786, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910813885 XXXX 1752910813885, Thread 498: XXXX 1752910813885, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910813886 XXXX 1752910813886, Thread 498: XXXX 1752910813886, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910813987 XXXX 1752910813987, Thread 498: XXXX 1752910813987, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910813988 XXXX 1752910813988, Thread 498: XXXX 1752910813988, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910814087 XXXX 1752910814087, Thread 498: XXXX 1752910814087, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910814089 XXXX 1752910814089, Thread 498: XXXX 1752910814089, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910814188 XXXX 1752910814188, Thread 498: XXXX 1752910814188, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910814190 XXXX 1752910814190, Thread 498: XXXX 1752910814190, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910814289 XXXX 1752910814289, Thread 498: XXXX 1752910814289, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910814291 XXXX 1752910814291, Thread 498: XXXX 1752910814291, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910814390 XXXX 1752910814390, Thread 498: XXXX 1752910814390, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910814392 XXXX 1752910814392, Thread 498: XXXX 1752910814392, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910814491 XXXX 1752910814491, Thread 498: XXXX 1752910814491, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910814493 XXXX 1752910814493, Thread 498: XXXX 1752910814493, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910814592 XXXX 1752910814592, Thread 498: XXXX 1752910814592, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910814594 XXXX 1752910814594, Thread 498: XXXX 1752910814594, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910814693 XXXX 1752910814693, Thread 498: XXXX 1752910814693, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910814695 XXXX 1752910814695, Thread 498: XXXX 1752910814695, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910814794 XXXX 1752910814794, Thread 498: XXXX 1752910814794, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910814795 XXXX 1752910814795, Thread 498: XXXX 1752910814795, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910814895 XXXX 1752910814895, Thread 498: XXXX 1752910814895, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910814896 XXXX 1752910814896, Thread 498: XXXX 1752910814896, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910814996 XXXX 1752910814996, Thread 498: XXXX 1752910814996, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910814998 XXXX 1752910814998, Thread 498: XXXX 1752910814998, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910815096 XXXX 1752910815096, Thread 498: XXXX 1752910815096, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910815098 XXXX 1752910815098, Thread 498: XXXX 1752910815098, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910815197 XXXX 1752910815197, Thread 498: XXXX 1752910815197, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910815198 XXXX 1752910815198, Thread 498: XXXX 1752910815198, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910815298 XXXX 1752910815298, Thread 498: XXXX 1752910815298, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910815300 XXXX 1752910815300, Thread 498: XXXX 1752910815300, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910815399 XXXX 1752910815399, Thread 498: XXXX 1752910815399, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910815401 XXXX 1752910815401, Thread 498: XXXX 1752910815401, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910815501 XXXX 1752910815501, Thread 498: XXXX 1752910815501, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910815502 XXXX 1752910815502, Thread 498: XXXX 1752910815502, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910815602 XXXX 1752910815602, Thread 498: XXXX 1752910815602, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910815603 XXXX 1752910815603, Thread 498: XXXX 1752910815603, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910815702 XXXX 1752910815702, Thread 498: XXXX 1752910815702, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910815703 XXXX 1752910815703, Thread 498: XXXX 1752910815703, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910815802 XXXX 1752910815802, Thread 498: XXXX 1752910815802, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910815804 XXXX 1752910815804, Thread 498: XXXX 1752910815804, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910815902 XXXX 1752910815902, Thread 498: XXXX 1752910815902, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910815903 XXXX 1752910815903, Thread 498: XXXX 1752910815903, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910816002 XXXX 1752910816002, Thread 498: XXXX 1752910816002, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910816003 XXXX 1752910816003, Thread 498: XXXX 1752910816003, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910816102 XXXX 1752910816102, Thread 498: XXXX 1752910816102, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910816103 XXXX 1752910816103, Thread 498: XXXX 1752910816103, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910816204 XXXX 1752910816204, Thread 498: XXXX 1752910816204, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910816205 XXXX 1752910816205, Thread 498: XXXX 1752910816205, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910816305 XXXX 1752910816305, Thread 498: XXXX 1752910816305, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910816307 XXXX 1752910816307, Thread 498: XXXX 1752910816307, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910816406 XXXX 1752910816406, Thread 498: XXXX 1752910816406, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910816407 XXXX 1752910816407, Thread 498: XXXX 1752910816407, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910816507 XXXX 1752910816507, Thread 498: XXXX 1752910816507, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910816508 XXXX 1752910816508, Thread 498: XXXX 1752910816508, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910816607 XXXX 1752910816607, Thread 498: XXXX 1752910816607, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910816608 XXXX 1752910816608, Thread 498: XXXX 1752910816608, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910816708 XXXX 1752910816708, Thread 498: XXXX 1752910816708, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910816709 XXXX 1752910816709, Thread 498: XXXX 1752910816709, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910816808 XXXX 1752910816808, Thread 498: XXXX 1752910816808, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910816810 XXXX 1752910816810, Thread 498: XXXX 1752910816810, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910816908 XXXX 1752910816908, Thread 498: XXXX 1752910816908, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910816909 XXXX 1752910816909, Thread 498: XXXX 1752910816909, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910817010 XXXX 1752910817010, Thread 498: XXXX 1752910817010, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910817011 XXXX 1752910817011, Thread 498: XXXX 1752910817011, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910817110 XXXX 1752910817110, Thread 498: XXXX 1752910817110, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910817112 XXXX 1752910817112, Thread 498: XXXX 1752910817112, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910817210 XXXX 1752910817210, Thread 498: XXXX 1752910817210, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910817211 XXXX 1752910817211, Thread 498: XXXX 1752910817211, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910817310 XXXX 1752910817310, Thread 498: XXXX 1752910817310, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910817313 XXXX 1752910817313, Thread 498: XXXX 1752910817313, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910817410 XXXX 1752910817410, Thread 498: XXXX 1752910817410, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910817411 XXXX 1752910817411, Thread 498: XXXX 1752910817411, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910817511 XXXX 1752910817511, Thread 498: XXXX 1752910817511, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910817513 XXXX 1752910817513, Thread 498: XXXX 1752910817513, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910817612 XXXX 1752910817612, Thread 498: XXXX 1752910817612, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910817613 XXXX 1752910817613, Thread 498: XXXX 1752910817613, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910817714 XXXX 1752910817714, Thread 498: XXXX 1752910817714, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910817715 XXXX 1752910817715, Thread 498: XXXX 1752910817715, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910817814 XXXX 1752910817814, Thread 498: XXXX 1752910817814, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910817815 XXXX 1752910817815, Thread 498: XXXX 1752910817815, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910817916 XXXX 1752910817916, Thread 498: XXXX 1752910817916, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910817917 XXXX 1752910817917, Thread 498: XXXX 1752910817917, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910818016 XXXX 1752910818016, Thread 498: XXXX 1752910818016, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910818018 XXXX 1752910818018, Thread 498: XXXX 1752910818018, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910818118 XXXX 1752910818118, Thread 498: XXXX 1752910818118, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910818119 XXXX 1752910818119, Thread 498: XXXX 1752910818119, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910818218 XXXX 1752910818218, Thread 498: XXXX 1752910818218, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910818220 XXXX 1752910818220, Thread 498: XXXX 1752910818220, Exiting Thread 498: Commands::runScriptBasic  
+498 1752910818319 XXXX 1752910818319, Thread 498: XXXX 1752910818319, Entering Thread 498: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+498 1752910818321 XXXX 1752910818321, Thread 498: XXXX 1752910818321, Exiting Thread 498: Commands::runScriptBasic  
+
+498 1752910818327 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_PIC16F15325 Pre:DebugReadTargetMemory
+498 1752910818327 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_PIC16F15325 Payload
+498 1752910818327 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_PIC16F15325 Emulation
+498 1752910818327 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_PIC16F15325 1f91
+498 1752910818327 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_PIC16F15325 1f91
+498 1752910818327 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_PIC16F15325 Length = 4
+498 1752910818327 GEN4_TO_CONTROLLER_LOG:GEN4_DEBUG_INT_LOG_PIC16F15325 Payload End
+498 1752910818327 XXXX 1752910818327, Thread 498: XXXX 1752910818327, Entering Thread 498: Commands::runScriptWithUpload, script name = ReadRAM  
+498 1752910818328 XXXX 1752910818328, Thread 498: XXXX 1752910818328, Entering Thread 498: ToolCommUsb::readTransfer, sideData is 0x25 bytes long, transferDataLength is 0x4 bytes long  
+498 1752910826117 XXXX 1752910826117, Thread 498: com.Send returned false 
+2887 1752910826118 XXXX 1752910826118, Thread 2887: ToolCommUsb::read, com.Received returned -1 

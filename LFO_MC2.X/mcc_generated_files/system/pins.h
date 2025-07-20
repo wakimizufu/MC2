@@ -49,25 +49,44 @@
 #define PULL_UP_ENABLED      1
 #define PULL_UP_DISABLED     0
 
+// get/set IO_RA2 aliases
+#define Test_TRIS                 TRISAbits.TRISA2
+#define Test_LAT                  LATAbits.LATA2
+#define Test_PORT                 PORTAbits.RA2
+#define Test_WPU                  WPUAbits.WPUA2
+#define Test_OD                   ODCONAbits.ODCA2
+#define Test_ANS                  ANSELAbits.ANSA2
+#define Test_SetHigh()            do { LATAbits.LATA2 = 1; } while(0)
+#define Test_SetLow()             do { LATAbits.LATA2 = 0; } while(0)
+#define Test_Toggle()             do { LATAbits.LATA2 = ~LATAbits.LATA2; } while(0)
+#define Test_GetValue()           PORTAbits.RA2
+#define Test_SetDigitalInput()    do { TRISAbits.TRISA2 = 1; } while(0)
+#define Test_SetDigitalOutput()   do { TRISAbits.TRISA2 = 0; } while(0)
+#define Test_SetPullup()          do { WPUAbits.WPUA2 = 1; } while(0)
+#define Test_ResetPullup()        do { WPUAbits.WPUA2 = 0; } while(0)
+#define Test_SetPushPull()        do { ODCONAbits.ODCA2 = 0; } while(0)
+#define Test_SetOpenDrain()       do { ODCONAbits.ODCA2 = 1; } while(0)
+#define Test_SetAnalogMode()      do { ANSELAbits.ANSA2 = 1; } while(0)
+#define Test_SetDigitalMode()     do { ANSELAbits.ANSA2 = 0; } while(0)
 // get/set IO_RA4 aliases
-#define RandumSeed_TRIS                 TRISAbits.TRISA4
-#define RandumSeed_LAT                  LATAbits.LATA4
-#define RandumSeed_PORT                 PORTAbits.RA4
-#define RandumSeed_WPU                  WPUAbits.WPUA4
-#define RandumSeed_OD                   ODCONAbits.ODCA4
-#define RandumSeed_ANS                  ANSELAbits.ANSA4
-#define RandumSeed_SetHigh()            do { LATAbits.LATA4 = 1; } while(0)
-#define RandumSeed_SetLow()             do { LATAbits.LATA4 = 0; } while(0)
-#define RandumSeed_Toggle()             do { LATAbits.LATA4 = ~LATAbits.LATA4; } while(0)
-#define RandumSeed_GetValue()           PORTAbits.RA4
-#define RandumSeed_SetDigitalInput()    do { TRISAbits.TRISA4 = 1; } while(0)
-#define RandumSeed_SetDigitalOutput()   do { TRISAbits.TRISA4 = 0; } while(0)
-#define RandumSeed_SetPullup()          do { WPUAbits.WPUA4 = 1; } while(0)
-#define RandumSeed_ResetPullup()        do { WPUAbits.WPUA4 = 0; } while(0)
-#define RandumSeed_SetPushPull()        do { ODCONAbits.ODCA4 = 0; } while(0)
-#define RandumSeed_SetOpenDrain()       do { ODCONAbits.ODCA4 = 1; } while(0)
-#define RandumSeed_SetAnalogMode()      do { ANSELAbits.ANSA4 = 1; } while(0)
-#define RandumSeed_SetDigitalMode()     do { ANSELAbits.ANSA4 = 0; } while(0)
+#define RndSeed_TRIS                 TRISAbits.TRISA4
+#define RndSeed_LAT                  LATAbits.LATA4
+#define RndSeed_PORT                 PORTAbits.RA4
+#define RndSeed_WPU                  WPUAbits.WPUA4
+#define RndSeed_OD                   ODCONAbits.ODCA4
+#define RndSeed_ANS                  ANSELAbits.ANSA4
+#define RndSeed_SetHigh()            do { LATAbits.LATA4 = 1; } while(0)
+#define RndSeed_SetLow()             do { LATAbits.LATA4 = 0; } while(0)
+#define RndSeed_Toggle()             do { LATAbits.LATA4 = ~LATAbits.LATA4; } while(0)
+#define RndSeed_GetValue()           PORTAbits.RA4
+#define RndSeed_SetDigitalInput()    do { TRISAbits.TRISA4 = 1; } while(0)
+#define RndSeed_SetDigitalOutput()   do { TRISAbits.TRISA4 = 0; } while(0)
+#define RndSeed_SetPullup()          do { WPUAbits.WPUA4 = 1; } while(0)
+#define RndSeed_ResetPullup()        do { WPUAbits.WPUA4 = 0; } while(0)
+#define RndSeed_SetPushPull()        do { ODCONAbits.ODCA4 = 0; } while(0)
+#define RndSeed_SetOpenDrain()       do { ODCONAbits.ODCA4 = 1; } while(0)
+#define RndSeed_SetAnalogMode()      do { ANSELAbits.ANSA4 = 1; } while(0)
+#define RndSeed_SetDigitalMode()     do { ANSELAbits.ANSA4 = 0; } while(0)
 // get/set IO_RA5 aliases
 #define Square_TRIS                 TRISAbits.TRISA5
 #define Square_LAT                  LATAbits.LATA5
@@ -127,24 +146,24 @@
 #define Rate_SetAnalogMode()      do { ANSELCbits.ANSC1 = 1; } while(0)
 #define Rate_SetDigitalMode()     do { ANSELCbits.ANSC1 = 0; } while(0)
 // get/set IO_RC2 aliases
-#define Delay_TRIS                 TRISCbits.TRISC2
-#define Delay_LAT                  LATCbits.LATC2
-#define Delay_PORT                 PORTCbits.RC2
-#define Delay_WPU                  WPUCbits.WPUC2
-#define Delay_OD                   ODCONCbits.ODCC2
-#define Delay_ANS                  ANSELCbits.ANSC2
-#define Delay_SetHigh()            do { LATCbits.LATC2 = 1; } while(0)
-#define Delay_SetLow()             do { LATCbits.LATC2 = 0; } while(0)
-#define Delay_Toggle()             do { LATCbits.LATC2 = ~LATCbits.LATC2; } while(0)
-#define Delay_GetValue()           PORTCbits.RC2
-#define Delay_SetDigitalInput()    do { TRISCbits.TRISC2 = 1; } while(0)
-#define Delay_SetDigitalOutput()   do { TRISCbits.TRISC2 = 0; } while(0)
-#define Delay_SetPullup()          do { WPUCbits.WPUC2 = 1; } while(0)
-#define Delay_ResetPullup()        do { WPUCbits.WPUC2 = 0; } while(0)
-#define Delay_SetPushPull()        do { ODCONCbits.ODCC2 = 0; } while(0)
-#define Delay_SetOpenDrain()       do { ODCONCbits.ODCC2 = 1; } while(0)
-#define Delay_SetAnalogMode()      do { ANSELCbits.ANSC2 = 1; } while(0)
-#define Delay_SetDigitalMode()     do { ANSELCbits.ANSC2 = 0; } while(0)
+#define Decay_TRIS                 TRISCbits.TRISC2
+#define Decay_LAT                  LATCbits.LATC2
+#define Decay_PORT                 PORTCbits.RC2
+#define Decay_WPU                  WPUCbits.WPUC2
+#define Decay_OD                   ODCONCbits.ODCC2
+#define Decay_ANS                  ANSELCbits.ANSC2
+#define Decay_SetHigh()            do { LATCbits.LATC2 = 1; } while(0)
+#define Decay_SetLow()             do { LATCbits.LATC2 = 0; } while(0)
+#define Decay_Toggle()             do { LATCbits.LATC2 = ~LATCbits.LATC2; } while(0)
+#define Decay_GetValue()           PORTCbits.RC2
+#define Decay_SetDigitalInput()    do { TRISCbits.TRISC2 = 1; } while(0)
+#define Decay_SetDigitalOutput()   do { TRISCbits.TRISC2 = 0; } while(0)
+#define Decay_SetPullup()          do { WPUCbits.WPUC2 = 1; } while(0)
+#define Decay_ResetPullup()        do { WPUCbits.WPUC2 = 0; } while(0)
+#define Decay_SetPushPull()        do { ODCONCbits.ODCC2 = 0; } while(0)
+#define Decay_SetOpenDrain()       do { ODCONCbits.ODCC2 = 1; } while(0)
+#define Decay_SetAnalogMode()      do { ANSELCbits.ANSC2 = 1; } while(0)
+#define Decay_SetDigitalMode()     do { ANSELCbits.ANSC2 = 0; } while(0)
 // get/set IO_RC3 aliases
 #define Randum_TRIS                 TRISCbits.TRISC3
 #define Randum_LAT                  LATCbits.LATC3

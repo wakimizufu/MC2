@@ -69,9 +69,9 @@ typedef enum
     channel_DAC1 =  0x3d,
     channel_FVR_BUF1 =  0x3e,
     channel_FVR_BUF2 =  0x3f,
-    RandumSeed =  0x4,
+    RndSeed =  0x4,
     Rate =  0x11,
-    Delay =  0x12
+    Decay =  0x12
 } adc_channel_t;
 
 /**

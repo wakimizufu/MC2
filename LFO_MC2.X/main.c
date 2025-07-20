@@ -90,7 +90,11 @@ enum ADC_ST {
 };
 enum ADC_ST adc_ST = TmLFO;  //現在のADCステータス
 
-
+    __uint24 accmulator = 0;
+    __uint24 count;
+    __uint24 updateRandum = 0;
+	unsigned int dacval;
+    
 // 関数プロトタイプ
 void MyTMR1_ISR(void);
 void onEdgeGate_ISR(void);
@@ -114,36 +118,37 @@ void onEdgeGate_ISR(void){
 
 //ADCコンバータ⇒各変数を更新
 void cnvADC(){
-
+	//ADC_StartConversion();
+/*
 	switch ( adc_ST ) {
 		case TmLFO:    //LFO周波数
-			ADC_SelectChannel(Rate); //ADC_CHANNEL_ANA0
+			ADC_GetConversion(Rate); //ADC_CHANNEL_ANA0
 			break;
 		case DeLFO:    //LFOディレイタイム
-			ADC_SelectChannel(Delay); //ADC_CHANNEL_ANA1
+			ADC_GetConversion(Delay); //ADC_CHANNEL_ANA1
 			break;
 		case RndSe:    //ランダムシード
-			ADC_SelectChannel(LFORndSeed); //ADC_CHANNEL_ANA1
+			ADC_GetConversion(LFORndSeed); //ADC_CHANNEL_ANA1
 			break;
 		default:
 			break;
 	}
+*/
 
-	ADC_StartConversion();
-	while(!ADC_IsConversionDone());
 
+    
 	switch ( adc_ST ) {
 		case TmLFO:    //LFO周波数
-			fout = ( (ADC_GetConversionResult()>>2) * LFO_STEP_TIME) + LFO_STEP_TIME;
+			fout = ( (ADC_GetConversion(Rate)>>2) * LFO_STEP_TIME) + LFO_STEP_TIME;
 			tuningWord = 0x01000000 * fout / DDS_CLOCK;
             adc_ST	=	DeLFO;
 			break;
 		case DeLFO:    //LFOディレイタイム
-            LFODEtm = ADC_GetConversionResult()>>2;     //LFOディレイタイム 0ms:0-1.25s:256
+            LFODEtm = ADC_GetConversion(Decay)>>2;     //LFOディレイタイム 0ms:0-1.25s:256
          	adc_ST	= RndSe;   
             break;
 		case RndSe:    //ランダムシード
-            LFORndSeed = ADC_GetConversionResult();     //ランダムシード 0-1023
+            LFORndSeed = ADC_GetConversion(RndSeed);     //ランダムシード 0-1023
          	adc_ST	= TmLFO;   
             break;
 		default:
@@ -154,7 +159,12 @@ void cnvADC(){
 int main(void)
 {
     SYSTEM_Initialize();
-    
+  
+Square_SetDigitalOutput();
+Square_SetDigitalMode();
+Square_SetPushPull();
+
+                          
     onTMR1 = false;
     TMR1_OverflowCallbackRegister(MyTMR1_ISR);
     TMR1_Start();
@@ -168,13 +178,10 @@ int main(void)
     INTERRUPT_PeripheralInterruptEnable(); 
 
     unsigned int onLFORate = ADC_CONVERT_TIME;
-    ADC_SelectChannel(Rate); //ADC_CHANNEL_ANA0
-    ADC_StartConversion();
+    //ADC_SelectChannel(Rate); //ADC_CHANNEL_ANA0
+    //ADC_StartConversion();
 
-    __uint24 accmulator = 0;
-    __uint24 count;
-    __uint24 updateRandum = 0;
-	unsigned int dacval;
+
     
     while(1)
     {
@@ -185,15 +192,15 @@ int main(void)
             count = accmulator >> 16;
             dacval = sineTbl[count];
 
-            //サイン波
+            //サイン波 RC5->PWM5:PWM5OUT
             if ( 0 == LFODelayCount){
-                PWM3_LoadDutyValue(dacval);
+                PWM5_LoadDutyValue(dacval);
             } else if ( 0 != LFODelayCount){
-                PWM3_LoadDutyValue(511);
+                PWM5_LoadDutyValue(511);
                 LFODelayCount--;
             }
             
-            //三角波
+            //三角波 RC4->PWM4:PWM4OUT
              if (count<=0x3F){
                 dacval = 0x1FF + ( ( 0x00003F & count) <<3);
             } else if (count<=0x7F){
@@ -207,19 +214,19 @@ int main(void)
 
             //方形波
              if  (count<=0x7F){
-                Square_SetHigh();
+                Test_SetHigh();
              } else {
-                Square_SetLow();
+                Test_SetLow();
              }
 
-            //ランダム
+            //ランダム RC3->PWM3:PWM3OUT
              updateRandum = updateRandum + count;
              if ( updateRandum > 0xFF ){
                  updateRandum = updateRandum - 0xFF;
 
                 srand(LFORndSeed);
                 dacval=(rand() % 1022) + 1;
-                PWM5_LoadDutyValue(dacval);
+                PWM3_LoadDutyValue(dacval);
              }
             
             //加算累積器へ加算
