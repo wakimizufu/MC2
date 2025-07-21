@@ -146,6 +146,18 @@
  */
 /* cppcheck-suppress misra-c2012-2.5 */
 #define Timer1_GateCallbackRegister TMR1_GateCallbackRegister
+ /**
+ * @ingroup tmr1
+ * @brief Defines the Custom Name for the \ref TMR1_OverflowInterruptEnable API.
+ */
+/* cppcheck-suppress misra-c2012-2.5 */
+#define Timer1_OverflowInterruptEnable TMR1_OverflowInterruptEnable
+/**
+ * @ingroup tmr1
+ * @brief Defines the Custom Name for the \ref TMR1_OverflowInterruptDisable API.
+ */
+/* cppcheck-suppress misra-c2012-2.5 */
+#define Timer1_OverflowInterruptDisable TMR1_OverflowInterruptDisable
 /**
  * @ingroup tmr1
  * @brief Defines the Custom Name for the \ref TMR1_OverflowCallbackRegister API.
@@ -165,18 +177,6 @@
  */
 /* cppcheck-suppress misra-c2012-2.5 */
 #define Timer1_GateEventStatusClear TMR1_GateEventStatusClear
-/**
- * @ingroup tmr1
- * @brief Defines the Custom Name for the \ref TMR1_OverflowStatusGet API.
- */
-/* cppcheck-suppress misra-c2012-2.5 */
-#define Timer1_OverflowStatusGet TMR1_OverflowStatusGet
-/**
- * @ingroup tmr1
- * @brief Defines the Custom Name for the \ref TMR1_OverflowStatusClear API.
- */
-/* cppcheck-suppress misra-c2012-2.5 */
-#define Timer1_OverflowStatusClear TMR1_OverflowStatusClear
 /**
  * @ingroup tmr1
  * @brief Defines the Custom Name for the \ref TMR1_Tasks API.
@@ -291,6 +291,30 @@ uint8_t TMR1_GateStateGet(void);
 
 /**
  * @ingroup tmr1
+ * @brief Enables the TMR1 overflow interrupt.
+ * @param None.
+ * @return None.
+ */
+void TMR1_OverflowInterruptEnable(void);
+
+/**
+ * @ingroup tmr1
+ * @brief Disables the TMR1 overflow interrupt.
+ * @param None.
+ * @return None.
+ */
+void TMR1_OverflowInterruptDisable(void);
+
+/**
+ * @ingroup tmr1
+ * @brief Interrupt Service Routine (ISR) for the TMR1 overflow interrupt.
+ * @param None.
+ * @return None.
+ */
+void TMR1_OverflowISR(void);
+
+/**
+ * @ingroup tmr1
  * @brief Returns the TMR1 Gate flag status in Non-Interrupt mode.
  * @param None.
  * @retval True  - Timer Gate Event has occurred
@@ -305,23 +329,6 @@ bool TMR1_GateEventStatusGet(void);
  * @return None. 
  */
 void TMR1_GateEventStatusClear(void);
-
-/**
- * @ingroup tmr1
- * @brief Returns the TMR1 overflow flag status in Non-Interrupt mode.
- * @param None.
- * @retval True  - Timer overflow has occurred
- * @retval False - Timer overflow has not occurred
- */
-bool TMR1_OverflowStatusGet(void);
-
-/**
- * @ingroup tmr1
- * @brief Clears the TMR1 overflow flag in Non-Interrupt mode .
- * @param None.
- * @return None. 
- */
-void TMR1_OverflowStatusClear(void);
 
 /**
  * @ingroup tmr1

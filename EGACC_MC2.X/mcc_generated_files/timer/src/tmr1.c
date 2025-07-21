@@ -68,6 +68,7 @@ void TMR1_Initialize(void)
     TMR1_GateCallback = TMR1_DefaultGateCallback;
 
 	PIR1bits.TMR1IF = 0U;
+	PIE1bits.TMR1IE = 1U;
 	PIR1bits.TMR1GIF = 0U;
 	
     T1CON = (1 << _T1CON_TMR1ON_POSN)   // TMR1ON enabled
@@ -167,6 +168,16 @@ uint8_t TMR1_GateStateGet(void)
     return (T1GCONbits.T1GVAL);
 }
 
+void TMR1_OverflowInterruptEnable(void)
+{
+    PIE1bits.TMR1IE = 1U;
+}
+
+void TMR1_OverflowInterruptDisable(void)
+{
+    PIE1bits.TMR1IE = 0U;
+}
+
 bool TMR1_GateEventStatusGet(void)
 {
     return (PIR1bits.TMR1GIF);
@@ -177,28 +188,21 @@ void TMR1_GateEventStatusClear(void)
     PIR1bits.TMR1GIF = 0U;
 }
 
-bool TMR1_OverflowStatusGet(void)
-{  
-    return(PIR1bits.TMR1IF);
-}
+void TMR1_OverflowISR(void)
+{
+    /* cppcheck-suppress misra-c2012-8.7 */
+    TMR1_CounterSet(timer1ReloadVal);
 
-void TMR1_OverflowStatusClear(void)
-{  
+    // The ticker is set to 1 -> The callback function gets called every time this ISR executes.
+    if(NULL != TMR1_OverflowCallback)
+    {
+        TMR1_OverflowCallback();
+    }
     PIR1bits.TMR1IF = 0U;
 }
 
 void TMR1_Tasks(void)
 {
-    if(1U == PIR1bits.TMR1IF)
-    {   
-        /* cppcheck-suppress misra-c2012-8.7 */
-        TMR1_CounterSet(timer1ReloadVal);
-        if(NULL != TMR1_OverflowCallback)
-        {  
-            TMR1_OverflowCallback();
-        }
-        PIR1bits.TMR1IF = 0U;
-    }
     if(1U == PIR1bits.TMR1GIF)
     { 
         if(NULL != TMR1_GateCallback)

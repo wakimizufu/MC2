@@ -103,7 +103,7 @@ typedef enum
     ADC_CHANNEL_FVR_BUF2 =  0x3f, /**< FVR_buf2*/ 
     ADC_CHANNEL_ANB7 =  0xf, /**< Release: RB7*/ 
     ADC_CHANNEL_ANC3 =  0x13, /**< Attack: RC3*/ 
-    ADC_CHANNEL_ANC4 =  0x14, /**< AccLev: RC4*/ 
+    ADC_CHANNEL_ANC4 =  0x14, /**< AccLv: RC4*/ 
     ADC_CHANNEL_ANC6 =  0x16, /**< Decay: RC6*/ 
     ADC_CHANNEL_ANC7 =  0x17, /**< Sustain: RC7*/ 
     ADC_CHANNEL_ANA0 =  0x0 /**< IO_RA0: RA0*/ 

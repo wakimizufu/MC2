@@ -203,7 +203,7 @@ void setEnvelope (){
     
     //EnvToVCA
     tmpDAC = envDAC;
-    if ( HIGH == ampWave_GetValue()){   //VCA出力波形=GATEの場合
+    if ( HIGH == AmpWave_GetValue()){   //VCA出力波形=GATEの場合
 
         //Gateの状態をそのまま反映
         if (envGate){
@@ -249,7 +249,7 @@ void cnvADC(){
 			ADC_ChannelSelect(RELEASE); //ADC_CHANNEL_ANC7
 			break;
 		case LvACC:     //アクセントレベル
-			ADC_ChannelSelect(ACCLEV); //ADC_CHANNEL_ANC7
+			ADC_ChannelSelect(ACCLV); //ADC_CHANNEL_ANC7
 			break;
 		default:
 			break;
@@ -306,16 +306,20 @@ uint16_t cnvEnvAccDAC ( uint16_t value ) {
 int main(void)
 {
     SYSTEM_Initialize();
-
-    onTMR1 = false;
-    TMR1_OverflowCallbackRegister(MyTMR1_ISR);
-    TMR1_Start();
-
+    
     // Enable the Global Interrupts 
     INTERRUPT_GlobalInterruptEnable(); 
 
     // Enable the Peripheral Interrupts 
     INTERRUPT_PeripheralInterruptEnable(); 
+    
+    
+    onTMR1 = false;
+    TMR1_OverflowCallbackRegister(MyTMR1_ISR);
+    TMR1_Start();
+
+    Gate_SetInterruptHandler(onEdgeGate_ISR);
+
 
     unsigned int onLFORate = ADC_CONVERT_TIME;
     ADC_ChannelSelect(ATTACK); //ADC_CHANNEL_ANA2

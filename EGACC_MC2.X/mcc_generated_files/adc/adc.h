@@ -56,7 +56,7 @@
  * @ingroup adc
  * @brief Defines the Custom Name pin mapping for channels in @ref adc_channel_t
  */
-#define ACCLEV ADC_CHANNEL_ANC4
+#define ACCLV ADC_CHANNEL_ANC4
 
 /**
  * @ingroup adc
