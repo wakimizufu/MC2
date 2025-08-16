@@ -1,12 +1,14 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "ca4f382d-bd82-48d7-89f3-659a136c2dc1")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Device:C"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0.254)
 			)
@@ -79,7 +81,7 @@
 			(symbol "C_0_1"
 				(polyline
 					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
+						(xy -2.032 0.762) (xy 2.032 0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -91,7 +93,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -140,11 +142,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:C_Polarized_Small"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.254) hide)
+				(offset 0.254)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -213,17 +220,6 @@
 			)
 			(symbol "C_Polarized_Small_0_1"
 				(rectangle
-					(start -1.524 -0.3048)
-					(end 1.524 -0.6858)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
 					(start -1.524 0.6858)
 					(end 1.524 0.3048)
 					(stroke
@@ -232,6 +228,17 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+				(rectangle
+					(start -1.524 -0.3048)
+					(end 1.524 -0.6858)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
 					)
 				)
 				(polyline
@@ -297,9 +304,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:R"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -418,10 +428,13 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:R_Potentiometer"
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -487,12 +500,11 @@
 				)
 			)
 			(symbol "R_Potentiometer_0_1"
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 1.524 0)
-					)
+				(rectangle
+					(start 1.016 2.54)
+					(end -1.016 -2.54)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -511,11 +523,12 @@
 						(type outline)
 					)
 				)
-				(rectangle
-					(start 1.016 2.54)
-					(end -1.016 -2.54)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.524 0)
+					)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -543,24 +556,6 @@
 					)
 				)
 				(pin passive line
-					(at 3.81 0 180)
-					(length 1.27)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at 0 -3.81 90)
 					(length 1.27)
 					(name "3"
@@ -578,7 +573,26 @@
 						)
 					)
 				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "SamacSys_Parts:AS321KTR-E1"
 			(exclude_from_sim no)
@@ -622,7 +636,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" " Excellent Phase Margin: 60 deg.  Large Voltage Gain: 100dB (Typical)  Low Input Bias Current: 20nA (Typical)  Low Input Offset Voltage: 2mV (Typical)  Low Supply Current: 0.35mA at VCC = 5V  Wide Power Supply Voltage:  Single Supply: 3V to 36V  Dual Supplies: +/-1.5V to +/-18V  Wide Input Common Mode Voltage Range: 0V to VCC-1.5V  Lead-Free Packages: SOT25  Totally Lead-Free; RoHS Compliant (Notes 1 & 2)  Lead-Free Packages, Available in Green Molding Compound: SOT25  Totally Lead-F"
+			(property "Description" "Excellent Phase Margin: 60 deg.  Large Voltage Gain: 100dB (Typical)  Low Input Bias Current: 20nA (Typical)  Low Input Offset Voltage: 2mV (Typical)  Low Supply Current: 0.35mA at VCC = 5V  Wide Power Supply Voltage:  Single Supply: 3V to 36V  Dual Supplies: +/-1.5V to +/-18V  Wide Input Common Mode Voltage Range: 0V to VCC-1.5V  Lead-Free Packages: SOT25  Totally Lead-Free; RoHS Compliant (Notes 1 & 2)  Lead-Free Packages, Available in Green Molding Compound: SOT25  Totally Lead-F"
 				(at 0 0 0)
 				(effects
 					(font
@@ -804,6 +818,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "SamacSys_Parts:ASLB1470"
 			(exclude_from_sim no)
@@ -939,6 +954,24 @@
 					)
 				)
 				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "COM_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
 					(at 0 -2.54 0)
 					(length 5.08)
 					(name "NO_1"
@@ -1011,24 +1044,6 @@
 					)
 				)
 				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "COM_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at 0 -12.7 0)
 					(length 5.08)
 					(name "COM_2"
@@ -1047,6 +1062,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "SamacSys_Parts:OS103011MS8QP1"
 			(exclude_from_sim no)
@@ -1182,6 +1198,24 @@
 					)
 				)
 				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
 					(at 0 -2.54 0)
 					(length 5.08)
 					(name "1"
@@ -1254,24 +1288,6 @@
 					)
 				)
 				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at 0 -12.7 0)
 					(length 5.08)
 					(name "6"
@@ -1290,6 +1306,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "SamacSys_Parts:RK09D117000B"
 			(exclude_from_sim no)
@@ -1515,6 +1532,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "SamacSys_Parts:V3340M"
 			(exclude_from_sim no)
@@ -1668,132 +1686,6 @@
 					)
 				)
 				(pin passive line
-					(at 22.86 -15.24 180)
-					(length 5.08)
-					(name "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 22.86 -12.7 180)
-					(length 5.08)
-					(name "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 22.86 -10.16 180)
-					(length 5.08)
-					(name "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 22.86 -7.62 180)
-					(length 5.08)
-					(name "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 22.86 -5.08 180)
-					(length 5.08)
-					(name "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 22.86 -2.54 180)
-					(length 5.08)
-					(name "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 22.86 0 180)
-					(length 5.08)
-					(name "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at 0 -2.54 0)
 					(length 5.08)
 					(name "2"
@@ -1920,6 +1812,132 @@
 					)
 				)
 				(pin passive line
+					(at 22.86 0 180)
+					(length 5.08)
+					(name "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -2.54 180)
+					(length 5.08)
+					(name "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -5.08 180)
+					(length 5.08)
+					(name "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -7.62 180)
+					(length 5.08)
+					(name "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -10.16 180)
+					(length 5.08)
+					(name "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -12.7 180)
+					(length 5.08)
+					(name "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -15.24 180)
+					(length 5.08)
+					(name "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
 					(at 22.86 -17.78 180)
 					(length 5.08)
 					(name "9"
@@ -1938,12 +1956,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+12VA"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2015,7 +2038,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -2027,7 +2050,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -2058,12 +2081,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+5VA"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2135,7 +2163,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -2147,7 +2175,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -2178,12 +2206,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:-12VA"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2274,12 +2307,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:-5VA"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2370,12 +2408,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GNDA"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2466,7 +2509,308 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(text "Vhft High Freq Track"
+		(exclude_from_sim no)
+		(at 167.132 63.754 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "01c12b64-b87c-4745-84f4-62ba38f59fae")
+	)
+	(text "LFO"
+		(exclude_from_sim no)
+		(at 152.654 124.968 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "06a1156a-635d-4daa-a28b-42529c5dce70")
+	)
+	(text "TRIM"
+		(exclude_from_sim no)
+		(at 100.838 94.488 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+			)
+		)
+		(uuid "0785e471-9fd8-4fad-af97-ab24c1976275")
+	)
+	(text "MOD"
+		(exclude_from_sim no)
+		(at 94.996 155.194 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+			)
+		)
+		(uuid "07c387f1-1c8f-4c64-8644-21edf8f794ed")
+	)
+	(text "Vee"
+		(exclude_from_sim no)
+		(at 172.72 53.848 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "085d1dc5-5d59-4526-84fe-4aa94cb897a5")
+	)
+	(text "MAN"
+		(exclude_from_sim no)
+		(at 152.4 130.048 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0ba61009-c6b7-4321-be1b-f567bae6af18")
+	)
+	(text "Sawtooth\nOutput"
+		(exclude_from_sim no)
+		(at 182.118 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0eeaa6d5-34ea-494b-bb48-48f600ff211f")
+	)
+	(text "4'"
+		(exclude_from_sim no)
+		(at 49.784 76.708 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2494408c-6aad-4b06-ae09-84a4bdc11ecb")
+	)
+	(text "PWM Input"
+		(exclude_from_sim no)
+		(at 169.926 58.928 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2749efcf-a18a-4815-a139-013b476d30c8")
+	)
+	(text "RANGE"
+		(exclude_from_sim no)
+		(at 75.438 68.326 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+			)
+		)
+		(uuid "2fcfad0d-3fe2-4c31-826e-21f2eaff8a8a")
+	)
+	(text "Vcc"
+		(exclude_from_sim no)
+		(at 201.422 48.514 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "36d5719c-87bf-4774-ae87-1dd0389b7002")
+	)
+	(text "PWM SOURCE"
+		(exclude_from_sim no)
+		(at 167.894 113.284 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+			)
+		)
+		(uuid "37841854-e765-441e-8024-69260a7c1a12")
+	)
+	(text "Vhsi Hard Sync Input"
+		(exclude_from_sim no)
+		(at 166.624 61.468 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3c1ac712-545c-4682-936b-060b6660ebb3")
+	)
+	(text "PWM TRIM"
+		(exclude_from_sim no)
+		(at 229.108 101.092 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+			)
+		)
+		(uuid "40db10db-a2a7-4b0e-a57e-e379e45131f6")
+	)
+	(text "2'"
+		(exclude_from_sim no)
+		(at 49.784 74.168 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5327a842-6170-43e5-837e-c7cf4aac9fc5")
+	)
+	(text "Vlfi Linear FM Input"
+		(exclude_from_sim no)
+		(at 216.154 56.134 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "54422a21-8bac-4984-9730-612751369cd3")
+	)
+	(text "16'"
+		(exclude_from_sim no)
+		(at 49.784 82.042 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6efdc76e-7d91-4702-ac0a-6c6e429bada4")
+	)
+	(text "Pulse Output"
+		(exclude_from_sim no)
+		(at 170.18 56.388 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8a893f5c-c9fd-40e4-91b9-f4d3e31d7be6")
+	)
+	(text "Vs Scale"
+		(exclude_from_sim no)
+		(at 221.234 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9a5422fe-65bf-4ba2-9272-78c72e469667")
+	)
+	(text "Scale1"
+		(exclude_from_sim no)
+		(at 173.482 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a0220cc8-4162-4627-8172-80fd3fc981d1")
+	)
+	(text "Scale2"
+		(exclude_from_sim no)
+		(at 173.228 51.054 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "aec762e4-7203-468a-a033-d2661326ee6c")
+	)
+	(text "Triangle\nOutput"
+		(exclude_from_sim no)
+		(at 205.74 65.532 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b71aac90-06f8-422d-b5bd-36cc8d59642b")
+	)
+	(text "Cap Capacitor"
+		(exclude_from_sim no)
+		(at 209.804 61.214 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b822965c-6568-479d-b6c6-39976e89247c")
+	)
+	(text "PWM Duty"
+		(exclude_from_sim no)
+		(at 214.376 116.586 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+			)
+		)
+		(uuid "bf9a4efe-1c58-4c6a-9233-9ee359a5b0a8")
+	)
+	(text "Frequency\nContlor\nInput"
+		(exclude_from_sim no)
+		(at 213.614 46.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d3625f96-d457-4d50-952e-adcdea25c68c")
+	)
+	(text "Soft Sync\nInput"
+		(exclude_from_sim no)
+		(at 197.104 72.136 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ea2feace-aafb-4d41-94e3-253fe713785e")
+	)
+	(text "TUNE"
+		(exclude_from_sim no)
+		(at 98.298 125.476 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+			)
+		)
+		(uuid "eb6e8319-e44b-4885-9b4f-1b1b6544eef4")
+	)
+	(text "RANGE"
+		(exclude_from_sim no)
+		(at 99.568 64.262 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+			)
+		)
+		(uuid "ecfd52ac-74bc-4439-aa90-e325d2c9377f")
+	)
+	(text "8'"
+		(exclude_from_sim no)
+		(at 49.784 79.502 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f126724f-ab03-4fa7-9cf1-f3895bf7de2f")
+	)
+	(text "ENV"
+		(exclude_from_sim no)
+		(at 152.4 132.842 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f481079a-bbab-4e34-b691-b9652b7d7256")
 	)
 	(junction
 		(at 36.83 72.39)
@@ -2493,7 +2837,7 @@
 		(uuid "1c2e3560-2871-4aff-a64d-2e855bbd2b34")
 	)
 	(junction
-		(at 44.45 180.34)
+		(at 44.45 166.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1eb7ce12-24e8-4594-b568-d2d4d1bd7fd3")
@@ -2575,6 +2919,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a36216b6-4bf7-46d6-bccf-49a0e6f86857")
+	)
+	(junction
+		(at 107.95 163.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a517598e-aff7-4aad-9eba-6cc44177bc44")
 	)
 	(junction
 		(at 107.95 133.35)
@@ -2754,7 +3104,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 180.34) (xy 44.45 180.34)
+			(xy 48.26 166.37) (xy 44.45 166.37)
 		)
 		(stroke
 			(width 0)
@@ -2794,7 +3144,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 175.26) (xy 85.09 167.64)
+			(xy 85.09 161.29) (xy 85.09 153.67)
 		)
 		(stroke
 			(width 0)
@@ -2874,7 +3224,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 177.8) (xy 107.95 177.8)
+			(xy 97.79 163.83) (xy 107.95 163.83)
 		)
 		(stroke
 			(width 0)
@@ -3174,7 +3524,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 177.8) (xy 44.45 177.8)
+			(xy 48.26 163.83) (xy 44.45 163.83)
 		)
 		(stroke
 			(width 0)
@@ -3314,7 +3664,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 167.64) (xy 81.28 167.64)
+			(xy 85.09 153.67) (xy 81.28 153.67)
 		)
 		(stroke
 			(width 0)
@@ -3334,7 +3684,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 177.8) (xy 107.95 133.35)
+			(xy 107.95 163.83) (xy 107.95 133.35)
 		)
 		(stroke
 			(width 0)
@@ -3354,7 +3704,17 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 180.34) (xy 76.2 184.15)
+			(xy 107.95 163.83) (xy 107.95 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77287110-dc6b-4330-892c-538343459789")
+	)
+	(wire
+		(pts
+			(xy 76.2 166.37) (xy 76.2 170.18)
 		)
 		(stroke
 			(width 0)
@@ -3454,7 +3814,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 180.34) (xy 44.45 182.88)
+			(xy 44.45 166.37) (xy 44.45 168.91)
 		)
 		(stroke
 			(width 0)
@@ -3844,7 +4204,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 175.26) (xy 85.09 175.26)
+			(xy 76.2 161.29) (xy 85.09 161.29)
 		)
 		(stroke
 			(width 0)
@@ -3884,7 +4244,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 177.8) (xy 76.2 177.8)
+			(xy 90.17 163.83) (xy 76.2 163.83)
 		)
 		(stroke
 			(width 0)
@@ -3914,7 +4274,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 177.8) (xy 44.45 180.34)
+			(xy 44.45 163.83) (xy 44.45 166.37)
 		)
 		(stroke
 			(width 0)
@@ -4091,6 +4451,16 @@
 			(type default)
 		)
 		(uuid "d45fc3bf-85ad-4469-b553-86467c3383a3")
+	)
+	(wire
+		(pts
+			(xy 107.95 173.99) (xy 107.95 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5bb6e96-c0cc-4bcf-9a0d-a39ac5e4afcb")
 	)
 	(wire
 		(pts
@@ -4362,306 +4732,6 @@
 		)
 		(uuid "fdaf1472-da19-4eb4-8599-0387418376a5")
 	)
-	(text "Vhft High Freq Track"
-		(exclude_from_sim no)
-		(at 167.132 63.754 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "01c12b64-b87c-4745-84f4-62ba38f59fae")
-	)
-	(text "LFO"
-		(exclude_from_sim no)
-		(at 152.654 124.968 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "06a1156a-635d-4daa-a28b-42529c5dce70")
-	)
-	(text "TRIM"
-		(exclude_from_sim no)
-		(at 100.838 94.488 0)
-		(effects
-			(font
-				(size 1.905 1.905)
-			)
-		)
-		(uuid "0785e471-9fd8-4fad-af97-ab24c1976275")
-	)
-	(text "MOD"
-		(exclude_from_sim no)
-		(at 94.996 169.164 0)
-		(effects
-			(font
-				(size 1.905 1.905)
-			)
-		)
-		(uuid "07c387f1-1c8f-4c64-8644-21edf8f794ed")
-	)
-	(text "Vee"
-		(exclude_from_sim no)
-		(at 172.72 53.848 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "085d1dc5-5d59-4526-84fe-4aa94cb897a5")
-	)
-	(text "MAN"
-		(exclude_from_sim no)
-		(at 152.4 130.048 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "0ba61009-c6b7-4321-be1b-f567bae6af18")
-	)
-	(text "Sawtooth\nOutput"
-		(exclude_from_sim no)
-		(at 182.118 76.2 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "0eeaa6d5-34ea-494b-bb48-48f600ff211f")
-	)
-	(text "4'"
-		(exclude_from_sim no)
-		(at 49.784 76.708 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "2494408c-6aad-4b06-ae09-84a4bdc11ecb")
-	)
-	(text "PWM Input"
-		(exclude_from_sim no)
-		(at 169.926 58.928 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "2749efcf-a18a-4815-a139-013b476d30c8")
-	)
-	(text "RANGE"
-		(exclude_from_sim no)
-		(at 75.438 68.326 0)
-		(effects
-			(font
-				(size 1.905 1.905)
-			)
-		)
-		(uuid "2fcfad0d-3fe2-4c31-826e-21f2eaff8a8a")
-	)
-	(text "Vcc"
-		(exclude_from_sim no)
-		(at 201.422 48.514 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "36d5719c-87bf-4774-ae87-1dd0389b7002")
-	)
-	(text "PWM SOURCE"
-		(exclude_from_sim no)
-		(at 167.894 113.284 0)
-		(effects
-			(font
-				(size 1.905 1.905)
-			)
-		)
-		(uuid "37841854-e765-441e-8024-69260a7c1a12")
-	)
-	(text "Vhsi Hard Sync Input"
-		(exclude_from_sim no)
-		(at 166.624 61.468 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "3c1ac712-545c-4682-936b-060b6660ebb3")
-	)
-	(text "PWM TRIM"
-		(exclude_from_sim no)
-		(at 229.108 101.092 0)
-		(effects
-			(font
-				(size 1.905 1.905)
-			)
-		)
-		(uuid "40db10db-a2a7-4b0e-a57e-e379e45131f6")
-	)
-	(text "2'"
-		(exclude_from_sim no)
-		(at 49.784 74.168 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "5327a842-6170-43e5-837e-c7cf4aac9fc5")
-	)
-	(text "Vlfi Linear FM Input"
-		(exclude_from_sim no)
-		(at 216.154 56.134 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "54422a21-8bac-4984-9730-612751369cd3")
-	)
-	(text "16'"
-		(exclude_from_sim no)
-		(at 49.784 82.042 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "6efdc76e-7d91-4702-ac0a-6c6e429bada4")
-	)
-	(text "Pulse Output"
-		(exclude_from_sim no)
-		(at 170.18 56.388 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "8a893f5c-c9fd-40e4-91b9-f4d3e31d7be6")
-	)
-	(text "Vs Scale"
-		(exclude_from_sim no)
-		(at 221.234 53.34 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "9a5422fe-65bf-4ba2-9272-78c72e469667")
-	)
-	(text "Scale1"
-		(exclude_from_sim no)
-		(at 173.482 45.72 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "a0220cc8-4162-4627-8172-80fd3fc981d1")
-	)
-	(text "Scale2"
-		(exclude_from_sim no)
-		(at 173.228 51.054 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "aec762e4-7203-468a-a033-d2661326ee6c")
-	)
-	(text "Triangle\nOutput"
-		(exclude_from_sim no)
-		(at 205.74 65.532 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "b71aac90-06f8-422d-b5bd-36cc8d59642b")
-	)
-	(text "Cap Capacitor"
-		(exclude_from_sim no)
-		(at 209.804 61.214 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "b822965c-6568-479d-b6c6-39976e89247c")
-	)
-	(text "PWM Duty"
-		(exclude_from_sim no)
-		(at 214.376 116.586 0)
-		(effects
-			(font
-				(size 1.905 1.905)
-			)
-		)
-		(uuid "bf9a4efe-1c58-4c6a-9233-9ee359a5b0a8")
-	)
-	(text "Frequency\nContlor\nInput"
-		(exclude_from_sim no)
-		(at 213.614 46.99 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "d3625f96-d457-4d50-952e-adcdea25c68c")
-	)
-	(text "Soft Sync\nInput"
-		(exclude_from_sim no)
-		(at 197.104 72.136 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "ea2feace-aafb-4d41-94e3-253fe713785e")
-	)
-	(text "TUNE"
-		(exclude_from_sim no)
-		(at 98.298 125.476 0)
-		(effects
-			(font
-				(size 1.905 1.905)
-			)
-		)
-		(uuid "eb6e8319-e44b-4885-9b4f-1b1b6544eef4")
-	)
-	(text "RANGE"
-		(exclude_from_sim no)
-		(at 99.568 64.262 0)
-		(effects
-			(font
-				(size 1.905 1.905)
-			)
-		)
-		(uuid "ecfd52ac-74bc-4439-aa90-e325d2c9377f")
-	)
-	(text "8'"
-		(exclude_from_sim no)
-		(at 49.784 79.502 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "f126724f-ab03-4fa7-9cf1-f3895bf7de2f")
-	)
-	(text "ENV"
-		(exclude_from_sim no)
-		(at 152.4 132.842 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "f481079a-bbab-4e34-b691-b9652b7d7256")
-	)
 	(global_label "Vso"
 		(shape output)
 		(at 175.26 83.82 180)
@@ -4928,7 +4998,7 @@
 	)
 	(global_label "LFO_Sine"
 		(shape input)
-		(at 81.28 167.64 180)
+		(at 81.28 153.67 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4938,7 +5008,7 @@
 		)
 		(uuid "fe9b94c3-b7d1-4156-ac64-f821bcd38b46")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 74.7871 167.64 0)
+			(at 74.7871 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4993,6 +5063,24 @@
 		)
 		(property "Description" "Resistor"
 			(at 231.14 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 231.14 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 231.14 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5066,6 +5154,24 @@
 		)
 		(property "Description" "Resistor"
 			(at 163.83 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 163.83 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 163.83 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5191,7 +5297,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:RK09D117000B"
+		(property "Footprint" "SamacSys_parts:RK09D117000B"
 			(at 200.66 40.97 0)
 			(effects
 				(font
@@ -5290,6 +5396,24 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Library" ""
+			(at 224.79 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 224.79 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8195cacb-08e7-4ac3-a1c4-a2ca88163c6d")
 		)
@@ -5360,6 +5484,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 201.93 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 201.93 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" ""
 			(at 201.93 81.28 0)
 			(effects
 				(font
@@ -5456,6 +5598,72 @@
 			(project "analogSeparate"
 				(path "/bae8314b-242c-4fa4-bbce-99492909575e/2f41abe6-7163-4fa2-8be9-b46ea312e2c4"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 107.95 184.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1a391c34-2b9a-4df6-ba6c-b98db9817891")
+		(property "Reference" "#PWR036"
+			(at 107.95 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 107.95 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 107.95 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 107.95 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ff10bdc0-a9b4-4322-ab0a-4806dcfc1de3")
+		)
+		(instances
+			(project "VCOSeparate"
+				(path "/bae8314b-242c-4fa4-bbce-99492909575e/2f41abe6-7163-4fa2-8be9-b46ea312e2c4"
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -5653,6 +5861,24 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Library" ""
+			(at 218.44 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 218.44 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "5ae0c1ac-b534-4b48-9ec0-d12c37e67801")
 		)
@@ -5701,7 +5927,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ASLB1470"
+		(property "Footprint" "SamacSys_parts:ASLB1470"
 			(at 73.66 167.31 0)
 			(effects
 				(font
@@ -5797,6 +6023,24 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 52.07 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 52.07 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -6122,8 +6366,175 @@
 		)
 	)
 	(symbol
+		(lib_id "SamacSys_Parts:AS321KTR-E1")
+		(at 52.07 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "39180b83-fb9c-426e-888d-e47a21c85421")
+		(property "Reference" "IC2"
+			(at 69.85 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AS321KTR-E1"
+			(at 69.85 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SamacSys_parts:SOT95P282X145-5N"
+			(at 83.82 148.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com//assets/Datasheets/AS321.pdf"
+			(at 83.82 248.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Excellent Phase Margin: 60 deg.  Large Voltage Gain: 100dB (Typical)  Low Input Bias Current: 20nA (Typical)  Low Input Offset Voltage: 2mV (Typical)  Low Supply Current: 0.35mA at VCC = 5V  Wide Power Supply Voltage:  Single Supply: 3V to 36V  Dual Supplies: +/-1.5V to +/-18V  Wide Input Common Mode Voltage Range: 0V to VCC-1.5V  Lead-Free Packages: SOT25  Totally Lead-Free; RoHS Compliant (Notes 1 & 2)  Lead-Free Packages, Available in Green Molding Compound: SOT25  Totally Lead-F"
+			(at 52.07 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.45"
+			(at 83.82 448.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Diodes Incorporated"
+			(at 83.82 548.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AS321KTR-E1"
+			(at 83.82 648.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "621-AS321KTR-E1"
+			(at 83.82 748.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/AS321KTR-E1?qs=5V6w%252Be2aIqbJH6DETpx4Lw%3D%3D"
+			(at 83.82 848.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "AS321KTR-E1"
+			(at 83.82 948.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/as321ktr-e1/diodes-incorporated?region=nac"
+			(at 83.82 1048.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 52.07 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 52.07 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "0668fbed-b72b-42b4-8a21-663c2dff855e")
+		)
+		(pin "1"
+			(uuid "f6c9fd1c-4547-40be-9607-ac02eb0b25aa")
+		)
+		(pin "2"
+			(uuid "22684b2c-bb00-4889-bc44-69c14d15c536")
+		)
+		(pin "4"
+			(uuid "19ff6e76-a28a-42d3-a963-8a566a7c64e7")
+		)
+		(pin "5"
+			(uuid "f6406efe-f4e7-453e-bc49-20c024dce0e9")
+		)
+		(instances
+			(project ""
+				(path "/bae8314b-242c-4fa4-bbce-99492909575e/2f41abe6-7163-4fa2-8be9-b46ea312e2c4"
+					(reference "IC2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
-		(at 93.98 177.8 90)
+		(at 93.98 163.83 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6131,7 +6542,7 @@
 		(dnp no)
 		(uuid "4402d81d-e6fe-4413-a1fd-8564f256d13c")
 		(property "Reference" "R104"
-			(at 94.234 172.72 90)
+			(at 94.234 158.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6139,7 +6550,7 @@
 			)
 		)
 		(property "Value" "220K"
-			(at 93.98 175.26 90)
+			(at 93.98 161.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6147,7 +6558,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
-			(at 93.98 179.578 90)
+			(at 93.98 165.608 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6156,7 +6567,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 93.98 177.8 0)
+			(at 93.98 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6165,7 +6576,25 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 93.98 177.8 0)
+			(at 93.98 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 93.98 163.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 93.98 163.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6304,6 +6733,24 @@
 		)
 		(property "Description" "Potentiometer"
 			(at 243.84 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 243.84 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 243.84 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6531,6 +6978,24 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Library" ""
+			(at 31.75 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 31.75 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9a825f7a-63b3-4830-90f5-eb7a53f36564")
 		)
@@ -6697,155 +7162,6 @@
 		)
 	)
 	(symbol
-		(lib_id "SamacSys_Parts:AS321KTR-E1")
-		(at 52.07 53.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5006e5fb-f3bc-49e6-b17d-f60b090c8576")
-		(property "Reference" "IC2"
-			(at 69.85 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AS321KTR-E1"
-			(at 69.85 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SOT95P282X145-5N"
-			(at 83.82 148.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com//assets/Datasheets/AS321.pdf"
-			(at 83.82 248.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Excellent Phase Margin: 60 deg.  Large Voltage Gain: 100dB (Typical)  Low Input Bias Current: 20nA (Typical)  Low Input Offset Voltage: 2mV (Typical)  Low Supply Current: 0.35mA at VCC = 5V  Wide Power Supply Voltage:  Single Supply: 3V to 36V  Dual Supplies: +/-1.5V to +/-18V  Wide Input Common Mode Voltage Range: 0V to VCC-1.5V  Lead-Free Packages: SOT25  Totally Lead-Free; RoHS Compliant (Notes 1 & 2)  Lead-Free Packages, Available in Green Molding Compound: SOT25  Totally Lead-F"
-			(at 52.07 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.45"
-			(at 83.82 448.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Diodes Incorporated"
-			(at 83.82 548.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "AS321KTR-E1"
-			(at 83.82 648.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "621-AS321KTR-E1"
-			(at 83.82 748.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/AS321KTR-E1?qs=5V6w%252Be2aIqbJH6DETpx4Lw%3D%3D"
-			(at 83.82 848.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "AS321KTR-E1"
-			(at 83.82 948.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/as321ktr-e1/diodes-incorporated?region=nac"
-			(at 83.82 1048.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "b50a78cc-0089-4c7c-b396-0e9125ef281c")
-		)
-		(pin "5"
-			(uuid "12e6dce5-6768-4a66-ac07-dd6e95b88928")
-		)
-		(pin "1"
-			(uuid "a97aa526-297c-48db-8f83-a02c200b394a")
-		)
-		(pin "3"
-			(uuid "44e0ad55-f184-457b-8ce6-b64d7fd2a3c6")
-		)
-		(pin "2"
-			(uuid "5ce41701-ab72-40b0-8d4b-57aeeed2a938")
-		)
-		(instances
-			(project ""
-				(path "/bae8314b-242c-4fa4-bbce-99492909575e/2f41abe6-7163-4fa2-8be9-b46ea312e2c4"
-					(reference "IC2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:-5VA")
 		(at 135.89 52.07 180)
 		(unit 1)
@@ -6962,6 +7278,24 @@
 		)
 		(property "Description" "Resistor"
 			(at 137.16 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 137.16 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 137.16 116.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7180,6 +7514,24 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Library" ""
+			(at 228.6 133.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 228.6 133.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e7873db8-9249-4c0c-8195-ddb627e428ef")
 		)
@@ -7248,6 +7600,24 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, small symbol"
+			(at 143.51 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 143.51 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" ""
 			(at 143.51 50.8 0)
 			(effects
 				(font
@@ -7329,6 +7699,24 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Library" ""
+			(at 240.03 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 240.03 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9a66d657-c341-43af-94bd-46ff5b30c6cc")
 		)
@@ -7395,6 +7783,24 @@
 		)
 		(property "Description" "Resistor"
 			(at 137.16 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 137.16 151.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 137.16 151.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7477,6 +7883,24 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Library" ""
+			(at 86.36 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 86.36 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "bdb7c1db-5532-4585-936b-2a39dea3e502")
 		)
@@ -7525,7 +7949,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "OS103011MS8QP1"
+		(property "Footprint" "SamacSys_parts:OS103011MS8QP1"
 			(at 172.72 218.11 0)
 			(effects
 				(font
@@ -7624,6 +8048,24 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Library" ""
+			(at 156.21 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 156.21 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "c847312b-025c-4560-bd97-c58daceada1e")
 		)
@@ -7709,6 +8151,24 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Library" ""
+			(at 36.83 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 36.83 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1a756f84-140b-42c1-83bd-ec2a28985cd5")
 		)
@@ -7774,6 +8234,24 @@
 			)
 		)
 		(property "Description" "Potentiometer"
+			(at 90.17 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 90.17 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" ""
 			(at 90.17 102.87 0)
 			(effects
 				(font
@@ -7858,6 +8336,24 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Library" ""
+			(at 99.06 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 99.06 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6d64a2f5-bdfa-44e1-9b69-2118bea39d89")
 		)
@@ -7923,6 +8419,24 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 162.56 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 162.56 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" ""
 			(at 162.56 69.85 0)
 			(effects
 				(font
@@ -8006,6 +8520,24 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Library" ""
+			(at 139.7 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 139.7 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c912b0ac-e4e3-40a2-a762-e6ac4508b233")
 		)
@@ -8079,6 +8611,24 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Library" ""
+			(at 233.68 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 233.68 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b12b07fe-32d7-4af5-ba81-377e0d6a52b1")
 		)
@@ -8145,6 +8695,24 @@
 		)
 		(property "Description" "Resistor"
 			(at 163.83 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 163.83 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 163.83 46.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8297,6 +8865,24 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Library" ""
+			(at 36.83 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 36.83 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "86871920-5e49-40f3-bbee-e8a7c6edae69")
 		)
@@ -8442,6 +9028,24 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Library" ""
+			(at 36.83 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 36.83 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1e73bd13-dbc3-4bfe-9d5a-a58895c0040a")
 		)
@@ -8508,6 +9112,24 @@
 		)
 		(property "Description" "Resistor"
 			(at 41.91 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 41.91 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 41.91 55.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8588,6 +9210,24 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Library" ""
+			(at 123.19 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 123.19 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b68a9a45-8dc9-49be-bb46-f26282080472")
 		)
@@ -8654,6 +9294,24 @@
 		)
 		(property "Description" "Resistor"
 			(at 36.83 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 36.83 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 36.83 67.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8878,6 +9536,24 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Library" ""
+			(at 96.52 133.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 96.52 133.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d9622649-cd23-4204-a9c2-c38c95cc646a")
 		)
@@ -8946,6 +9622,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 241.3 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 241.3 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" ""
 			(at 241.3 71.12 0)
 			(effects
 				(font
@@ -9027,6 +9721,24 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Library" ""
+			(at 99.06 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 99.06 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b03291b9-4c54-4444-90e0-e65cb444c8c8")
 		)
@@ -9050,7 +9762,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDA")
-		(at 44.45 182.88 0)
+		(at 44.45 168.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9059,7 +9771,7 @@
 		(fields_autoplaced yes)
 		(uuid "a462800d-5633-4554-8611-97e072698e1f")
 		(property "Reference" "#PWR019"
-			(at 44.45 189.23 0)
+			(at 44.45 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9068,7 +9780,7 @@
 			)
 		)
 		(property "Value" "GNDA"
-			(at 44.45 187.96 0)
+			(at 44.45 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9076,7 +9788,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 44.45 182.88 0)
+			(at 44.45 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9085,7 +9797,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 44.45 182.88 0)
+			(at 44.45 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9094,7 +9806,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 44.45 182.88 0)
+			(at 44.45 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9140,7 +9852,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DIP794W56P260L1905H432Q16N"
+		(property "Footprint" "SamacSys_parts:DIP794W56P260L1905H432Q16N"
 			(at 195.58 144.45 0)
 			(effects
 				(font
@@ -9236,6 +9948,24 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 176.53 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 176.53 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -9347,6 +10077,24 @@
 		)
 		(property "Description" "Resistor"
 			(at 36.83 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 36.83 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 36.83 87.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9486,6 +10234,24 @@
 		)
 		(property "Description" "Resistor"
 			(at 100.33 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 100.33 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 100.33 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9640,6 +10406,24 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Library" ""
+			(at 223.52 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 223.52 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "087d4baf-50fa-452b-845e-669525bf577d")
 		)
@@ -9781,6 +10565,24 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Library" ""
+			(at 240.03 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 240.03 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "5b2e8a60-71cc-400e-ba7c-26b79d253d8f")
 		)
@@ -9804,7 +10606,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDA")
-		(at 76.2 184.15 0)
+		(at 76.2 170.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9813,7 +10615,7 @@
 		(fields_autoplaced yes)
 		(uuid "ba73c31a-ef52-4e02-861f-3589acc7caea")
 		(property "Reference" "#PWR024"
-			(at 76.2 190.5 0)
+			(at 76.2 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9822,7 +10624,7 @@
 			)
 		)
 		(property "Value" "GNDA"
-			(at 76.2 189.23 0)
+			(at 76.2 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9830,7 +10632,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 76.2 184.15 0)
+			(at 76.2 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9839,7 +10641,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 184.15 0)
+			(at 76.2 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9848,7 +10650,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 76.2 184.15 0)
+			(at 76.2 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9920,6 +10722,24 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Library" ""
+			(at 153.67 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 153.67 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c2863ec6-a11a-4223-a52f-9ed7c18f1041")
 		)
@@ -9943,7 +10763,7 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:RK09D117000B")
-		(at 76.2 180.34 180)
+		(at 76.2 166.37 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9951,7 +10771,7 @@
 		(dnp no)
 		(uuid "c826e37b-6a2b-444c-9ee0-5632be8e89f9")
 		(property "Reference" "VR4"
-			(at 61.976 168.91 0)
+			(at 61.976 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9959,15 +10779,15 @@
 			)
 		)
 		(property "Value" "Mod 100KA"
-			(at 62.484 171.196 0)
+			(at 62.484 157.226 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:RK09D117000B"
-			(at 52.07 85.42 0)
+		(property "Footprint" "SamacSys_parts:RK09D117000B"
+			(at 52.07 71.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9977,7 +10797,7 @@
 			)
 		)
 		(property "Datasheet" "https://tech.alpsalpine.com/prod/j/html/potentiometer/rotarypotentiometers/rk09k/rk09d117000b.html"
-			(at 52.07 -14.58 0)
+			(at 52.07 -28.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9987,7 +10807,7 @@
 			)
 		)
 		(property "Description" "9-inch insulated shaft snap-in type RK09K/RK09D series"
-			(at 76.2 180.34 0)
+			(at 76.2 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9996,7 +10816,7 @@
 			)
 		)
 		(property "Height" "30"
-			(at 52.07 -214.58 0)
+			(at 52.07 -228.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10006,7 +10826,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "ALPS Electric"
-			(at 52.07 -314.58 0)
+			(at 52.07 -328.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10016,7 +10836,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "RK09D117000B"
-			(at 52.07 -414.58 0)
+			(at 52.07 -428.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10026,7 +10846,7 @@
 			)
 		)
 		(property "Mouser Part Number" "688-RK09D117000B"
-			(at 52.07 -514.58 0)
+			(at 52.07 -528.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10036,7 +10856,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Alps-Alpine/RK09D117000B?qs=3cOf6TWd2rbc67829PEbEQ%3D%3D"
-			(at 52.07 -614.58 0)
+			(at 52.07 -628.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10046,7 +10866,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 52.07 -714.58 0)
+			(at 52.07 -728.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10056,12 +10876,30 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 52.07 -814.58 0)
+			(at 52.07 -828.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 76.2 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 76.2 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -10084,6 +10922,93 @@
 			(project "VCOSeparate"
 				(path "/bae8314b-242c-4fa4-bbce-99492909575e/2f41abe6-7163-4fa2-8be9-b46ea312e2c4"
 					(reference "VR4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 107.95 180.34 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c87c6665-8f80-4fcc-859b-2f8010e14752")
+		(property "Reference" "C48"
+			(at 101.346 181.864 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0.01uF"
+			(at 100.33 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm"
+			(at 106.9848 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 107.95 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 107.95 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 107.95 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 107.95 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a70a75d6-6699-470c-ac0e-cb065b44e884")
+		)
+		(pin "1"
+			(uuid "c717d876-509c-439f-8677-b36155934948")
+		)
+		(instances
+			(project "VCOSeparate"
+				(path "/bae8314b-242c-4fa4-bbce-99492909575e/2f41abe6-7163-4fa2-8be9-b46ea312e2c4"
+					(reference "C48")
 					(unit 1)
 				)
 			)
@@ -10141,6 +11066,24 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Library" ""
+			(at 80.01 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 80.01 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4494452a-4d8c-4a65-9fc3-2f14da369428")
 		)
@@ -10187,7 +11130,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:RK09D117000B"
+		(property "Footprint" "SamacSys_parts:RK09D117000B"
 			(at 52.07 40.97 0)
 			(effects
 				(font
@@ -10286,6 +11229,24 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Library" ""
+			(at 76.2 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 76.2 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "59e1d1fd-fb71-4ce4-af96-e7dec1b42bbe")
 		)
@@ -10362,6 +11323,24 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Library" ""
+			(at 240.03 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 240.03 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "ca7621c8-698a-4ef7-818f-9e0f7498c261")
 		)
@@ -10430,6 +11409,24 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 90.17 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 90.17 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" ""
 			(at 90.17 113.03 0)
 			(effects
 				(font
@@ -10727,6 +11724,24 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Library" ""
+			(at 233.68 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 233.68 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "38f1fa96-456f-4121-9819-68fd0881def7")
 		)
@@ -10743,6 +11758,91 @@
 			(project "analogSeparate"
 				(path "/bae8314b-242c-4fa4-bbce-99492909575e/2f41abe6-7163-4fa2-8be9-b46ea312e2c4"
 					(reference "R119")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 107.95 170.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e68c7024-1692-4f5d-8e0f-b8b3476764e2")
+		(property "Reference" "R113"
+			(at 111.76 169.672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "560"
+			(at 112.014 171.704 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
+			(at 106.172 170.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 107.95 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 107.95 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 107.95 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 107.95 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "71c0948d-0919-4397-944b-93264ba7ec96")
+		)
+		(pin "2"
+			(uuid "42ecbb17-82ba-45bb-a674-fecf26dfa80b")
+		)
+		(instances
+			(project "VCOSeparate"
+				(path "/bae8314b-242c-4fa4-bbce-99492909575e/2f41abe6-7163-4fa2-8be9-b46ea312e2c4"
+					(reference "R113")
 					(unit 1)
 				)
 			)
@@ -11082,6 +12182,24 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Library" ""
+			(at 240.03 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 240.03 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4caa2c37-386d-40db-b0e6-c3079470d229")
 		)
@@ -11227,6 +12345,24 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Library" ""
+			(at 107.95 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 107.95 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0c9cf13f-2b7c-41ff-9d3e-dc1e97cca83f")
 		)
@@ -11293,6 +12429,24 @@
 		)
 		(property "Description" "Resistor"
 			(at 36.83 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 36.83 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 36.83 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)

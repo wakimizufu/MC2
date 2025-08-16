@@ -1,0 +1,140 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "20da34b0-f9e2-4ef1-be70-e6e2cca721c0")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 64.77 25.4)
+		(size 12.7 8.89)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "87b1a5da-67d8-4348-8ef2-bf0200c24e87")
+		(property "Sheetname" "ResoVCA"
+			(at 64.77 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "VCF.kicad_sch"
+			(at 64.77 34.8746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "debugVCASeparate"
+				(path "/20da34b0-f9e2-4ef1-be70-e6e2cca721c0"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 38.1 25.4)
+		(size 15.24 8.89)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "95ec37ca-e16f-40ae-99aa-b5e8d93e3c51")
+		(property "Sheetname" "VCA"
+			(at 38.1 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "VCA.kicad_sch"
+			(at 38.1 34.8746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "debugVCASeparate"
+				(path "/20da34b0-f9e2-4ef1-be70-e6e2cca721c0"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 130.81 26.67)
+		(size 16.51 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f6f7ea5b-6179-44e5-8908-c51d3f61c0d2")
+		(property "Sheetname" "Power"
+			(at 130.81 25.9584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "VCF_VCA_Power.kicad_sch"
+			(at 130.81 34.8746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "debugVCASeparate"
+				(path "/20da34b0-f9e2-4ef1-be70-e6e2cca721c0"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

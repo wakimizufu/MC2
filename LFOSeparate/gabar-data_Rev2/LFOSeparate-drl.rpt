@@ -1,0 +1,29 @@
+Drill report for LFOSeparate.kicad_pcb
+Created on 2025-07-27T11:41:52+0900
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  B.Cu                      back
+
+
+Drill file 'LFOSeparate-PTH.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0.300mm  0.0118"  (3 holes)
+    T2  0.700mm  0.0276"  (30 holes)
+    T3  0.750mm  0.0295"  (3 holes)
+    T4  0.800mm  0.0315"  (52 holes)
+    T5  0.900mm  0.0354"  (2 holes)
+    T6  1.000mm  0.0394"  (28 holes)
+    T7  1.200mm  0.0472"  (6 holes)
+    T8  2.970mm  0.1169"  (4 holes)
+
+    Total plated holes count 128
+
+
+Drill file 'LFOSeparate-NPTH.drl' contains
+    unplated through holes:
+    =============================================================
+
+    Total unplated holes count 0

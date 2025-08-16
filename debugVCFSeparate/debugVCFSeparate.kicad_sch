@@ -1,0 +1,140 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "f7dfc6e6-37bf-4d25-bb5d-c23ff66f84de")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 41.91 27.94)
+		(size 16.51 8.89)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2ddca6ae-0d7e-491b-88b9-6a019126647a")
+		(property "Sheetname" "VCF"
+			(at 41.91 27.2284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "VCF.kicad_sch"
+			(at 41.91 37.4146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "debugVCFSeparate"
+				(path "/f7dfc6e6-37bf-4d25-bb5d-c23ff66f84de"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 72.39 26.67)
+		(size 17.78 8.89)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "47a500ec-93dc-4e68-9a2b-3f661e96fa25")
+		(property "Sheetname" "Power"
+			(at 72.39 25.9584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "VCF_VCA_Power.kicad_sch"
+			(at 72.39 36.1446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "debugVCFSeparate"
+				(path "/f7dfc6e6-37bf-4d25-bb5d-c23ff66f84de"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 120.65 29.21)
+		(size 13.97 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c2a73e00-8bae-4ba7-9b36-74077d94ea0f")
+		(property "Sheetname" "CVMix"
+			(at 120.65 28.4984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CVMixer.kicad_sch"
+			(at 120.65 37.4146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "debugVCFSeparate"
+				(path "/f7dfc6e6-37bf-4d25-bb5d-c23ff66f84de"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
