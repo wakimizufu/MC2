@@ -2008,12 +2008,6 @@
 		(uuid "68b0d0ce-acdb-4873-bcce-fa5af47cd68a")
 	)
 	(junction
-		(at 109.22 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7147866e-f5f4-4edf-b6c3-3609aa078e20")
-	)
-	(junction
 		(at 81.28 149.86)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2048,6 +2042,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c57d9d4a-12e7-4966-8224-2aedaf8f9706")
+	)
+	(junction
+		(at 109.22 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c781d34a-6519-4cd2-9e9f-d81e98f42f32")
 	)
 	(junction
 		(at 204.47 135.89)
@@ -2188,6 +2188,16 @@
 			(type default)
 		)
 		(uuid "1c45c17b-7d48-4c33-a627-957d55ac62c8")
+	)
+	(wire
+		(pts
+			(xy 96.52 120.65) (xy 101.6 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23b0e485-ab45-4667-8a00-75134db26013")
 	)
 	(wire
 		(pts
@@ -2381,6 +2391,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 114.3) (xy 109.22 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "508ad4d6-44ca-4ae3-b744-4686cea5504e")
+	)
+	(wire
+		(pts
 			(xy 151.13 152.4) (xy 154.94 152.4)
 		)
 		(stroke
@@ -2448,6 +2468,16 @@
 			(type default)
 		)
 		(uuid "649c565c-6a9e-4bd2-852f-44d9fcfedaad")
+	)
+	(wire
+		(pts
+			(xy 109.22 125.73) (xy 109.22 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67a2aa13-7024-4aa2-b29f-69e45cd64194")
 	)
 	(wire
 		(pts
@@ -3021,16 +3051,6 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 114.3) (xy 109.22 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d888f7b2-4514-4e41-b862-cc232ccc11cb")
-	)
-	(wire
-		(pts
 			(xy 110.49 34.29) (xy 114.3 34.29)
 		)
 		(stroke
@@ -3088,16 +3108,6 @@
 			(type default)
 		)
 		(uuid "ed1ae087-915b-4eb4-ac14-ab47ba4dd3ae")
-	)
-	(wire
-		(pts
-			(xy 101.6 120.65) (xy 96.52 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ee27207c-d085-4e3a-8d66-bfe1a1092845")
 	)
 	(wire
 		(pts
@@ -4448,7 +4458,7 @@
 				)
 			)
 		)
-		(property "Value" "56K"
+		(property "Value" "39K"
 			(at 118.11 73.66 90)
 			(effects
 				(font
@@ -4639,7 +4649,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDA")
-		(at 109.22 125.73 0)
+		(at 109.22 129.54 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4648,7 +4658,7 @@
 		(fields_autoplaced yes)
 		(uuid "574d087b-b0fc-4abf-866d-fc7ee341701b")
 		(property "Reference" "#PWR034"
-			(at 109.22 132.08 0)
+			(at 109.22 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4657,7 +4667,7 @@
 			)
 		)
 		(property "Value" "GNDA"
-			(at 109.22 130.81 0)
+			(at 109.22 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4665,7 +4675,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 109.22 125.73 0)
+			(at 109.22 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4674,7 +4684,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.22 125.73 0)
+			(at 109.22 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4683,7 +4693,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 109.22 125.73 0)
+			(at 109.22 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6927,15 +6937,15 @@
 	(symbol
 		(lib_id "Device:Q_PNP_ECB")
 		(at 106.68 120.65 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "bed49134-a217-4813-ade5-38aa94eb536e")
 		(property "Reference" "Q1"
-			(at 111.76 119.3799 0)
+			(at 112.522 119.888 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6944,7 +6954,7 @@
 			)
 		)
 		(property "Value" "Q_PNP_ECB"
-			(at 111.76 121.9199 0)
+			(at 112.522 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6953,7 +6963,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-92_HandSolder"
-			(at 111.76 118.11 0)
+			(at 111.76 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7213,7 +7223,7 @@
 				)
 			)
 		)
-		(property "Value" "280K"
+		(property "Value" "150K"
 			(at 118.11 111.76 90)
 			(effects
 				(font

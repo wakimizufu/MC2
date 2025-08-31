@@ -2453,6 +2453,72 @@
 		(uuid "fcdf2366-930a-4ec4-be95-dfa855545949")
 	)
 	(symbol
+		(lib_id "power:+12VA")
+		(at 57.15 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "036f0ca5-3c6b-4c52-95ca-4edc4b06dd99")
+		(property "Reference" "#PWR029"
+			(at 57.15 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12VA"
+			(at 57.15 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 57.15 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12VA\""
+			(at 57.15 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ae5f0d91-dfaf-40dc-9d07-05a8541d0bef")
+		)
+		(instances
+			(project "debugVCASeparate"
+				(path "/20da34b0-f9e2-4ef1-be70-e6e2cca721c0/f6f7ea5b-6179-44e5-8908-c51d3f61c0d2"
+					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:Opamp_Dual")
 		(at 96.52 58.42 0)
 		(unit 3)
@@ -3984,6 +4050,72 @@
 	)
 	(symbol
 		(lib_id "power:-12VA")
+		(at 57.15 100.33 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a6dfb3d7-abc6-4292-8ee1-fb7b7120b74c")
+		(property "Reference" "#PWR028"
+			(at 57.15 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-12VA"
+			(at 57.15 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 57.15 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-12VA\""
+			(at 57.15 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6d67a8e1-3aa5-469d-b871-7deeeb6fc2f3")
+		)
+		(instances
+			(project "debugVCASeparate"
+				(path "/20da34b0-f9e2-4ef1-be70-e6e2cca721c0/f6f7ea5b-6179-44e5-8908-c51d3f61c0d2"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:-12VA")
 		(at 152.4 64.77 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4324,6 +4456,130 @@
 				(path "/20da34b0-f9e2-4ef1-be70-e6e2cca721c0/f6f7ea5b-6179-44e5-8908-c51d3f61c0d2"
 					(reference "#FLG03")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Opamp_Dual")
+		(at 59.69 92.71 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c245ffed-3d7d-4958-977a-2e6ed6cf36fd")
+		(property "Reference" "U5"
+			(at 58.42 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Opamp_Dual"
+			(at 58.42 93.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_Socket_LongPads"
+			(at 59.69 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 59.69 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual operational amplifier"
+			(at 59.69 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "${KICAD9_SYMBOL_DIR}/Simulation_SPICE.sp"
+			(at 59.69 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "kicad_builtin_opamp_dual"
+			(at 59.69 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 59.69 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=out1 2=in1- 3=in1+ 4=vee 5=in2+ 6=in2- 7=out2 8=vcc"
+			(at 59.69 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "acf32681-ee21-4a25-b78b-6c9ac65c19ab")
+		)
+		(pin "6"
+			(uuid "bd465cc9-2b40-4f54-9d93-1736916d408b")
+		)
+		(pin "2"
+			(uuid "75389294-771b-408d-aae5-143b52861aac")
+		)
+		(pin "4"
+			(uuid "9e6582f0-33b0-464f-ab5e-ef0229738562")
+		)
+		(pin "1"
+			(uuid "08c3a477-9c3a-493f-845d-f40a44b376cb")
+		)
+		(pin "8"
+			(uuid "7effd894-5070-4bd9-904c-daa3a66f466b")
+		)
+		(pin "3"
+			(uuid "2a130b2d-0d9f-402d-a2a9-02e4387007e3")
+		)
+		(pin "5"
+			(uuid "7c8f4849-b74f-411a-aa40-02099fbdbe69")
+		)
+		(instances
+			(project "debugVCASeparate"
+				(path "/20da34b0-f9e2-4ef1-be70-e6e2cca721c0/f6f7ea5b-6179-44e5-8908-c51d3f61c0d2"
+					(reference "U5")
+					(unit 3)
 				)
 			)
 		)
