@@ -105,7 +105,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "703aad3c-b177-4856-b861-e207f207807c")
-		(property "Sheetname" "LFO"
+		(property "Sheetname" "LFOAnalog"
 			(at 36.83 25.9584 0)
 			(effects
 				(font
