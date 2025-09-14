@@ -48,6 +48,90 @@
 		)
 	)
 	(sheet
+		(at 36.83 53.34)
+		(size 20.32 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3e1fadc0-1ea8-431e-ae01-135c41be23af")
+		(property "Sheetname" "VCA"
+			(at 36.83 52.6284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "VCA.kicad_sch"
+			(at 36.83 65.3546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "SynthBoard"
+				(path "/92765e2f-a998-485f-b610-76a9d5b50cba"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 179.07 27.94)
+		(size 12.7 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "50ce6c98-ea13-446e-a5c0-eb76560b8936")
+		(property "Sheetname" "VCF"
+			(at 179.07 27.2284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "VCF.kicad_sch"
+			(at 179.07 36.1446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "SynthBoard"
+				(path "/92765e2f-a998-485f-b610-76a9d5b50cba"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 102.87 26.67)
 		(size 20.32 10.16)
 		(exclude_from_sim no)
@@ -132,6 +216,90 @@
 		)
 	)
 	(sheet
+		(at 208.28 27.94)
+		(size 13.97 8.89)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "91d0d04c-ea81-4181-b7cc-4c199a791c3e")
+		(property "Sheetname" "VCF_CVMix"
+			(at 208.28 27.2284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "VCF_CVMix.kicad_sch"
+			(at 208.28 37.4146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "SynthBoard"
+				(path "/92765e2f-a998-485f-b610-76a9d5b50cba"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 68.58 53.34)
+		(size 19.05 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ce791b53-fe36-4133-8ad7-8aef41fe14ef")
+		(property "Sheetname" "ResoVCA"
+			(at 68.58 52.6284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ResoVCA.kicad_sch"
+			(at 68.58 64.0846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "SynthBoard"
+				(path "/92765e2f-a998-485f-b610-76a9d5b50cba"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 146.05 26.67)
 		(size 17.78 8.89)
 		(exclude_from_sim no)
@@ -169,6 +337,48 @@
 			(project "SynthBoard"
 				(path "/92765e2f-a998-485f-b610-76a9d5b50cba"
 					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 99.06 53.34)
+		(size 19.05 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "fc1487e4-e9d5-4a53-bb70-9661f25d7f46")
+		(property "Sheetname" "EG"
+			(at 99.06 52.6284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "EG.kicad_sch"
+			(at 99.06 64.0846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "SynthBoard"
+				(path "/92765e2f-a998-485f-b610-76a9d5b50cba"
+					(page "10")
 				)
 			)
 		)

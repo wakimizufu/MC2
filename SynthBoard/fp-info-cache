@@ -1,4 +1,4 @@
-26585558244960264
+26589073523118156
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -96509,6 +96509,13 @@ Variable Resistor
 3
 3
 SamacSys_parts
+3361P_1
+3361P_1
+Resistor
+0
+3
+3
+SamacSys_parts
 3362P_1
 3362P
 Variable Resistor
@@ -97023,6 +97030,13 @@ SamacSys_parts
 SOT95P237X125-3N
 2SC1623-A
 Transistor BJT NPN
+0
+3
+3
+SamacSys_parts
+SOT95P240X120-3N
+SOT-23_2022
+Transistor BJT PNP
 0
 3
 3

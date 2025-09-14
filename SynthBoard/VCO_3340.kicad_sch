@@ -430,170 +430,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:R_Potentiometer"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "RV"
-				(at -4.445 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R_Potentiometer"
-				(at -2.54 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Potentiometer"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "resistor variable"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Potentiometer*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_Potentiometer_0_1"
-				(rectangle
-					(start 1.016 2.54)
-					(end -1.016 -2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.143 0) (xy 2.286 0.508) (xy 2.286 -0.508) (xy 1.143 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 1.524 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_Potentiometer_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 1.27)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "R_1"
 			(pin_numbers
 				(hide yes)
@@ -701,6 +537,196 @@
 					(at 0 -3.81 90)
 					(length 1.27)
 					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "SamacSys_Parts:3362P-1-103LF"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "VR"
+				(at 24.13 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "3362P-1-103LF"
+				(at 24.13 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "3362P_1"
+				(at 24.13 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/SFDatasheet-6/sf-000139931.pdf"
+				(at 24.13 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "10k, Through Hole Trimmer Potentiometer 0.5W Top Adjust Bourns, 3362"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" ""
+				(at 24.13 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Bourns"
+				(at 24.13 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "3362P-1-103LF"
+				(at 24.13 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "652-3362P-1-103LF"
+				(at 24.13 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/3362P-1-103LF?qs=tS7CBNq%252BQ07BavGNEQud%252BA%3D%3D"
+				(at 24.13 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" "3362P-1-103LF"
+				(at 24.13 -894.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/3362p-1-103lf/bourns?utm_currency=USD&region=nac"
+				(at 24.13 -994.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "3362P-1-103LF_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 22.86 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "CCW"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "CW"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 27.94 0 180)
+					(length 5.08)
+					(name "WIPER"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3172,19 +3198,9 @@
 		)
 		(uuid "0cb6c026-72b7-438f-8696-a94b32f718c8")
 	)
-	(text "50K"
-		(exclude_from_sim no)
-		(at 85.09 99.314 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "0cb99d29-16df-42b8-b85c-bdddf7c76b48")
-	)
 	(text "TRIM"
 		(exclude_from_sim no)
-		(at 100.838 93.218 0)
+		(at 100.838 89.408 0)
 		(effects
 			(font
 				(size 1.905 1.905)
@@ -3224,7 +3240,7 @@
 	)
 	(text "270K"
 		(exclude_from_sim no)
-		(at 100.33 111.252 0)
+		(at 63.5 107.442 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3322,6 +3338,16 @@
 		)
 		(uuid "4957ab62-16f6-4719-a9e8-6c16409bac5a")
 	)
+	(text "500"
+		(exclude_from_sim no)
+		(at 263.144 39.624 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "49a34e93-0a99-4cbe-8b8e-993fc73fe149")
+	)
 	(text "Vhsi Hard Sync Input"
 		(exclude_from_sim no)
 		(at 166.624 60.198 0)
@@ -3384,7 +3410,7 @@
 	)
 	(text "100K"
 		(exclude_from_sim no)
-		(at 104.14 96.774 0)
+		(at 104.14 92.964 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3444,7 +3470,7 @@
 	)
 	(text "PWM TRIM"
 		(exclude_from_sim no)
-		(at 259.588 101.092 0)
+		(at 258.572 89.916 0)
 		(effects
 			(font
 				(size 1.905 1.905)
@@ -3642,6 +3668,16 @@
 		)
 		(uuid "a88e964e-2546-460c-8ef8-96accd33fc4a")
 	)
+	(text "50K"
+		(exclude_from_sim no)
+		(at 72.39 90.424 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ab11d1a8-17da-4c58-acf7-ae5cf43c8dd7")
+	)
 	(text "100K"
 		(exclude_from_sim no)
 		(at 101.854 53.594 0)
@@ -3704,7 +3740,7 @@
 	)
 	(text "50K"
 		(exclude_from_sim no)
-		(at 265.684 104.394 0)
+		(at 261.366 92.964 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3801,6 +3837,12 @@
 		(uuid "0e874ceb-f1cf-4b94-8ed0-5c49a5613835")
 	)
 	(junction
+		(at 107.95 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0fc1192c-3526-47d5-933e-f5a8eed95ad1")
+	)
+	(junction
 		(at 157.48 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3873,12 +3915,6 @@
 		(uuid "6fc629d8-6375-4df2-9714-d456df791d49")
 	)
 	(junction
-		(at 237.49 46.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7449a8f3-3db3-4e41-b7ea-43af33b3fbb5")
-	)
-	(junction
 		(at 107.95 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3901,6 +3937,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "829b514f-339e-467b-9028-56d564b41958")
+	)
+	(junction
+		(at 243.84 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "842fa9fd-b2f4-4ce8-855d-34cb81bebc0d")
 	)
 	(junction
 		(at 36.83 48.26)
@@ -3933,6 +3975,12 @@
 		(uuid "aa20b911-c751-440f-a434-fd35f5ee8480")
 	)
 	(junction
+		(at 270.51 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b0b39a3f-213d-46f4-a1d1-aacc686c7394")
+	)
+	(junction
 		(at 232.41 151.13)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3955,18 +4003,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d8bba5f3-f804-4bed-b3d6-6a4631b4dd66")
-	)
-	(junction
-		(at 107.95 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "da639a7e-ae69-45aa-9213-5f7b3b695b35")
-	)
-	(junction
-		(at 270.51 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ea89b4df-a88f-4f63-8bf0-dd124c38a2d9")
 	)
 	(wire
 		(pts
@@ -3997,16 +4033,6 @@
 			(type default)
 		)
 		(uuid "0290ce82-655b-4bff-a07f-d124213c6d92")
-	)
-	(wire
-		(pts
-			(xy 254 46.99) (xy 254 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "02b54f16-9bce-42d1-bb89-ec45c72f40db")
 	)
 	(wire
 		(pts
@@ -4060,6 +4086,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 97.79) (xy 96.52 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ae74a87-9b20-4316-b9a8-392003f63a09")
+	)
+	(wire
+		(pts
 			(xy 247.65 130.81) (xy 252.73 130.81)
 		)
 		(stroke
@@ -4090,16 +4126,6 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 101.6) (xy 96.52 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1264221f-a7f6-4432-aeb8-044f5739f2bc")
-	)
-	(wire
-		(pts
 			(xy 200.66 147.32) (xy 217.17 147.32)
 		)
 		(stroke
@@ -4117,6 +4143,16 @@
 			(type default)
 		)
 		(uuid "13efdca3-8767-4721-986c-b28260aaedb8")
+	)
+	(wire
+		(pts
+			(xy 270.51 107.95) (xy 270.51 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "160601b3-2b6c-443c-bdb2-a34f3058d4d6")
 	)
 	(wire
 		(pts
@@ -4140,6 +4176,16 @@
 	)
 	(wire
 		(pts
+			(xy 53.34 96.52) (xy 53.34 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17d0d8f6-2051-418d-96f0-090e89dc33f5")
+	)
+	(wire
+		(pts
 			(xy 137.16 110.49) (xy 137.16 111.76)
 		)
 		(stroke
@@ -4157,16 +4203,6 @@
 			(type default)
 		)
 		(uuid "1b501e18-ac50-480d-9ec6-39e8ce22ad97")
-	)
-	(wire
-		(pts
-			(xy 107.95 101.6) (xy 107.95 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f9a0da8-2519-47c2-b2d2-8922a33aafd6")
 	)
 	(wire
 		(pts
@@ -4420,16 +4456,6 @@
 	)
 	(wire
 		(pts
-			(xy 275.59 101.6) (xy 270.51 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3b703b62-e3d0-41e9-a747-8a6f920d8fdf")
-	)
-	(wire
-		(pts
 			(xy 62.23 144.78) (xy 62.23 142.24)
 		)
 		(stroke
@@ -4480,13 +4506,23 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 95.25) (xy 90.17 97.79)
+			(xy 53.34 111.76) (xy 53.34 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "45f4bc26-c19f-436d-9e77-4548abe8374e")
+		(uuid "45e2ca8b-17d5-4af4-8bd7-d6248115f746")
+	)
+	(wire
+		(pts
+			(xy 107.95 97.79) (xy 107.95 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4615f466-dbeb-4f64-ba2e-075787cc64c9")
 	)
 	(wire
 		(pts
@@ -4497,16 +4533,6 @@
 			(type default)
 		)
 		(uuid "488c282c-8239-4f0d-9bc0-520e95503908")
-	)
-	(wire
-		(pts
-			(xy 237.49 46.99) (xy 240.03 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4b5028d8-5fda-4ccd-84bd-fb1e4e2a9209")
 	)
 	(wire
 		(pts
@@ -4530,6 +4556,16 @@
 	)
 	(wire
 		(pts
+			(xy 53.34 100.33) (xy 53.34 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e3c6eff-144f-4efb-b33b-b541804de3c2")
+	)
+	(wire
+		(pts
 			(xy 232.41 151.13) (xy 232.41 153.67)
 		)
 		(stroke
@@ -4540,7 +4576,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 101.6) (xy 107.95 80.01)
+			(xy 107.95 97.79) (xy 107.95 132.08)
 		)
 		(stroke
 			(width 0)
@@ -4680,16 +4716,6 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 110.49) (xy 270.51 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d46ac8b-e1ac-4fdf-a51a-947840c9d6b5")
-	)
-	(wire
-		(pts
 			(xy 218.44 60.96) (xy 218.44 66.04)
 		)
 		(stroke
@@ -4727,16 +4753,6 @@
 			(type default)
 		)
 		(uuid "659398e4-7303-4992-97f1-8b4e342fe830")
-	)
-	(wire
-		(pts
-			(xy 243.84 40.64) (xy 237.49 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "65b25d3e-403f-4407-b734-6dd364dda405")
 	)
 	(wire
 		(pts
@@ -4780,16 +4796,6 @@
 	)
 	(wire
 		(pts
-			(xy 275.59 106.68) (xy 275.59 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6eca4ea2-f765-4dc9-bf52-69225eeffe65")
-	)
-	(wire
-		(pts
 			(xy 234.95 151.13) (xy 234.95 148.59)
 		)
 		(stroke
@@ -4817,6 +4823,16 @@
 			(type default)
 		)
 		(uuid "70f73c33-e22f-47c0-889d-4305a04ce502")
+	)
+	(wire
+		(pts
+			(xy 234.95 46.99) (xy 243.84 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74314fa6-e112-45ee-b379-7aabdc8afdc4")
 	)
 	(wire
 		(pts
@@ -4930,16 +4946,6 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 46.99) (xy 237.49 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "814214e6-6ac3-4913-a8b6-81dc35851727")
-	)
-	(wire
-		(pts
 			(xy 199.39 60.96) (xy 218.44 60.96)
 		)
 		(stroke
@@ -4990,13 +4996,23 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 101.6) (xy 107.95 101.6)
+			(xy 104.14 97.79) (xy 107.95 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "846e40e3-d872-4935-ba1e-a26fed9ae1e4")
+	)
+	(wire
+		(pts
+			(xy 242.57 107.95) (xy 270.51 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8536e787-ad9c-4372-a4aa-c3c6703ef2b6")
 	)
 	(wire
 		(pts
@@ -5007,26 +5023,6 @@
 			(type default)
 		)
 		(uuid "86473cf6-3637-4343-a1fc-8f9d2e315a64")
-	)
-	(wire
-		(pts
-			(xy 270.51 101.6) (xy 270.51 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8685f8bf-b3b4-4586-88f6-250509eae602")
-	)
-	(wire
-		(pts
-			(xy 247.65 46.99) (xy 254 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "87188d49-ebdd-459b-b6e6-8e2c86862abb")
 	)
 	(wire
 		(pts
@@ -5120,6 +5116,16 @@
 	)
 	(wire
 		(pts
+			(xy 271.78 49.53) (xy 274.32 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "919f7f6d-c515-4d32-bb9c-a7f600847cda")
+	)
+	(wire
+		(pts
 			(xy 135.89 45.72) (xy 143.51 45.72)
 		)
 		(stroke
@@ -5210,16 +5216,6 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 100.33) (xy 270.51 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9b8d2f52-bb1d-4b88-b3c8-64cc8db01376")
-	)
-	(wire
-		(pts
 			(xy 227.33 55.88) (xy 229.87 55.88)
 		)
 		(stroke
@@ -5290,6 +5286,16 @@
 	)
 	(wire
 		(pts
+			(xy 271.78 46.99) (xy 271.78 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5730b30-d416-468b-af36-5a48b260dca8")
+	)
+	(wire
+		(pts
 			(xy 91.44 43.18) (xy 95.25 43.18)
 		)
 		(stroke
@@ -5317,6 +5323,16 @@
 			(type default)
 		)
 		(uuid "a9253759-d926-4a7a-a600-023b467a706a")
+	)
+	(wire
+		(pts
+			(xy 271.78 43.18) (xy 243.84 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a933a6d1-7157-4574-aa14-86055e5c11c0")
 	)
 	(wire
 		(pts
@@ -5410,6 +5426,16 @@
 	)
 	(wire
 		(pts
+			(xy 243.84 43.18) (xy 243.84 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2a7151f-f190-40bb-a14f-7bf56eb35064")
+	)
+	(wire
+		(pts
 			(xy 107.95 162.56) (xy 107.95 165.1)
 		)
 		(stroke
@@ -5460,16 +5486,6 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 105.41) (xy 90.17 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bd7f621b-a9a1-4b92-af60-e3677a4cfbe0")
-	)
-	(wire
-		(pts
 			(xy 36.83 71.12) (xy 41.91 71.12)
 		)
 		(stroke
@@ -5487,6 +5503,16 @@
 			(type default)
 		)
 		(uuid "c3ab6622-8618-437d-8dae-1a927f6c0941")
+	)
+	(wire
+		(pts
+			(xy 270.51 107.95) (xy 270.51 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6ee691c-5179-418f-a49d-d40abdf0e51c")
 	)
 	(wire
 		(pts
@@ -5530,16 +5556,6 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 40.64) (xy 237.49 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d17021b6-8e2e-4880-8c43-22ccd9863510")
-	)
-	(wire
-		(pts
 			(xy 107.95 162.56) (xy 107.95 132.08)
 		)
 		(stroke
@@ -5567,6 +5583,16 @@
 			(type default)
 		)
 		(uuid "d79098cf-4e6b-45a7-b5f7-bebbaa878da1")
+	)
+	(wire
+		(pts
+			(xy 274.32 49.53) (xy 274.32 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7efcc7f-56a9-46a7-95f8-b5361000271c")
 	)
 	(wire
 		(pts
@@ -5710,16 +5736,6 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 43.18) (xy 243.84 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f23c7230-3d10-4d28-81aa-d5b5f92e6785")
-	)
-	(wire
-		(pts
 			(xy 52.07 62.23) (xy 88.9 62.23)
 		)
 		(stroke
@@ -5740,13 +5756,13 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 106.68) (xy 275.59 106.68)
+			(xy 242.57 102.87) (xy 242.57 107.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f50abd39-906e-4211-92f8-4716fa6dce41")
+		(uuid "f5cb3037-eb74-4f1e-904e-530809904fb1")
 	)
 	(wire
 		(pts
@@ -6094,28 +6110,6 @@
 			)
 		)
 	)
-	(global_label "LFO_Sine"
-		(shape input)
-		(at 43.18 160.02 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "446cbc18-c341-4106-91e8-7d165e6248e9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 31.7281 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "PWM_S_ENV"
 		(shape input)
 		(at 156.21 132.08 0)
@@ -6446,6 +6440,28 @@
 			)
 		)
 	)
+	(global_label "Sine"
+		(shape input)
+		(at 43.18 160.02 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d4e71501-0592-450f-8dbb-4248bda2206f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 36.1429 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "RANGE_8"
 		(shape input)
 		(at 52.07 78.74 0)
@@ -6646,7 +6662,7 @@
 	)
 	(symbol
 		(lib_id "power:+5VA")
-		(at 90.17 95.25 0)
+		(at 53.34 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6655,7 +6671,7 @@
 		(fields_autoplaced yes)
 		(uuid "004a3355-4bdb-4a3d-836d-a1f6b8cd9e6f")
 		(property "Reference" "#PWR020"
-			(at 90.17 99.06 0)
+			(at 53.34 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6664,7 +6680,7 @@
 			)
 		)
 		(property "Value" "+5VA"
-			(at 90.17 90.17 0)
+			(at 53.34 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6672,7 +6688,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 90.17 95.25 0)
+			(at 53.34 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6681,7 +6697,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.17 95.25 0)
+			(at 53.34 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6690,7 +6706,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5VA\""
-			(at 90.17 95.25 0)
+			(at 53.34 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7639,7 +7655,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDA")
-		(at 90.17 115.57 0)
+		(at 53.34 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7648,7 +7664,7 @@
 		(fields_autoplaced yes)
 		(uuid "418d4677-42f7-47db-8944-31bb5b0610e4")
 		(property "Reference" "#PWR051"
-			(at 90.17 121.92 0)
+			(at 53.34 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7657,7 +7673,7 @@
 			)
 		)
 		(property "Value" "GNDA"
-			(at 90.17 120.65 0)
+			(at 53.34 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7665,7 +7681,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 90.17 115.57 0)
+			(at 53.34 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7674,7 +7690,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.17 115.57 0)
+			(at 53.34 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7683,7 +7699,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 90.17 115.57 0)
+			(at 53.34 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7942,32 +7958,53 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Potentiometer")
-		(at 243.84 46.99 90)
+		(lib_id "SamacSys_Parts:3362P-1-103LF")
+		(at 53.34 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "4b4a2c74-57d5-4995-9169-38d515ef52be")
-		(property "Reference" "TM6"
-			(at 247.65 41.91 90)
+		(fields_autoplaced yes)
+		(uuid "4aa6fb01-a2c1-429b-8c25-aec87fb6018f")
+		(property "Reference" "VR20"
+			(at 67.31 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "500"
-			(at 247.396 43.942 90)
+		(property "Value" "3362P-1-503LF"
+			(at 67.31 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3386P_Vertical"
-			(at 243.84 46.99 0)
+		(property "Footprint" "3362P_1"
+			(at 77.47 192.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/SFDatasheet-6/sf-000139931.pdf"
+			(at 77.47 292.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "10k, Through Hole Trimmer Potentiometer 0.5W Top Adjust Bourns, 3362"
+			(at 53.34 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7975,55 +8012,89 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 243.84 46.99 0)
+		(property "Height" ""
+			(at 77.47 492.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Description" "Potentiometer"
-			(at 243.84 46.99 0)
+		(property "Manufacturer_Name" "Bourns"
+			(at 77.47 592.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Sim.Library" ""
-			(at 243.84 46.99 90)
+		(property "Manufacturer_Part_Number" "3362P-1-103LF"
+			(at 77.47 692.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Sim.Name" ""
-			(at 243.84 46.99 90)
+		(property "Mouser Part Number" "652-3362P-1-103LF"
+			(at 77.47 792.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(pin "3"
-			(uuid "cb6d2f14-bc8d-42c3-9800-d1242dadea75")
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/3362P-1-103LF?qs=tS7CBNq%252BQ07BavGNEQud%252BA%3D%3D"
+			(at 77.47 892.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "3362P-1-103LF"
+			(at 77.47 992.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/3362p-1-103lf/bourns?utm_currency=USD&region=nac"
+			(at 77.47 1092.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
 		)
 		(pin "2"
-			(uuid "333ca064-80d1-4339-8e15-7de9b92addf7")
+			(uuid "cf272c0f-60c8-4ed6-bd43-512c1285fa5f")
 		)
 		(pin "1"
-			(uuid "213033df-9c8f-42aa-b80c-99f5384d1322")
+			(uuid "46974be5-7951-4f41-8d1a-3a77b0e710e9")
+		)
+		(pin "3"
+			(uuid "fbac4267-7203-4b38-8517-b913b0771d25")
 		)
 		(instances
 			(project "SynthBoard"
 				(path "/92765e2f-a998-485f-b610-76a9d5b50cba/31ade73f-3a23-4ba6-8fdd-ae7b8a426ce4"
-					(reference "TM6")
+					(reference "VR20")
 					(unit 1)
 				)
 			)
@@ -8977,7 +9048,7 @@
 	)
 	(symbol
 		(lib_id "power:+12VA")
-		(at 270.51 100.33 0)
+		(at 242.57 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8986,7 +9057,7 @@
 		(fields_autoplaced yes)
 		(uuid "6dda0289-bddd-492d-894e-b0f0b129593d")
 		(property "Reference" "#PWR067"
-			(at 270.51 104.14 0)
+			(at 242.57 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8995,7 +9066,7 @@
 			)
 		)
 		(property "Value" "+12VA"
-			(at 270.51 95.25 0)
+			(at 242.57 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9003,7 +9074,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 270.51 100.33 0)
+			(at 242.57 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9012,7 +9083,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 270.51 100.33 0)
+			(at 242.57 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9021,7 +9092,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12VA\""
-			(at 270.51 100.33 0)
+			(at 242.57 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9121,94 +9192,6 @@
 			(project "SynthBoard"
 				(path "/92765e2f-a998-485f-b610-76a9d5b50cba/31ade73f-3a23-4ba6-8fdd-ae7b8a426ce4"
 					(reference "R44")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Potentiometer")
-		(at 90.17 101.6 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "72980820-04a9-41b9-8402-b2516cdd4af9")
-		(property "Reference" "TM5"
-			(at 81.026 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "G43BT-B503"
-			(at 83.312 101.092 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3386P_Vertical"
-			(at 90.17 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 90.17 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Potentiometer"
-			(at 90.17 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Library" ""
-			(at 90.17 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" ""
-			(at 90.17 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "0588f460-5981-49e6-9154-4c3659554249")
-		)
-		(pin "2"
-			(uuid "09f80cdc-60e1-4e84-a861-a177881aaf6f")
-		)
-		(pin "1"
-			(uuid "70a257f6-dff3-4f49-b6ed-00bb4e15c18a")
-		)
-		(instances
-			(project "SynthBoard"
-				(path "/92765e2f-a998-485f-b610-76a9d5b50cba/31ade73f-3a23-4ba6-8fdd-ae7b8a426ce4"
-					(reference "TM5")
 					(unit 1)
 				)
 			)
@@ -9518,7 +9501,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDA")
-		(at 254 48.26 0)
+		(at 274.32 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9527,7 +9510,7 @@
 		(fields_autoplaced yes)
 		(uuid "7b065faa-927f-4864-be35-b6d0db516765")
 		(property "Reference" "#PWR070"
-			(at 254 54.61 0)
+			(at 274.32 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9536,7 +9519,7 @@
 			)
 		)
 		(property "Value" "GNDA"
-			(at 254 53.34 0)
+			(at 274.32 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9544,7 +9527,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 254 48.26 0)
+			(at 274.32 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9553,7 +9536,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 254 48.26 0)
+			(at 274.32 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9562,7 +9545,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 254 48.26 0)
+			(at 274.32 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11243,7 +11226,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 100.33 101.6 90)
+		(at 100.33 97.79 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11251,7 +11234,7 @@
 		(dnp no)
 		(uuid "a8ec80ae-c334-4bcc-a8ab-b1a42e770342")
 		(property "Reference" "R116"
-			(at 98.044 96.52 90)
+			(at 98.044 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11259,7 +11242,7 @@
 			)
 		)
 		(property "Value" "0805W8J0104T5E"
-			(at 100.33 99.06 90)
+			(at 100.33 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11267,7 +11250,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 100.33 103.378 90)
+			(at 100.33 99.568 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11276,7 +11259,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 100.33 101.6 0)
+			(at 100.33 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11285,7 +11268,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 100.33 101.6 0)
+			(at 100.33 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11294,7 +11277,7 @@
 			)
 		)
 		(property "Sim.Library" ""
-			(at 100.33 101.6 90)
+			(at 100.33 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11303,7 +11286,7 @@
 			)
 		)
 		(property "Sim.Name" ""
-			(at 100.33 101.6 90)
+			(at 100.33 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12036,6 +12019,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -12316,96 +12300,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Potentiometer")
-		(at 270.51 106.68 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ce5d1489-365b-4773-8cf9-8b59790b5949")
-		(property "Reference" "TM4"
-			(at 261.112 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "G43BT-B503"
-			(at 262.382 106.172 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3386P_Vertical"
-			(at 270.51 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 270.51 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Potentiometer"
-			(at 270.51 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Library" ""
-			(at 270.51 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" ""
-			(at 270.51 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "ca7621c8-698a-4ef7-818f-9e0f7498c261")
-		)
-		(pin "2"
-			(uuid "e678a797-a717-4deb-b349-8c43acc78b0f")
-		)
-		(pin "1"
-			(uuid "eead0696-5485-47ac-b77d-6bd162cc1706")
-		)
-		(instances
-			(project "SynthBoard"
-				(path "/92765e2f-a998-485f-b610-76a9d5b50cba/31ade73f-3a23-4ba6-8fdd-ae7b8a426ce4"
-					(reference "TM4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
-		(at 90.17 111.76 180)
+		(at 53.34 107.95 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12413,7 +12309,7 @@
 		(dnp no)
 		(uuid "ce82ef65-ba50-46fb-9143-aad86c2aaa5f")
 		(property "Reference" "R117"
-			(at 94.488 110.998 0)
+			(at 57.658 107.188 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12421,7 +12317,7 @@
 			)
 		)
 		(property "Value" "0805W8F2703T5E"
-			(at 100.076 113.284 0)
+			(at 63.246 109.474 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12429,7 +12325,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 91.948 111.76 90)
+			(at 55.118 107.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12438,7 +12334,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 90.17 111.76 0)
+			(at 53.34 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12447,7 +12343,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 90.17 111.76 0)
+			(at 53.34 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12456,7 +12352,7 @@
 			)
 		)
 		(property "Sim.Library" ""
-			(at 90.17 111.76 0)
+			(at 53.34 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12465,7 +12361,7 @@
 			)
 		)
 		(property "Sim.Name" ""
-			(at 90.17 111.76 0)
+			(at 53.34 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12615,6 +12511,149 @@
 			(project "SynthBoard"
 				(path "/92765e2f-a998-485f-b610-76a9d5b50cba/31ade73f-3a23-4ba6-8fdd-ae7b8a426ce4"
 					(reference "#PWR0107")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:3362P-1-103LF")
+		(at 242.57 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d7fd4b44-908a-4e17-9463-d14a206f5948")
+		(property "Reference" "VR21"
+			(at 256.54 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3362P-1-503LF"
+			(at 256.54 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "3362P_1"
+			(at 266.7 195.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/SFDatasheet-6/sf-000139931.pdf"
+			(at 266.7 295.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "10k, Through Hole Trimmer Potentiometer 0.5W Top Adjust Bourns, 3362"
+			(at 242.57 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 266.7 495.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Bourns"
+			(at 266.7 595.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "3362P-1-103LF"
+			(at 266.7 695.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "652-3362P-1-103LF"
+			(at 266.7 795.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/3362P-1-103LF?qs=tS7CBNq%252BQ07BavGNEQud%252BA%3D%3D"
+			(at 266.7 895.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "3362P-1-103LF"
+			(at 266.7 995.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/3362p-1-103lf/bourns?utm_currency=USD&region=nac"
+			(at 266.7 1095.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9e6673e7-c10f-44ab-9ea9-68a3d4707055")
+		)
+		(pin "1"
+			(uuid "f6b75ec5-709f-406f-b299-d6a8a5a37e81")
+		)
+		(pin "3"
+			(uuid "c2ea4a21-c92c-4da8-8f7d-dfb1557b3614")
+		)
+		(instances
+			(project "SynthBoard"
+				(path "/92765e2f-a998-485f-b610-76a9d5b50cba/31ade73f-3a23-4ba6-8fdd-ae7b8a426ce4"
+					(reference "VR21")
 					(unit 1)
 				)
 			)
@@ -13183,6 +13222,149 @@
 			(project "SynthBoard"
 				(path "/92765e2f-a998-485f-b610-76a9d5b50cba/31ade73f-3a23-4ba6-8fdd-ae7b8a426ce4"
 					(reference "#PWR057")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:3362P-1-103LF")
+		(at 271.78 46.99 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "efbcf489-968c-40f8-b229-5da5b952093b")
+		(property "Reference" "VR27"
+			(at 257.81 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3362P-1-104LF"
+			(at 257.81 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "3362P_1"
+			(at 247.65 141.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/SFDatasheet-6/sf-000139931.pdf"
+			(at 247.65 241.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "10k, Through Hole Trimmer Potentiometer 0.5W Top Adjust Bourns, 3362"
+			(at 271.78 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 247.65 441.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Bourns"
+			(at 247.65 541.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "3362P-1-103LF"
+			(at 247.65 641.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "652-3362P-1-103LF"
+			(at 247.65 741.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/3362P-1-103LF?qs=tS7CBNq%252BQ07BavGNEQud%252BA%3D%3D"
+			(at 247.65 841.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "3362P-1-103LF"
+			(at 247.65 941.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/3362p-1-103lf/bourns?utm_currency=USD&region=nac"
+			(at 247.65 1041.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7bd02e5b-a06d-4238-9ff5-f600752d3bd7")
+		)
+		(pin "1"
+			(uuid "810ebc57-9ac1-4233-b7e0-dc88d8e2e7d3")
+		)
+		(pin "3"
+			(uuid "ebea93f1-95e5-42be-a867-d985812de9e8")
+		)
+		(instances
+			(project "SynthBoard"
+				(path "/92765e2f-a998-485f-b610-76a9d5b50cba/31ade73f-3a23-4ba6-8fdd-ae7b8a426ce4"
+					(reference "VR27")
 					(unit 1)
 				)
 			)

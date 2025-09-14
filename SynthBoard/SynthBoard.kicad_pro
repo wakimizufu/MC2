@@ -750,6 +750,26 @@
     [
       "f1843a98-b8f0-4d2f-a60f-8ff83b866cf8",
       "Power"
+    ],
+    [
+      "50ce6c98-ea13-446e-a5c0-eb76560b8936",
+      "VCF"
+    ],
+    [
+      "91d0d04c-ea81-4181-b7cc-4c199a791c3e",
+      "VCF_CVMix"
+    ],
+    [
+      "3e1fadc0-1ea8-431e-ae01-135c41be23af",
+      "VCA"
+    ],
+    [
+      "ce791b53-fe36-4133-8ad7-8aef41fe14ef",
+      "ResoVCA"
+    ],
+    [
+      "fc1487e4-e9d5-4a53-bb70-9661f25d7f46",
+      "EG"
     ]
   ],
   "text_variables": {}
