@@ -770,6 +770,14 @@
     [
       "fc1487e4-e9d5-4a53-bb70-9661f25d7f46",
       "EG"
+    ],
+    [
+      "1c4a6619-d626-4182-b701-3fbed1de3c75",
+      "LFO Digital"
+    ],
+    [
+      "a8184a09-2ac5-4159-bd95-783f5bee7b39",
+      "Connect"
     ]
   ],
   "text_variables": {}

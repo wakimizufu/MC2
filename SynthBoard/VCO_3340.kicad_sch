@@ -6022,7 +6022,7 @@
 			)
 		)
 	)
-	(global_label "Env"
+	(global_label "EnvFlt"
 		(shape input)
 		(at 129.54 149.86 180)
 		(fields_autoplaced yes)
@@ -7983,7 +7983,7 @@
 				)
 			)
 		)
-		(property "Footprint" "3362P_1"
+		(property "Footprint" "SamacSys_parts:3362P_1"
 			(at 77.47 192.71 0)
 			(effects
 				(font
@@ -12542,7 +12542,7 @@
 				)
 			)
 		)
-		(property "Footprint" "3362P_1"
+		(property "Footprint" "SamacSys_parts:3362P_1"
 			(at 266.7 195.25 0)
 			(effects
 				(font
@@ -13245,7 +13245,7 @@
 				)
 			)
 		)
-		(property "Value" "3362P-1-104LF"
+		(property "Value" "3362P-1-501LF"
 			(at 257.81 41.91 0)
 			(effects
 				(font
@@ -13253,7 +13253,7 @@
 				)
 			)
 		)
-		(property "Footprint" "3362P_1"
+		(property "Footprint" "SamacSys_parts:3362P_1"
 			(at 247.65 141.91 0)
 			(effects
 				(font

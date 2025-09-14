@@ -6,6 +6,48 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
+		(at 140.97 54.61)
+		(size 16.51 8.89)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1c4a6619-d626-4182-b701-3fbed1de3c75")
+		(property "Sheetname" "LFO Digital"
+			(at 140.97 53.8984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "LFO_Digital.kicad_sch"
+			(at 140.97 64.0846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "SynthBoard"
+				(path "/92765e2f-a998-485f-b610-76a9d5b50cba"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 68.58 26.67)
 		(size 20.32 10.16)
 		(exclude_from_sim no)
@@ -253,6 +295,48 @@
 			(project "SynthBoard"
 				(path "/92765e2f-a998-485f-b610-76a9d5b50cba"
 					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 180.34 55.88)
+		(size 15.24 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a8184a09-2ac5-4159-bd95-783f5bee7b39")
+		(property "Sheetname" "Connect"
+			(at 180.34 55.1684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Connect.kicad_sch"
+			(at 180.34 64.0846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "SynthBoard"
+				(path "/92765e2f-a998-485f-b610-76a9d5b50cba"
+					(page "12")
 				)
 			)
 		)

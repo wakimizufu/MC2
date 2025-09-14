@@ -687,148 +687,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Generic:Conn_01x02"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x02"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x02_1_1"
-				(rectangle
-					(start -1.27 1.27)
-					(end 1.27 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:Opamp_Dual"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2714,16 +2572,6 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 35.56) (xy 234.95 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0d19ae4a-b4ce-4282-b3fc-996f05dbd777")
-	)
-	(wire
-		(pts
 			(xy 191.77 35.56) (xy 198.12 35.56)
 		)
 		(stroke
@@ -3114,16 +2962,6 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 38.1) (xy 229.87 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "779ebe3d-eb66-46f7-b2d5-d4a95a088030")
-	)
-	(wire
-		(pts
 			(xy 200.66 129.54) (xy 200.66 123.19)
 		)
 		(stroke
@@ -3221,16 +3059,6 @@
 			(type default)
 		)
 		(uuid "97b6422f-dff6-44bf-95f9-8833662a24e9")
-	)
-	(wire
-		(pts
-			(xy 229.87 38.1) (xy 229.87 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "97c0d9a1-3f1d-4a92-8ec5-cbb9fb28ceab")
 	)
 	(wire
 		(pts
@@ -3627,28 +3455,6 @@
 		(uuid "0ecfc87f-2c08-49c9-a371-ec5dd55df219")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 49.9314 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VCF_ResoWav"
-		(shape input)
-		(at 231.14 35.56 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4e960ca4-f6be-4c13-8127-1a0f4fe0c916")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 215.6363 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6123,73 +5929,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDA")
-		(at 229.87 43.18 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a0f49980-7e16-462d-8834-c8c7cd02477f")
-		(property "Reference" "#PWR0139"
-			(at 229.87 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDA"
-			(at 229.87 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 229.87 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 229.87 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 229.87 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d8e29e29-b52e-4bb3-b26f-375fd85963e3")
-		)
-		(instances
-			(project "SynthBoard"
-				(path "/92765e2f-a998-485f-b610-76a9d5b50cba/ce791b53-fe36-4133-8ad7-8aef41fe14ef"
-					(reference "#PWR0139")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:Opamp_Dual")
 		(at 168.91 115.57 0)
 		(mirror x)
@@ -6645,76 +6384,6 @@
 			(project "SynthBoard"
 				(path "/92765e2f-a998-485f-b610-76a9d5b50cba/ce791b53-fe36-4133-8ad7-8aef41fe14ef"
 					(reference "#PWR040")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 240.03 35.56 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bfb903fb-576d-4ac9-92c4-8eafb385c3ba")
-		(property "Reference" "J11"
-			(at 242.57 35.5599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "VCF_ResoWav"
-			(at 242.57 38.0999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
-			(at 240.03 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 240.03 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 240.03 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "aebdb036-9f5c-40f5-9676-cb782d0c9c69")
-		)
-		(pin "2"
-			(uuid "423d6d35-8693-4fc6-9d40-4fcb23f6b58a")
-		)
-		(instances
-			(project "SynthBoard"
-				(path "/92765e2f-a998-485f-b610-76a9d5b50cba/ce791b53-fe36-4133-8ad7-8aef41fe14ef"
-					(reference "J11")
 					(unit 1)
 				)
 			)

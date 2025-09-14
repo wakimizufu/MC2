@@ -3173,16 +3173,6 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 39.37) (xy 74.93 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6c3f743c-c46f-49a4-8083-472b45415450")
-	)
-	(wire
-		(pts
 			(xy 91.44 81.28) (xy 93.98 81.28)
 		)
 		(stroke
@@ -3190,16 +3180,6 @@
 			(type default)
 		)
 		(uuid "6c48a0d8-d7b1-4722-84de-6bda17e83509")
-	)
-	(wire
-		(pts
-			(xy 74.93 41.91) (xy 69.85 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6cbf236e-5cfa-46ce-922a-e63f98c10af7")
 	)
 	(wire
 		(pts
@@ -3240,16 +3220,6 @@
 			(type default)
 		)
 		(uuid "7e9329ae-615d-4992-b3c5-3b63416ac035")
-	)
-	(wire
-		(pts
-			(xy 69.85 41.91) (xy 69.85 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "85e4cb4b-30fc-48a5-89b5-c8f3d4cce715")
 	)
 	(wire
 		(pts
@@ -3350,16 +3320,6 @@
 			(type default)
 		)
 		(uuid "b229a4d3-26f2-40b3-bb12-ef918d592697")
-	)
-	(wire
-		(pts
-			(xy 110.49 41.91) (xy 104.14 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b45fba7e-a178-404e-9fd2-c31ebb17e286")
 	)
 	(wire
 		(pts
@@ -3480,16 +3440,6 @@
 			(type default)
 		)
 		(uuid "dd83a898-b111-4aee-b8fa-dc4d8a277f0f")
-	)
-	(wire
-		(pts
-			(xy 104.14 41.91) (xy 104.14 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e30d87ec-8e5b-4304-8dd0-da9c07049a5b")
 	)
 	(wire
 		(pts
@@ -3615,28 +3565,6 @@
 			)
 		)
 	)
-	(global_label "VCF_OUT"
-		(shape output)
-		(at 71.12 39.37 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9e0238c3-cbf5-4a09-8834-28d84f098da5")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 60.0914 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "VCACnt"
 		(shape output)
 		(at 181.61 149.86 0)
@@ -3681,29 +3609,7 @@
 			)
 		)
 	)
-	(global_label "VCAEnv"
-		(shape output)
-		(at 110.49 39.37 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b67c78bb-4ff3-440b-ab28-58716108840e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 104.2392 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VCAEnv"
+	(global_label "EnvAmp"
 		(shape input)
 		(at 44.45 137.16 180)
 		(fields_autoplaced yes)
@@ -3715,7 +3621,7 @@
 		)
 		(uuid "e4bd336b-4458-4643-9e96-2cb73a4ebd42")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 38.1992 137.16 0)
+			(at 34.752 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4779,73 +4685,6 @@
 			(project "SynthBoard"
 				(path "/92765e2f-a998-485f-b610-76a9d5b50cba/3e1fadc0-1ea8-431e-ae01-135c41be23af"
 					(reference "#PWR0125")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDA")
-		(at 104.14 46.99 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "41c9b325-b207-4576-afa8-4073bea41604")
-		(property "Reference" "#PWR0115"
-			(at 104.14 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDA"
-			(at 104.14 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 104.14 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 104.14 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 104.14 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f87f9dfb-f062-46ef-93bb-b585de38dd9b")
-		)
-		(instances
-			(project "SynthBoard"
-				(path "/92765e2f-a998-485f-b610-76a9d5b50cba/3e1fadc0-1ea8-431e-ae01-135c41be23af"
-					(reference "#PWR0115")
 					(unit 1)
 				)
 			)
@@ -7127,143 +6966,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 115.57 39.37 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "df204416-ee77-48b1-a6fc-ece7746baffb")
-		(property "Reference" "J9"
-			(at 118.11 39.3699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "VCAEnv"
-			(at 118.11 41.9099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
-			(at 115.57 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 115.57 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 115.57 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "daa4a459-b6f5-4432-ac2a-aac35e970575")
-		)
-		(pin "2"
-			(uuid "5989b2ba-f6fe-41c6-9ecf-f390fb3b698e")
-		)
-		(instances
-			(project "SynthBoard"
-				(path "/92765e2f-a998-485f-b610-76a9d5b50cba/3e1fadc0-1ea8-431e-ae01-135c41be23af"
-					(reference "J9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDA")
-		(at 69.85 46.99 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e105ee3a-184b-436b-b546-ddb55ccac511")
-		(property "Reference" "#PWR0112"
-			(at 69.85 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDA"
-			(at 69.85 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 69.85 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 69.85 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 69.85 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "091a8d43-9053-4385-ace3-67c0e73138c4")
-		)
-		(instances
-			(project "SynthBoard"
-				(path "/92765e2f-a998-485f-b610-76a9d5b50cba/3e1fadc0-1ea8-431e-ae01-135c41be23af"
-					(reference "#PWR0112")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "SamacSys_Parts:RK09D117000B")
 		(at 257.81 95.25 0)
 		(mirror y)
@@ -7686,76 +7388,6 @@
 			(project "SynthBoard"
 				(path "/92765e2f-a998-485f-b610-76a9d5b50cba/3e1fadc0-1ea8-431e-ae01-135c41be23af"
 					(reference "#PWR0166")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 80.01 39.37 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f6887b38-e1eb-4bfd-a205-1dd49343f1ff")
-		(property "Reference" "J8"
-			(at 82.55 39.3699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "AudioIn"
-			(at 82.55 41.9099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
-			(at 80.01 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 80.01 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 80.01 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0113ed24-0535-4182-81f5-b30ff4360a27")
-		)
-		(pin "2"
-			(uuid "4437ba15-d91e-493a-bf78-39c25093f4a1")
-		)
-		(instances
-			(project "SynthBoard"
-				(path "/92765e2f-a998-485f-b610-76a9d5b50cba/3e1fadc0-1ea8-431e-ae01-135c41be23af"
-					(reference "J8")
 					(unit 1)
 				)
 			)
