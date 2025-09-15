@@ -2641,7 +2641,7 @@
 	)
 	(text "GND"
 		(exclude_from_sim no)
-		(at 278.13 100.584 0)
+		(at 278.13 99.314 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2691,7 +2691,7 @@
 	)
 	(text "AudioOut"
 		(exclude_from_sim no)
-		(at 280.416 97.79 0)
+		(at 280.416 96.52 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2748,7 +2748,7 @@
 		(uuid "5f8ed457-77b4-4418-ad25-30626cd9c208")
 	)
 	(junction
-		(at 227.33 97.79)
+		(at 227.33 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "739cf835-159d-4114-8a73-b166ec66a275")
@@ -2853,7 +2853,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 97.79) (xy 227.33 97.79)
+			(xy 229.87 96.52) (xy 227.33 96.52)
 		)
 		(stroke
 			(width 0)
@@ -2903,7 +2903,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 95.25) (xy 227.33 95.25)
+			(xy 229.87 99.06) (xy 227.33 99.06)
 		)
 		(stroke
 			(width 0)
@@ -3093,6 +3093,16 @@
 	)
 	(wire
 		(pts
+			(xy 224.79 96.52) (xy 227.33 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cc36e4a-c970-400f-b3e2-66842c89e329")
+	)
+	(wire
+		(pts
 			(xy 200.66 74.93) (xy 200.66 83.82)
 		)
 		(stroke
@@ -3100,16 +3110,6 @@
 			(type default)
 		)
 		(uuid "4d8b2b5d-a5df-4352-9730-f7ea06a4b5f8")
-	)
-	(wire
-		(pts
-			(xy 257.81 81.28) (xy 257.81 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "51711c47-787f-48a9-8fff-63a3851acd5d")
 	)
 	(wire
 		(pts
@@ -3153,16 +3153,6 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 97.79) (xy 269.24 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5e0207ed-1d01-439a-be40-7b0bc8d00ba1")
-	)
-	(wire
-		(pts
 			(xy 116.84 78.74) (xy 119.38 78.74)
 		)
 		(stroke
@@ -3193,7 +3183,7 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 100.33) (xy 265.43 104.14)
+			(xy 265.43 99.06) (xy 265.43 102.87)
 		)
 		(stroke
 			(width 0)
@@ -3323,6 +3313,16 @@
 	)
 	(wire
 		(pts
+			(xy 257.81 81.28) (xy 257.81 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b48767cc-8ebe-4d9c-9b96-55695dd373f8")
+	)
+	(wire
+		(pts
 			(xy 87.63 139.7) (xy 87.63 124.46)
 		)
 		(stroke
@@ -3353,7 +3353,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 100.33) (xy 265.43 100.33)
+			(xy 269.24 99.06) (xy 265.43 99.06)
 		)
 		(stroke
 			(width 0)
@@ -3363,7 +3363,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 97.79) (xy 227.33 100.33)
+			(xy 224.79 96.52) (xy 224.79 107.95)
 		)
 		(stroke
 			(width 0)
@@ -3423,13 +3423,23 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 95.25) (xy 227.33 97.79)
+			(xy 227.33 99.06) (xy 227.33 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "daedf853-d2f0-4049-b7b9-ad625804725b")
+	)
+	(wire
+		(pts
+			(xy 257.81 96.52) (xy 269.24 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dccaa9c9-7050-4ab0-bc83-1b2ecfc04207")
 	)
 	(wire
 		(pts
@@ -3440,6 +3450,16 @@
 			(type default)
 		)
 		(uuid "dd83a898-b111-4aee-b8fa-dc4d8a277f0f")
+	)
+	(wire
+		(pts
+			(xy 257.81 99.06) (xy 257.81 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e56205b3-1fce-4ed0-bf3b-94bd5e3c966a")
 	)
 	(wire
 		(pts
@@ -3480,16 +3500,6 @@
 			(type default)
 		)
 		(uuid "f3f149b8-a9f2-486a-b9b2-8aca34756de6")
-	)
-	(wire
-		(pts
-			(xy 257.81 100.33) (xy 257.81 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f9e81afb-d4c7-4780-86d6-98eccf222ea6")
 	)
 	(wire
 		(pts
@@ -3903,7 +3913,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDA")
-		(at 265.43 104.14 0)
+		(at 265.43 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3912,7 +3922,7 @@
 		(fields_autoplaced yes)
 		(uuid "0db232d7-a106-441c-ab94-fc9537091b41")
 		(property "Reference" "#PWR0126"
-			(at 265.43 110.49 0)
+			(at 265.43 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3921,7 +3931,7 @@
 			)
 		)
 		(property "Value" "GNDA"
-			(at 265.43 109.22 0)
+			(at 265.43 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3929,7 +3939,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 265.43 104.14 0)
+			(at 265.43 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3938,7 +3948,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 265.43 104.14 0)
+			(at 265.43 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3947,7 +3957,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 265.43 104.14 0)
+			(at 265.43 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4539,7 +4549,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 274.32 97.79 0)
+		(at 274.32 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4547,7 +4557,7 @@
 		(dnp no)
 		(uuid "336fba7e-9321-42e3-82d1-84d78f25f1e0")
 		(property "Reference" "J10"
-			(at 269.748 92.202 0)
+			(at 269.748 90.932 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4556,7 +4566,7 @@
 			)
 		)
 		(property "Value" "AudioOut"
-			(at 269.748 94.742 0)
+			(at 269.748 93.472 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4565,7 +4575,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 274.32 97.79 0)
+			(at 274.32 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4574,7 +4584,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 274.32 97.79 0)
+			(at 274.32 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4583,7 +4593,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 274.32 97.79 0)
+			(at 274.32 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4592,7 +4602,7 @@
 			)
 		)
 		(property "Sim.Library" ""
-			(at 274.32 97.79 0)
+			(at 274.32 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4601,7 +4611,7 @@
 			)
 		)
 		(property "Sim.Name" ""
-			(at 274.32 97.79 0)
+			(at 274.32 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5633,16 +5643,15 @@
 	)
 	(symbol
 		(lib_id "power:GNDA")
-		(at 227.33 100.33 0)
+		(at 224.79 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "97b23825-cf26-4974-a9dd-e4f43c4aede3")
 		(property "Reference" "#PWR0123"
-			(at 227.33 106.68 0)
+			(at 224.79 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5651,7 +5660,7 @@
 			)
 		)
 		(property "Value" "GNDA"
-			(at 227.33 105.41 0)
+			(at 224.79 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5659,7 +5668,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 227.33 100.33 0)
+			(at 224.79 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5668,7 +5677,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 227.33 100.33 0)
+			(at 224.79 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5677,7 +5686,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 227.33 100.33 0)
+			(at 224.79 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5715,7 +5724,7 @@
 				)
 			)
 		)
-		(property "Value" "Opamp_Dual"
+		(property "Value" "TJM4558CDT"
 			(at 76.2 147.32 0)
 			(effects
 				(font
@@ -6861,7 +6870,7 @@
 				)
 			)
 		)
-		(property "Value" "Opamp_Dual"
+		(property "Value" "TJM4558CDT"
 			(at 127 144.78 0)
 			(effects
 				(font
@@ -6967,8 +6976,7 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:RK09D117000B")
-		(at 257.81 95.25 0)
-		(mirror y)
+		(at 257.81 99.06 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6976,7 +6984,7 @@
 		(dnp no)
 		(uuid "e3a727b8-94e8-4b9d-a9b1-65ab4b4bf2b7")
 		(property "Reference" "VR14"
-			(at 243.586 88.392 0)
+			(at 243.84 87.122 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6984,7 +6992,7 @@
 			)
 		)
 		(property "Value" "Volume 100KA"
-			(at 244.348 90.678 0)
+			(at 244.348 89.662 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6992,7 +7000,7 @@
 			)
 		)
 		(property "Footprint" "SamacSys_parts:RK09D117000B"
-			(at 233.68 190.17 0)
+			(at 233.68 4.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7002,7 +7010,7 @@
 			)
 		)
 		(property "Datasheet" "https://tech.alpsalpine.com/prod/j/html/potentiometer/rotarypotentiometers/rk09k/rk09d117000b.html"
-			(at 233.68 290.17 0)
+			(at 233.68 -95.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7012,7 +7020,7 @@
 			)
 		)
 		(property "Description" "9-inch insulated shaft snap-in type RK09K/RK09D series"
-			(at 257.81 95.25 0)
+			(at 257.81 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7021,7 +7029,7 @@
 			)
 		)
 		(property "Height" "30"
-			(at 233.68 490.17 0)
+			(at 233.68 -295.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7031,7 +7039,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "ALPS Electric"
-			(at 233.68 590.17 0)
+			(at 233.68 -395.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7041,7 +7049,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "RK09D117000B"
-			(at 233.68 690.17 0)
+			(at 233.68 -495.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7051,7 +7059,7 @@
 			)
 		)
 		(property "Mouser Part Number" "688-RK09D117000B"
-			(at 233.68 790.17 0)
+			(at 233.68 -595.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7061,7 +7069,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Alps-Alpine/RK09D117000B?qs=3cOf6TWd2rbc67829PEbEQ%3D%3D"
-			(at 233.68 890.17 0)
+			(at 233.68 -695.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7071,7 +7079,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 233.68 990.17 0)
+			(at 233.68 -795.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7081,7 +7089,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 233.68 1090.17 0)
+			(at 233.68 -895.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7412,7 +7420,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Opamp_Dual"
+		(property "Value" "TJM4558CDT"
 			(at 201.93 133.3499 0)
 			(effects
 				(font

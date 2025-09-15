@@ -1816,7 +1816,7 @@
 	)
 	(text "100K"
 		(exclude_from_sim no)
-		(at 176.276 98.044 0)
+		(at 176.276 93.98 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2614,16 +2614,6 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 105.41) (xy 149.86 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7e46f999-e22c-4e60-9add-2b8ee026f336")
-	)
-	(wire
-		(pts
 			(xy 226.06 99.06) (xy 226.06 104.14)
 		)
 		(stroke
@@ -2641,16 +2631,6 @@
 			(type default)
 		)
 		(uuid "86a22c7b-2568-4b8d-9649-21c66f4eb506")
-	)
-	(wire
-		(pts
-			(xy 149.86 105.41) (xy 149.86 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a56ce57-fb66-48d7-b641-c2a01ba7aead")
 	)
 	(wire
 		(pts
@@ -2701,6 +2681,16 @@
 			(type default)
 		)
 		(uuid "929d1246-ba3a-4a12-87bf-643544a2df3b")
+	)
+	(wire
+		(pts
+			(xy 149.86 102.87) (xy 153.67 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95e0ee0c-ac00-44d9-a255-2d22b7a692d5")
 	)
 	(wire
 		(pts
@@ -2791,16 +2781,6 @@
 			(type default)
 		)
 		(uuid "a871320f-34d3-4c1a-9524-7df39a209bd7")
-	)
-	(wire
-		(pts
-			(xy 149.86 107.95) (xy 149.86 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aa2970d9-727c-4098-aeac-d8540bed9cfe")
 	)
 	(wire
 		(pts
@@ -2914,16 +2894,6 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 107.95) (xy 149.86 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cf785aff-2331-412b-a98e-885d1404e17f")
-	)
-	(wire
-		(pts
 			(xy 31.75 16.51) (xy 39.37 16.51)
 		)
 		(stroke
@@ -2974,6 +2944,16 @@
 	)
 	(wire
 		(pts
+			(xy 149.86 105.41) (xy 149.86 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e39330c4-1d1e-48c7-8c46-eb4efd136054")
+	)
+	(wire
+		(pts
 			(xy 97.79 129.54) (xy 97.79 132.08)
 		)
 		(stroke
@@ -2991,6 +2971,16 @@
 			(type default)
 		)
 		(uuid "e98182a8-f36f-4101-8089-2a292dd569fd")
+	)
+	(wire
+		(pts
+			(xy 153.67 105.41) (xy 149.86 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebab14d9-d114-4a29-bf97-cb6363e85aff")
 	)
 	(wire
 		(pts
@@ -3142,7 +3132,7 @@
 	)
 	(symbol
 		(lib_id "power:-12VA")
-		(at 149.86 110.49 180)
+		(at 149.86 106.68 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3151,7 +3141,7 @@
 		(fields_autoplaced yes)
 		(uuid "0d465604-3d95-4824-8501-3d6f3309c10f")
 		(property "Reference" "#PWR049"
-			(at 149.86 106.68 0)
+			(at 149.86 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3160,7 +3150,7 @@
 			)
 		)
 		(property "Value" "-12VA"
-			(at 149.86 115.57 0)
+			(at 149.86 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3168,7 +3158,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 149.86 110.49 0)
+			(at 149.86 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3177,7 +3167,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.86 110.49 0)
+			(at 149.86 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3186,7 +3176,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"-12VA\""
-			(at 149.86 110.49 0)
+			(at 149.86 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4984,15 +4974,15 @@
 	(symbol
 		(lib_id "SamacSys_Parts:3362P-1-103LF")
 		(at 153.67 105.41 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "97cc0e5f-1029-4475-9421-83e08b88cbe5")
 		(property "Reference" "VR19"
-			(at 167.64 97.79 0)
+			(at 167.894 98.552 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5000,7 +4990,7 @@
 			)
 		)
 		(property "Value" "3362P-1-104LF"
-			(at 167.64 100.33 0)
+			(at 167.894 96.012 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5008,7 +4998,7 @@
 			)
 		)
 		(property "Footprint" "SamacSys_parts:3362P_1"
-			(at 177.8 200.33 0)
+			(at 177.8 10.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5018,7 +5008,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/SFDatasheet-6/sf-000139931.pdf"
-			(at 177.8 300.33 0)
+			(at 177.8 -89.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5037,7 +5027,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 177.8 500.33 0)
+			(at 177.8 -289.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5047,7 +5037,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Bourns"
-			(at 177.8 600.33 0)
+			(at 177.8 -389.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5057,7 +5047,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "3362P-1-103LF"
-			(at 177.8 700.33 0)
+			(at 177.8 -489.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5067,7 +5057,7 @@
 			)
 		)
 		(property "Mouser Part Number" "652-3362P-1-103LF"
-			(at 177.8 800.33 0)
+			(at 177.8 -589.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5077,7 +5067,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/3362P-1-103LF?qs=tS7CBNq%252BQ07BavGNEQud%252BA%3D%3D"
-			(at 177.8 900.33 0)
+			(at 177.8 -689.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5087,7 +5077,7 @@
 			)
 		)
 		(property "Arrow Part Number" "3362P-1-103LF"
-			(at 177.8 1000.33 0)
+			(at 177.8 -789.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5097,7 +5087,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/3362p-1-103lf/bourns?utm_currency=USD&region=nac"
-			(at 177.8 1100.33 0)
+			(at 177.8 -889.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)

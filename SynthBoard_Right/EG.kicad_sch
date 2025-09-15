@@ -2433,7 +2433,7 @@
 		)
 		(uuid "0c452ea9-256e-4564-9b78-cb4a09c47be1")
 	)
-	(text "10K"
+	(text "1K"
 		(exclude_from_sim no)
 		(at 237.998 86.106 0)
 		(effects

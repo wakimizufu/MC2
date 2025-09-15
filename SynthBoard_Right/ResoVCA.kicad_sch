@@ -3953,7 +3953,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Opamp_Dual"
+		(property "Value" "TJM4558CDT"
 			(at 260.35 120.6499 0)
 			(effects
 				(font
@@ -5693,7 +5693,7 @@
 				)
 			)
 		)
-		(property "Value" "Opamp_Dual"
+		(property "Value" "TJM4558CDT"
 			(at 156.21 62.23 0)
 			(effects
 				(font
@@ -5946,7 +5946,7 @@
 				)
 			)
 		)
-		(property "Value" "Opamp_Dual"
+		(property "Value" "TJM4558CDT"
 			(at 168.91 123.19 0)
 			(effects
 				(font
@@ -6473,7 +6473,7 @@
 				)
 			)
 		)
-		(property "Value" "Opamp_Dual"
+		(property "Value" "TJM4558CDT"
 			(at 156.21 27.94 0)
 			(effects
 				(font
@@ -6662,7 +6662,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Opamp_Dual"
+		(property "Value" "TJM4558CDT"
 			(at 255.27 82.5499 0)
 			(effects
 				(font
@@ -6851,7 +6851,7 @@
 				)
 			)
 		)
-		(property "Value" "Opamp_Dual"
+		(property "Value" "TJM4558CDT"
 			(at 116.84 125.73 0)
 			(effects
 				(font
