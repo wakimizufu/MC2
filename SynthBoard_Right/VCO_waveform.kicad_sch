@@ -2896,16 +2896,6 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 85.09) (xy 175.26 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2ca2d66b-dda4-42f6-ab5d-ca7eb41c0573")
-	)
-	(wire
-		(pts
 			(xy 256.54 78.74) (xy 260.35 78.74)
 		)
 		(stroke
@@ -2913,6 +2903,16 @@
 			(type default)
 		)
 		(uuid "2ec64ab7-07c8-4b3d-8358-2493adf6743b")
+	)
+	(wire
+		(pts
+			(xy 171.45 85.09) (xy 175.26 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ffdf471-8302-4f21-831f-bdc2e161f716")
 	)
 	(wire
 		(pts
@@ -3536,6 +3536,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 85.09) (xy 175.26 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae032181-9776-4713-82a5-c061b8b30cc3")
+	)
+	(wire
+		(pts
 			(xy 116.84 149.86) (xy 90.17 149.86)
 		)
 		(stroke
@@ -3813,16 +3823,6 @@
 			(type default)
 		)
 		(uuid "de4cf16c-dcb7-48eb-98ab-3763dab545f2")
-	)
-	(wire
-		(pts
-			(xy 171.45 85.09) (xy 175.26 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e03db025-8dcc-4f73-a090-9da6ac35d247")
 	)
 	(wire
 		(pts
@@ -4471,16 +4471,16 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5VA")
-		(at 175.26 81.28 0)
+		(lib_id "power:GNDA")
+		(at 175.26 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "11216d0a-9edb-4050-80f3-3ae8645f4d6f")
-		(property "Reference" "#PWR04"
-			(at 175.26 85.09 0)
+		(uuid "0f6e983d-82d3-4b57-8cb8-fcb9f70a4cef")
+		(property "Reference" "#PWR025"
+			(at 175.26 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4488,8 +4488,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5VA"
-			(at 175.26 76.2 0)
+		(property "Value" "GNDA"
+			(at 170.434 95.504 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4497,7 +4497,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 175.26 81.28 0)
+			(at 175.26 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4506,7 +4506,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 175.26 81.28 0)
+			(at 175.26 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4514,8 +4514,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5VA\""
-			(at 175.26 81.28 0)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 175.26 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4524,12 +4524,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "6739fcb5-0d30-4377-b972-7df3d613bc91")
+			(uuid "819aeba3-9f55-4e23-af44-d2f4b60016c3")
 		)
 		(instances
 			(project "SynthBoard"
 				(path "/92765e2f-a998-485f-b610-76a9d5b50cba/54ae8d1b-caf5-4a85-9663-2a3f476f2243"
-					(reference "#PWR04")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
