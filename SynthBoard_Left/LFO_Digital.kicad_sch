@@ -3970,7 +3970,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0805B103J500NT"
+		(property "Value" "CL21B103KBANNNC"
 			(at 201.93 82.042 0)
 			(effects
 				(font
@@ -4039,7 +4039,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0805B103J500NT"
+		(property "Value" "CL21B103KBANNNC"
 			(at 51.054 93.726 0)
 			(effects
 				(font
@@ -4727,7 +4727,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0805B103J500NT"
+		(property "Value" "CL21B103KBANNNC"
 			(at 202.184 59.436 0)
 			(effects
 				(font
@@ -4796,7 +4796,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0805B103J500NT"
+		(property "Value" "CL21B103KBANNNC"
 			(at 201.676 111.76 0)
 			(effects
 				(font
