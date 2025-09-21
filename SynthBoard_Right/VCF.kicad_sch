@@ -2797,7 +2797,7 @@
 				)
 			)
 		)
-		(property "Value" "0805W8J0104T5E"
+		(property "Value" "0805W8F1003T5E"
 			(at 85.344 40.64 90)
 			(effects
 				(font
@@ -3307,7 +3307,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0805B221K500NT"
+		(property "Value" "ECH-U1H221JX5"
 			(at 205.994 94.488 0)
 			(effects
 				(font
@@ -3507,7 +3507,7 @@
 				)
 			)
 		)
-		(property "Value" "0805W8J0104T5E"
+		(property "Value" "0805W8F1003T5E"
 			(at 84.836 23.368 90)
 			(effects
 				(font
@@ -4548,7 +4548,7 @@
 				)
 			)
 		)
-		(property "Value" "0805W8J0104T5E"
+		(property "Value" "0805W8F1003T5E"
 			(at 166.116 84.328 90)
 			(effects
 				(font
@@ -5169,7 +5169,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0805B221K500NT"
+		(property "Value" "ECH-U1H221JX5"
 			(at 207.264 50.038 0)
 			(effects
 				(font
@@ -5238,7 +5238,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0805B221K500NT"
+		(property "Value" "ECH-U1H221JX5"
 			(at 127.254 50.038 0)
 			(effects
 				(font
@@ -5573,7 +5573,7 @@
 				)
 			)
 		)
-		(property "Value" "0805W8J0104T5E"
+		(property "Value" "0805W8F1003T5E"
 			(at 167.386 39.878 90)
 			(effects
 				(font
@@ -6504,7 +6504,7 @@
 				)
 			)
 		)
-		(property "Value" "0805W8J0104T5E"
+		(property "Value" "0805W8F1003T5E"
 			(at 85.344 84.836 90)
 			(effects
 				(font
@@ -6772,7 +6772,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0805B221K500NT"
+		(property "Value" "ECH-U1H221JX5"
 			(at 127.254 94.488 0)
 			(effects
 				(font

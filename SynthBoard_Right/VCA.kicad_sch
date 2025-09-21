@@ -3994,7 +3994,7 @@
 				)
 			)
 		)
-		(property "Value" "0805W8J0104T5E"
+		(property "Value" "0805W8F1003T5E"
 			(at 76.2 121.92 90)
 			(effects
 				(font
@@ -4852,7 +4852,7 @@
 				)
 			)
 		)
-		(property "Value" "0805W8J0104T5E"
+		(property "Value" "0805W8F1003T5E"
 			(at 54.61 134.62 90)
 			(effects
 				(font
@@ -5256,7 +5256,7 @@
 				)
 			)
 		)
-		(property "Value" "0805W8J0512T5E"
+		(property "Value" "0805W8F5101T5E"
 			(at 138.43 88.646 0)
 			(effects
 				(font
@@ -5724,7 +5724,7 @@
 				)
 			)
 		)
-		(property "Value" "TJM4558CDT"
+		(property "Value" "TL072CDT"
 			(at 76.2 147.32 0)
 			(effects
 				(font
@@ -6312,7 +6312,7 @@
 				)
 			)
 		)
-		(property "Value" "0805W8J0104T5E"
+		(property "Value" "0805W8F1003T5E"
 			(at 154.94 88.646 0)
 			(effects
 				(font
@@ -6559,7 +6559,7 @@
 				)
 			)
 		)
-		(property "Value" "0805W8J0104T5E"
+		(property "Value" "0805W8F1003T5E"
 			(at 219.71 92.456 0)
 			(effects
 				(font
@@ -6870,7 +6870,7 @@
 				)
 			)
 		)
-		(property "Value" "TJM4558CDT"
+		(property "Value" "TL072CDT"
 			(at 127 144.78 0)
 			(effects
 				(font
@@ -7420,7 +7420,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TJM4558CDT"
+		(property "Value" "TL072CDT"
 			(at 201.93 133.3499 0)
 			(effects
 				(font
