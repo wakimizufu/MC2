@@ -42,9 +42,12 @@
 //変数
 _Bool onTMR1; 
 
+//PWM出力 最大値
+# define PWM_MAX_VALUE 1023
+
 //ADSR カーブテーブル 最大70%Ver
 # define EXP_CURVE_LENGTH 256
-# define EXP_CURVE_MAX_VALUE 1023
+# define EXP_CURVE_MAX_VALUE 711
 const unsigned int curveTbl[EXP_CURVE_LENGTH] = {
 0,13,27,40,53,66,79,91,103,115,127,138,149,161,171,182,
 192,202,212,222,231,241,250,259,268,277,285,294,302,310,317,325,
@@ -207,7 +210,7 @@ void setEnvelope (){
 
         //Gateの状態をそのまま反映
         if (envGate){
-          	PWM1_LoadDutyValue(1023);
+          	PWM1_LoadDutyValue(PWM_MAX_VALUE);
         } else if (!envGate){
           	PWM1_LoadDutyValue(0);
         }
@@ -234,7 +237,8 @@ void setEnvelope (){
 
 //ADCコンバータ⇒各変数を更新
 void cnvADC(){
-
+	double dTemp;
+    
 	switch ( adc_ST ) {
 		case TmATK:    //アタックタイム
 			ADC_ChannelSelect(ATTACK); //ADC_CHANNEL_ANB7
@@ -260,7 +264,8 @@ void cnvADC(){
 
 	switch ( adc_ST ) {
 		case TmATK:   //アタックタイム
-			Atm = (ADC_ConversionResultGet()>>1) | 0x004;     //2ms:4 - 2.5s:512
+			//Atm = (ADC_ConversionResultGet()>>1) | 0x004;     //2ms:4 - 2.5s:512
+            Atm = ADC_ConversionResultGet() | 0x004;     //2ms:4 - 2.5s:1023
 			adc_ST	=	TmDCY;
 			break;
 		case TmDCY:    //ディケイタイム
@@ -269,12 +274,14 @@ void cnvADC(){
 			break;
 
 		case LvSUS:    //サスティンレベル
-			Slv = ADC_ConversionResultGet();	//0 - 1023
+			dTemp = ADC_ConversionResultGet() * 0.69;	//ADCResult * (EXP_CURVE_MAX_VALUE/PWM_MAX_VALUE)
+            Slv = (uint16_t)dTemp;
+            
 			adc_ST	=	TmREL;
 			break;
 
 		case TmREL:    //リリースタイム
-			Rtm = ADC_ConversionResultGet() | 0x004;	//2ms:4 - 5s:1023
+			Rtm = (ADC_ConversionResultGet())| 0x004;	//2ms:4 - 5s:1023
 			adc_ST	=	LvACC;
 			break;
 
@@ -296,8 +303,8 @@ uint16_t cnvEnvAccDAC ( uint16_t value ) {
 	accAttenate = accAttenate + 1;
 	result = value * accAttenate;
 
-	if ( result >= EXP_CURVE_MAX_VALUE ) {
-		result = EXP_CURVE_MAX_VALUE;
+	if ( result >= PWM_MAX_VALUE ) {
+		result = PWM_MAX_VALUE;
   }
 
 	return result;
