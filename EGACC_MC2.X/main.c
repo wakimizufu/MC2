@@ -89,10 +89,10 @@ _Bool envGate = false;
 enum ENV_ST env1_ST = EMP;  //現在のエンベロープ ステータス
 uint16_t envCount = 0;  //エンベロープカウンタ
 uint16_t envDAC   = 0;  //エンベロープ用DAC
-uint16_t Atm = 50;     //アタック 2ms:4-1.5s:300
-uint16_t Dtm = 700;    //ディケイ 2ms:4-5s:1000
+uint16_t Atm = 50;     //アタック 2ms:4-2.5s:1024
+uint16_t Dtm = 700;    //ディケイ 2ms:4-5s:2047
 uint16_t Slv = 300;     //サスティン レベル(0-1023)
-uint16_t Rtm = 40;    //リリース 2ms:4-5s:1000
+uint16_t Rtm = 40;    //リリース 2ms:4-5s:2047
 uint16_t Acclv = 0;     //アクセント レベル(0-1023)
 uint16_t Rpoint = 0;
 
@@ -264,12 +264,11 @@ void cnvADC(){
 
 	switch ( adc_ST ) {
 		case TmATK:   //アタックタイム
-			//Atm = (ADC_ConversionResultGet()>>1) | 0x004;     //2ms:4 - 2.5s:512
             Atm = ADC_ConversionResultGet() | 0x004;     //2ms:4 - 2.5s:1023
 			adc_ST	=	TmDCY;
 			break;
 		case TmDCY:    //ディケイタイム
-			Dtm = ADC_ConversionResultGet() | 0x004;	//2ms:4 - 5s:1023
+			Dtm = ADC_ConversionResultGet()<<1 | 0x004;	//2ms:4 - 5s:2047
 			adc_ST	=	LvSUS;
 			break;
 
@@ -281,7 +280,7 @@ void cnvADC(){
 			break;
 
 		case TmREL:    //リリースタイム
-			Rtm = (ADC_ConversionResultGet())| 0x004;	//2ms:4 - 5s:1023
+			Rtm = (ADC_ConversionResultGet()<<1)| 0x004;	//2ms:4 - 5s:2047
 			adc_ST	=	LvACC;
 			break;
 
@@ -296,18 +295,18 @@ void cnvADC(){
 
 uint16_t cnvEnvAccDAC ( uint16_t value ) {
 
-	uint16_t result;
+	double result;
 	double accAttenate;
 
-	accAttenate	= ( Acclv/0x3FF ) * ENV_ACC_MAX;
-	accAttenate = accAttenate + 1;
-	result = value * accAttenate;
+   	accAttenate	= (double)Acclv/(double)1023;
+   	accAttenate	= (accAttenate * ENV_ACC_MAX) + 1;
+	result = (double)value * accAttenate;
 
 	if ( result >= PWM_MAX_VALUE ) {
 		result = PWM_MAX_VALUE;
   }
 
-	return result;
+	return (uint16_t)result;
 }
 
 int main(void)
