@@ -74,7 +74,7 @@ const unsigned int sineTbl[SINE_CURVE_LENGTH] = {
 
 double fout;
 double tuningWord;               //double tuningWord = (pow(2, 32) * fout) / clock;
-uint16_t LFODEtm = 0;           //LFOディレイタイム 0ms:0-1.25s:256
+uint16_t LFODEtm = 0;           //LFOディレイタイム 0ms:0-1.25s:2047
 uint16_t LFODelayCount = 0;     //LFOディレイタイム用カウント
 uint16_t LFORndSeed = 0;     //ランダムシード(0-1023)
 
@@ -144,7 +144,7 @@ void cnvADC(){
             adc_ST	=	DeLFO;
 			break;
 		case DeLFO:    //LFOディレイタイム
-            LFODEtm = ADC_GetConversion(Decay)>>2;     //LFOディレイタイム 0ms:0-1.25s:256
+            LFODEtm = ADC_GetConversion(Decay)<<1;     //LFOディレイタイム 0ms:0-1.25s:2047
          	adc_ST	= RndSe;   
             break;
 		case RndSe:    //ランダムシード
