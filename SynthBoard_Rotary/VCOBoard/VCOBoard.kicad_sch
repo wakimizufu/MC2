@@ -1,0 +1,182 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "f12ca224-71f1-48f9-bb93-daf1efeb29b4")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 82.55 35.56)
+		(size 20.32 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3103ac23-a72d-4940-a95f-5b7379699b6e")
+		(property "Sheetname" "VCO_waveform"
+			(at 82.55 34.8484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "VCO_waveform.kicad_sch"
+			(at 82.55 46.3046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "VCOBoard"
+				(path "/f12ca224-71f1-48f9-bb93-daf1efeb29b4"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 151.13 35.56)
+		(size 21.59 8.89)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "64e1f586-d76a-4950-9fe3-51796c552354")
+		(property "Sheetname" "Connect"
+			(at 151.13 34.8484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Connect.kicad_sch"
+			(at 151.13 45.0346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "VCOBoard"
+				(path "/f12ca224-71f1-48f9-bb93-daf1efeb29b4"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 49.53 35.56)
+		(size 21.59 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8aeffca8-38a2-4829-b1fd-3cc853b20d63")
+		(property "Sheetname" "VCO3340"
+			(at 49.53 34.8484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "VCO_3340.kicad_sch"
+			(at 49.53 46.3046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "VCOBoard"
+				(path "/f12ca224-71f1-48f9-bb93-daf1efeb29b4"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 116.84 35.56)
+		(size 20.32 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d64e620f-0d4c-4b5b-b1b4-f99a017ac77f")
+		(property "Sheetname" "Power"
+			(at 116.84 34.8484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 116.84 46.3046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "VCOBoard"
+				(path "/f12ca224-71f1-48f9-bb93-daf1efeb29b4"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

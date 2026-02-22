@@ -1402,7 +1402,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SamacSys_Parts:2SA812"
+		(symbol "SamacSys_Parts:2SA1162-GR_F_"
 			(pin_names
 				(hide yes)
 			)
@@ -1418,7 +1418,7 @@
 					(justify left top)
 				)
 			)
-			(property "Value" "2SA812"
+			(property "Value" "2SA1162-GR_F_"
 				(at 13.97 -1.27 0)
 				(effects
 					(font
@@ -1427,7 +1427,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "SOT95P240X120-3N"
+			(property "Footprint" "1SS294LFT"
 				(at 13.97 -101.27 0)
 				(effects
 					(font
@@ -1437,7 +1437,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://4donline.ihs.com/images/VipMasterIC/IC/GSCC/GSCC-S-A0010612759/GSCC-S-A0010613804-1.pdf?hkey=EF798316E3902B6ED9A73243A3159BB0"
+			(property "Datasheet" "https://toshiba.semicon-storage.com/ap-en/product/bipolar-transistor/bipolar-transistor/detail.2SA1162.html"
 				(at 13.97 -201.27 0)
 				(effects
 					(font
@@ -1447,7 +1447,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Silicon Epitaxial Planar Transistor,Commplementary to 2SC1623.  High DC current gain:hFE=200typ. (VCE=-6.0V,IC=-1.0mA)  High Voltage: VCEO=-50V."
+			(property "Description" "Transistor Toshiba 2SA1162-GR(F) PNP Bipolar Transistor, 0.15 A, 50 V, 3-Pin SC-59"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1456,7 +1456,7 @@
 					(hide yes)
 				)
 			)
-			(property "Height" "1.2"
+			(property "Height" "1.4"
 				(at 13.97 -401.27 0)
 				(effects
 					(font
@@ -1466,7 +1466,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Name" "Galaxy"
+			(property "Manufacturer_Name" "Toshiba"
 				(at 13.97 -501.27 0)
 				(effects
 					(font
@@ -1476,7 +1476,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Part_Number" "2SA812"
+			(property "Manufacturer_Part_Number" "2SA1162-GR(F)"
 				(at 13.97 -601.27 0)
 				(effects
 					(font
@@ -1526,7 +1526,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "2SA812_1_1"
+			(symbol "2SA1162-GR_F__1_1"
 				(polyline
 					(pts
 						(xy 2.54 0) (xy 7.62 0)
@@ -4039,6 +4039,151 @@
 			(project "SynthBoard"
 				(path "/92765e2f-a998-485f-b610-76a9d5b50cba/3e1fadc0-1ea8-431e-ae01-135c41be23af"
 					(reference "R57")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:2SA1162-GR_F_")
+		(at 149.86 137.16 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1c50b73f-631b-41a3-aa29-eb335521643d")
+		(property "Reference" "Q4"
+			(at 163.83 138.4301 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2SA1162-GR_F_"
+			(at 163.83 135.8901 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SamacSys_parts:1SS294LFT"
+			(at 163.83 35.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://toshiba.semicon-storage.com/ap-en/product/bipolar-transistor/bipolar-transistor/detail.2SA1162.html"
+			(at 163.83 -64.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Transistor Toshiba 2SA1162-GR(F) PNP Bipolar Transistor, 0.15 A, 50 V, 3-Pin SC-59"
+			(at 149.86 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.4"
+			(at 163.83 -264.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Toshiba"
+			(at 163.83 -364.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "2SA1162-GR(F)"
+			(at 163.83 -464.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 163.83 -564.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 163.83 -664.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 163.83 -764.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 163.83 -864.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "73485ec1-0b28-461d-b86a-162042eb4ad2")
+		)
+		(pin "2"
+			(uuid "029f694f-daf9-4276-9a54-4989bf6e2311")
+		)
+		(pin "3"
+			(uuid "6c0cd193-d740-4831-9ef4-f810b283186c")
+		)
+		(instances
+			(project "SynthBoard"
+				(path "/92765e2f-a998-485f-b610-76a9d5b50cba/3e1fadc0-1ea8-431e-ae01-135c41be23af"
+					(reference "Q4")
 					(unit 1)
 				)
 			)
@@ -7185,151 +7330,6 @@
 			(project "SynthBoard"
 				(path "/92765e2f-a998-485f-b610-76a9d5b50cba/3e1fadc0-1ea8-431e-ae01-135c41be23af"
 					(reference "R53")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SamacSys_Parts:2SA812")
-		(at 149.86 137.16 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f0454977-47bf-4344-8462-47ed7faa8763")
-		(property "Reference" "Q6"
-			(at 163.83 138.4301 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2SA812"
-			(at 163.83 135.8901 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "SamacSys_parts:SOT95P240X120-3N"
-			(at 163.83 35.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://4donline.ihs.com/images/VipMasterIC/IC/GSCC/GSCC-S-A0010612759/GSCC-S-A0010613804-1.pdf?hkey=EF798316E3902B6ED9A73243A3159BB0"
-			(at 163.83 -64.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Silicon Epitaxial Planar Transistor,Commplementary to 2SC1623.  High DC current gain:hFE=200typ. (VCE=-6.0V,IC=-1.0mA)  High Voltage: VCEO=-50V."
-			(at 149.86 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.2"
-			(at 163.83 -264.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Galaxy"
-			(at 163.83 -364.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "2SA812"
-			(at 163.83 -464.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 163.83 -564.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 163.83 -664.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 163.83 -764.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 163.83 -864.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "5b9bf0b9-0752-4c48-84f4-1ae84221466f")
-		)
-		(pin "1"
-			(uuid "446b37fa-aaea-4f4a-a338-e775fec47454")
-		)
-		(pin "2"
-			(uuid "ee381d75-ca68-4bba-b107-1ec83abfaefd")
-		)
-		(instances
-			(project "SynthBoard"
-				(path "/92765e2f-a998-485f-b610-76a9d5b50cba/3e1fadc0-1ea8-431e-ae01-135c41be23af"
-					(reference "Q6")
 					(unit 1)
 				)
 			)

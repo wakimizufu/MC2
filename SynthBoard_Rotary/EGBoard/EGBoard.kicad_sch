@@ -1,0 +1,140 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "9921ace4-6594-4a5a-8643-e421d7b4af7d")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 113.03 36.83)
+		(size 22.86 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "15afaca0-93a0-4600-b4ac-15eaccaf828a")
+		(property "Sheetname" "Connect"
+			(at 113.03 36.1184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Connect.kicad_sch"
+			(at 113.03 51.3846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "EGBoard"
+				(path "/9921ace4-6594-4a5a-8643-e421d7b4af7d"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 74.93 36.83)
+		(size 24.13 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8c24fce9-5900-459e-8321-634166288b35")
+		(property "Sheetname" "Power"
+			(at 74.93 36.1184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 74.93 51.3846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "EGBoard"
+				(path "/9921ace4-6594-4a5a-8643-e421d7b4af7d"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 38.1 36.83)
+		(size 25.4 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f57b495f-29bf-4ee3-8319-993e0767e4bf")
+		(property "Sheetname" "EG"
+			(at 38.1 36.1184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "EG.kicad_sch"
+			(at 38.1 51.3846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "EGBoard"
+				(path "/9921ace4-6594-4a5a-8643-e421d7b4af7d"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

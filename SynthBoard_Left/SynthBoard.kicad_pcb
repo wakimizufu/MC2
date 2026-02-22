@@ -3791,7 +3791,7 @@
 			)
 		)
 		(property ki_fp_filters "DIP*W7.62mm* SOIC*3.9x9.9mm*P1.27mm* TSSOP*4.4x5mm*P0.65mm*")
-		(path "/54ae8d1b-caf5-4a85-9663-2a3f476f2243/f83359bf-905d-43a2-90c5-55763a079eff")
+		(path "/54ae8d1b-caf5-4a85-9663-2a3f476f2243/83a3a0d8-1f29-431e-9554-430f18f66759")
 		(sheetname "/VCO_waveform/")
 		(sheetfile "VCO_waveform.kicad_sch")
 		(attr smd)
@@ -9543,7 +9543,7 @@
 				)
 			)
 		)
-		(property "Value" "CL21B103KBANNNC"
+		(property "Value" "GRM21B5C2E103FWAA"
 			(at 0 1.68 0)
 			(layer "F.Fab")
 			(uuid "64e9920e-753e-44f2-b78e-ca06a32f6082")
@@ -11592,7 +11592,7 @@
 				)
 			)
 		)
-		(property "Value" "CL21B102KBCNNNC"
+		(property "Value" "ECH-U1H102GX5"
 			(at 0 1.68 180)
 			(layer "F.Fab")
 			(uuid "1e26da06-1ca8-456e-9c8f-319385ab892d")
@@ -21953,7 +21953,7 @@
 				)
 			)
 		)
-		(property "Value" "CL21B103KBANNNC"
+		(property "Value" "GRM21B5C2E103FWAA"
 			(at 0 1.68 0)
 			(layer "F.Fab")
 			(uuid "74109a2e-5a4c-448a-8794-11f438091330")
@@ -26799,7 +26799,7 @@
 				)
 			)
 		)
-		(property "Value" "CL21B103KBANNNC"
+		(property "Value" "GRM21B5C2E103FWAA"
 			(at 0 1.68 0)
 			(layer "F.Fab")
 			(uuid "665128f7-3e03-484d-86c5-9b993954f89a")

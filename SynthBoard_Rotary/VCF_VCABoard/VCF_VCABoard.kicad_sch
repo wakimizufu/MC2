@@ -1,0 +1,266 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "9a1b0ae2-741b-457f-b422-136a7d206bc6")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 106.68 33.02)
+		(size 25.4 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "00b4b8cc-7317-4384-b17c-49948b7cdc23")
+		(property "Sheetname" "VCA"
+			(at 106.68 32.3084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "VCA.kicad_sch"
+			(at 106.68 47.5746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "VCF_VCABoard"
+				(path "/9a1b0ae2-741b-457f-b422-136a7d206bc6"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 35.56 34.29)
+		(size 25.4 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "071d6151-6bc1-41c3-aa8e-e8941e9ca984")
+		(property "Sheetname" "VCF"
+			(at 35.56 33.5784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "VCF.kicad_sch"
+			(at 35.56 47.5746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "VCF_VCABoard"
+				(path "/9a1b0ae2-741b-457f-b422-136a7d206bc6"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 71.12 34.29)
+		(size 22.86 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "20677025-aead-4172-ad36-f03388f40ef7")
+		(property "Sheetname" "VCF_CVMix"
+			(at 71.12 33.5784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "VCF_CVMix.kicad_sch"
+			(at 71.12 47.5746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "VCF_VCABoard"
+				(path "/9a1b0ae2-741b-457f-b422-136a7d206bc6"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 179.07 33.02)
+		(size 24.13 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3f44f4ba-cd8e-4b2e-a0f0-24fa6b2dec07")
+		(property "Sheetname" "Power"
+			(at 179.07 32.3084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 179.07 47.5746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "VCF_VCABoard"
+				(path "/9a1b0ae2-741b-457f-b422-136a7d206bc6"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 143.51 33.02)
+		(size 24.13 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5cb3265f-4eb7-4c5d-a036-1bb3ee287647")
+		(property "Sheetname" "ResoVCA"
+			(at 143.51 32.3084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ResoVCA.kicad_sch"
+			(at 143.51 47.5746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "VCF_VCABoard"
+				(path "/9a1b0ae2-741b-457f-b422-136a7d206bc6"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 214.63 33.02)
+		(size 25.4 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d8dc97b7-2d98-4907-919d-ae32e5f9e63d")
+		(property "Sheetname" "Connect"
+			(at 214.63 32.3084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Connect.kicad_sch"
+			(at 214.63 47.5746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "VCF_VCABoard"
+				(path "/9a1b0ae2-741b-457f-b422-136a7d206bc6"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

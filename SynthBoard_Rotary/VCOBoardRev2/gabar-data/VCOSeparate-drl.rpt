@@ -1,0 +1,31 @@
+Drill report for VCOSeparate.kicad_pcb
+Created on 2025-12-20T20:15:11+0900
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  B.Cu                      back
+
+
+Drill file 'VCOSeparate-PTH.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0.300mm  0.0118"  (88 holes)
+    T2  0.700mm  0.0276"  (38 holes)
+    T3  0.750mm  0.0295"  (16 holes)
+    T4  0.759mm  0.0299"  (20 holes)
+    T5  0.800mm  0.0315"  (311 holes)
+    T6  0.900mm  0.0354"  (2 holes)
+    T7  1.000mm  0.0394"  (58 holes)
+    T8  1.200mm  0.0472"  (66 holes)
+    T9  1.350mm  0.0531"  (12 holes)
+    T10  2.970mm  0.1169"  (40 holes)
+
+    Total plated holes count 651
+
+
+Drill file 'VCOSeparate-NPTH.drl' contains
+    unplated through holes:
+    =============================================================
+
+    Total unplated holes count 0

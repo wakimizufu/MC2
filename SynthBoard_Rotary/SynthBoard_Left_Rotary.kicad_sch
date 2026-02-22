@@ -1,0 +1,476 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "3a60e15d-d32c-40e8-9a4c-3da89a4ace3d")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 105.41 31.75)
+		(size 21.59 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0c0fec2e-4448-4684-a6cb-145caa23518c")
+		(property "Sheetname" "LFO_Digital"
+			(at 105.41 31.0384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "LFO_Digital.kicad_sch"
+			(at 105.41 45.0346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "SynthBoard_Left_Rotary"
+				(path "/3a60e15d-d32c-40e8-9a4c-3da89a4ace3d"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 143.51 55.88)
+		(size 19.05 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2a663633-82c1-44d2-ae8d-92562e13d74d")
+		(property "Sheetname" "VCAResonance"
+			(at 143.51 55.1684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ResoVCA.kicad_sch"
+			(at 143.51 66.6246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "SynthBoard_Left_Rotary"
+				(path "/3a60e15d-d32c-40e8-9a4c-3da89a4ace3d"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 67.31 55.88)
+		(size 24.13 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4716e300-ddf6-4810-acb4-2acb69652bd5")
+		(property "Sheetname" "VCF"
+			(at 67.31 55.1684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "VCF.kicad_sch"
+			(at 67.31 66.6246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "SynthBoard_Left_Rotary"
+				(path "/3a60e15d-d32c-40e8-9a4c-3da89a4ace3d"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 208.28 31.75)
+		(size 21.59 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5e0d939d-b269-44ef-bc0e-ff842b492f3d")
+		(property "Sheetname" "VCO_waveform"
+			(at 208.28 31.0384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "VCO_waveform.kicad_sch"
+			(at 208.28 45.0346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "SynthBoard_Left_Rotary"
+				(path "/3a60e15d-d32c-40e8-9a4c-3da89a4ace3d"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 33.02 55.88)
+		(size 24.13 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "64ee90b7-0cce-4a6e-960a-21c1fefd7932")
+		(property "Sheetname" "EG"
+			(at 33.02 55.1684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "EG.kicad_sch"
+			(at 33.02 66.6246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "SynthBoard_Left_Rotary"
+				(path "/3a60e15d-d32c-40e8-9a4c-3da89a4ace3d"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 33.02 30.48)
+		(size 25.4 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6c442a3d-cabc-4d96-b9cc-ff65feb0dfb1")
+		(property "Sheetname" "Connect"
+			(at 33.02 29.7684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Connect.kicad_sch"
+			(at 33.02 45.0346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "SynthBoard_Left_Rotary"
+				(path "/3a60e15d-d32c-40e8-9a4c-3da89a4ace3d"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 67.31 30.48)
+		(size 25.4 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9b523817-6263-4bfb-979d-23c3c0373b67")
+		(property "Sheetname" "LFO"
+			(at 67.31 29.7684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "LFO.kicad_sch"
+			(at 67.31 45.0346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "SynthBoard_Left_Rotary"
+				(path "/3a60e15d-d32c-40e8-9a4c-3da89a4ace3d"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 172.72 31.75)
+		(size 21.59 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b52c82f0-47bc-470d-ab40-b79ab7d844d6")
+		(property "Sheetname" "VCO_3340"
+			(at 172.72 31.0384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "VCO_3340.kicad_sch"
+			(at 172.72 45.0346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "SynthBoard_Left_Rotary"
+				(path "/3a60e15d-d32c-40e8-9a4c-3da89a4ace3d"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 142.24 31.75)
+		(size 21.59 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b7d793ab-353a-4e36-813b-1b604cfc3a3b")
+		(property "Sheetname" "Power"
+			(at 142.24 31.0384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 142.24 45.0346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "SynthBoard_Left_Rotary"
+				(path "/3a60e15d-d32c-40e8-9a4c-3da89a4ace3d"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 105.41 55.88)
+		(size 21.59 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "fa91ec91-590c-4ffd-8552-68fe95656572")
+		(property "Sheetname" "VCF CVMix"
+			(at 105.41 55.1684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "VCF_CVMix.kicad_sch"
+			(at 105.41 66.6246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "SynthBoard_Left_Rotary"
+				(path "/3a60e15d-d32c-40e8-9a4c-3da89a4ace3d"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 173.99 57.15)
+		(size 20.32 8.89)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "fecd85e8-8ef5-4bbb-9b2d-6d35ced3d842")
+		(property "Sheetname" "VCA"
+			(at 173.99 56.4384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "VCA.kicad_sch"
+			(at 173.99 66.6246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "SynthBoard_Left_Rotary"
+				(path "/3a60e15d-d32c-40e8-9a4c-3da89a4ace3d"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
