@@ -1,0 +1,140 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "94541ad6-9a8c-40ed-8958-ac4b7e6ac5f1")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 143.51 45.72)
+		(size 22.86 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3f90dfa6-5b60-491f-af49-03e4064fd5b2")
+		(property "Sheetname" "DigitalPower"
+			(at 143.51 45.0084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "DigitalPower.kicad_sch"
+			(at 143.51 59.0046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "powerAndJack"
+				(path "/94541ad6-9a8c-40ed-8958-ac4b7e6ac5f1"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 63.5 43.18)
+		(size 21.59 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "45314d60-625e-4a89-8cf0-21a56e9ec6c1")
+		(property "Sheetname" "Jack"
+			(at 63.5 42.4684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Jack.kicad_sch"
+			(at 63.5 57.7346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "powerAndJack"
+				(path "/94541ad6-9a8c-40ed-8958-ac4b7e6ac5f1"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 105.41 44.45)
+		(size 24.13 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "af7ee5f5-b254-44b1-9bbb-c92af77ec2e3")
+		(property "Sheetname" "AnalogPower"
+			(at 105.41 43.7384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 105.41 59.0046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "powerAndJack"
+				(path "/94541ad6-9a8c-40ed-8958-ac4b7e6ac5f1"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
